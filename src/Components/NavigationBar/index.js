@@ -5,38 +5,38 @@ import i18n from "../../Translations/i18n";
 const NavigationBar = () => {
     const { t } = useTranslation(["navbar"]);
 
-    const handleOnclick = (e) => {
-        e.preventDefault();
-        i18n.changeLanguage(e.target.value).then();
+    const handleOnclick = (lang) => {
+        i18n.changeLanguage(lang).then();
     };
     return (
-        <div className="navigationBarContainer">
-           <div className="navigationBarLogoContainer"> <div className="navigationBarLogo" /> </div>
-           <ul className="navigationBarTabsContainer">
-               <li className="navigationBarTabsItem">
-                   <p>{t("aboutUs")}</p>
-               </li>
-               <li className="navigationBarTabsItem">
-                   <p>{t("dentists")}</p>
-               </li>
-               <li className="navigationBarTabsItem">
-                   <p>{t("aboutUs")}</p>
-               </li>
-               <li className="navigationBarTabsItem">
-                   <p>{t("gallery")}</p>
-               </li>
-               <li className="navigationBarTabsItem">
-                   <p>{t("contacts")}</p>
-               </li>
-           </ul>
-           <div className="navigationBarLanguageContainer">
-               <div className="countryFlag" />
-               <button value="en" onClick={handleOnclick}>
-                   English
-               </button>
-               <button value="am" onClick={handleOnclick}>
-                   Հայերեն
-               </button>
+        <div className="navigationBarWrapper">
+           <div className="navigationBarContainer">
+               <div className="navigationBarLogoContainer"> <div className="navigationBarLogo" /> </div>
+               <ul className="navigationBarTabsContainer">
+                   <li className="navigationBarTabsItem">
+                       <p>{t("aboutUs")}</p>
+                   </li>
+                   <li className="navigationBarTabsItem">
+                       <p>{t("dentists")}</p>
+                   </li>
+                   <li className="navigationBarTabsItem">
+                       <p>{t("aboutUs")}</p>
+                   </li>
+                   <li className="navigationBarTabsItem">
+                       <p>{t("gallery")}</p>
+                   </li>
+                   <li className="navigationBarTabsItem">
+                       <p>{t("contacts")}</p>
+                   </li>
+               </ul>
+               <ul className="navigationBarLanguageContainer">
+                   <li className="countryFlag" onClick={() => handleOnclick("en")}>
+                       <div><p>English</p></div>
+                   </li>
+                   <li className="countryFlag" onClick={() => handleOnclick("am")}>
+                       <div><p>Հայերեն</p></div>
+                   </li>
+               </ul>
            </div>
         </div>
     )

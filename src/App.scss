@@ -1,2 +1,7 @@
 @import 'scss-reset/_reset.scss';
 @import "Components/NavigationBar/NavigationBar.scss";
+@import "Components/BackgroundTitleComponent/BackgroundTitleComponent.scss";
+
+.App{
+  font-family: Montserrat, serif;
+}
