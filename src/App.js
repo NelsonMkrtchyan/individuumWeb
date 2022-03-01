@@ -2,12 +2,14 @@ import './App.scss';
 import NavigationBar from "./Components/NavigationBar";
 
 function App() {
-  return (
+    return (
     <div className="App">
         <NavigationBar/>
-      <h1>
-        Hello World
-      </h1>
+      <div>
+          <h1>
+             Hello World
+          </h1>
+      </div>
     </div>
   );
 }

@@ -1,16 +1,43 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
+import i18n from "../../Translations/i18n";
+
 const NavigationBar = () => {
+    const { t } = useTranslation(["navbar"]);
+
+    const handleOnclick = (e) => {
+        e.preventDefault();
+        i18n.changeLanguage(e.target.value).then();
+    };
     return (
-        <div style={{display:"flex", justifyContent: "space-around"}}>
-           <div style={{display: "flex", justifyContent: "center", flex:1}}> <h1>Logo</h1> </div>
-           <div style={{display:"flex", flex: 4, justifyContent: "center"}}>
-               <h3>About Us</h3>
-               <h3>Dentists</h3>
-               <h3>Price List</h3>
-               <h3>Gallery</h3>
-               <h3>Contacts</h3>
+        <div className="navigationBarContainer">
+           <div className="navigationBarLogoContainer"> <div className="navigationBarLogo" /> </div>
+           <ul className="navigationBarTabsContainer">
+               <li className="navigationBarTabsItem">
+                   <p>{t("aboutUs")}</p>
+               </li>
+               <li className="navigationBarTabsItem">
+                   <p>{t("dentists")}</p>
+               </li>
+               <li className="navigationBarTabsItem">
+                   <p>{t("aboutUs")}</p>
+               </li>
+               <li className="navigationBarTabsItem">
+                   <p>{t("gallery")}</p>
+               </li>
+               <li className="navigationBarTabsItem">
+                   <p>{t("contacts")}</p>
+               </li>
+           </ul>
+           <div className="navigationBarLanguageContainer">
+               <div className="countryFlag" />
+               <button value="en" onClick={handleOnclick}>
+                   English
+               </button>
+               <button value="am" onClick={handleOnclick}>
+                   Հայերեն
+               </button>
            </div>
-           <div style={{display: "flex", justifyContent: "center",flex: 1}}> <h1>Icons</h1> </div>
         </div>
     )
 };
