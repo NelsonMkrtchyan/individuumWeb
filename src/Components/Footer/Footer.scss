@@ -1,0 +1,76 @@
+.footerComponentContainer{
+  height: 20vw;
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+.footerComponentUpperSection{
+  flex: 1;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+  padding: 1vw 0;
+}
+.footerComponentUpperSectionItem{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .footerComponentTitle{
+    flex: 1;
+    padding-top: 1vw;
+    p{
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+  }
+  .footerComponentText{
+    flex: 2;
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p{
+      font-size: 1.2vw;
+    }
+  }
+}
+.footerComponentUpperSectionTextItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerComponentFirst{
+  .footerComponentLogo{
+    background-image: url("../../Assets/Images/FooterLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 41%;
+    height: 100%;
+  }
+}
+.footerComponentSecond{
+
+}
+.footerComponentThird{
+
+}
+.footerComponentFourth{
+
+}
+
+
+
+
+
+.footerComponentLowerSection{
+  height: 2vw;
+  background-color: #777FB0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    color: white;
+  }
+}
