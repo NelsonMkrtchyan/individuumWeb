@@ -1,6 +1,8 @@
-@import 'scss-reset/_reset.scss';
+//@import 'scss-reset/_reset.scss';
+@import "src/reset.scss";
 @import "Components/NavigationBar/NavigationBar.scss";
 @import "Components/AboutUsComponent/AboutUsComponent";
+@import "Components/SwiperComponent/SwiperComponent";
 
 .App{
   font-family: Montserrat, serif;

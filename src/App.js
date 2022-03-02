@@ -1,12 +1,14 @@
 import './App.scss';
 import NavigationBar from "./Components/NavigationBar";
-import BackgroundTitleComponent from "./Components/AboutUsComponent";
+import AboutUsComponent from "./Components/AboutUsComponent";
+import SwiperComponent from "./Components/SwiperComponent";
 
 function App() {
     return (
     <div className="App">
         <NavigationBar/>
-        <BackgroundTitleComponent />
+        <SwiperComponent />
+        <AboutUsComponent />
     </div>
   );
 }
