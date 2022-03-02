@@ -2,11 +2,8 @@
 .navigationBarWrapper {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   width: 100%;
 }
-
-
 .navigationBarContainer {
   display: flex;
   justify-content: space-between;
@@ -19,7 +16,7 @@
   justify-content: flex-start;
   flex: 1;
   .navigationBarLogo {
-    background-image: url("../../Assets/IndividuumLogo.png");
+    background-image: url("../../Assets/Images/IndividuumLogo.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 45px;
@@ -38,11 +35,11 @@
 .navigationBarTabsItem{
   padding: 20px;
   p{
-    font-weight: bold;
+    //font-weight: bold;
   }
   &:hover{
     color: #774C91;
-    text-decoration-line: underline;
+    //text-decoration-line: underline;
     cursor: default;
     border-bottom: 1px solid #774C91;
   }

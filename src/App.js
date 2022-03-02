@@ -1,6 +1,6 @@
 import './App.scss';
 import NavigationBar from "./Components/NavigationBar";
-import BackgroundTitleComponent from "./Components/BackgroundTitleComponent";
+import BackgroundTitleComponent from "./Components/AboutUsComponent";
 
 function App() {
     return (
