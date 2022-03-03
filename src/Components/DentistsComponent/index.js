@@ -32,7 +32,7 @@ const DentistsComponent = () => {
                         spaceBetween={20}
                         freeMode={true}
                         modules={[FreeMode]}
-                        className="mySwiper"
+                        className="dentistsSwiper"
                     >
                         <SwiperSlide>
                             <DentistComponentCard
