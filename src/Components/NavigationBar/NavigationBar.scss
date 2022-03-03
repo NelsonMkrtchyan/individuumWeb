@@ -42,6 +42,11 @@
     //text-decoration-line: underline;
     cursor: default;
     border-bottom: 1px solid #774C91;
+    text-decoration: none;
+  }
+  a{
+    color: inherit;
+    text-decoration: inherit;
   }
 }
 .countryFlag{

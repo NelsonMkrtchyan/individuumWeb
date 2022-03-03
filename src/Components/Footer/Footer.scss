@@ -74,3 +74,17 @@
     color: white;
   }
 }
+
+.footerComponentTextItem{
+  padding: 5px;
+  &:hover{
+    color: #774C91;
+    cursor: default;
+    border-bottom: 1px solid #774C91;
+    text-decoration: none;
+  }
+  a{
+    color: inherit;
+    text-decoration: inherit;
+  }
+}

@@ -1,6 +1,10 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
+    const { t } = useTranslation(["navbar"]);
+
     return (
         <div className="footerComponentContainer">
             <div className="footerComponentUpperSection">
@@ -33,19 +37,29 @@ const Footer = () => {
                     </div>
                     <div className="footerComponentText">
                         <div className="footerComponentTextItem">
-                            <p>About Us</p>
+                            <Link to={"/aboutUs"}>
+                                <p>{t("aboutUs")}</p>
+                            </Link>
                         </div>
                         <div className="footerComponentTextItem">
-                            <p>Dentists</p>
+                            <Link to={"/dentists"}>
+                                <p>{t("dentists")}</p>
+                            </Link>
                         </div>
                         <div className="footerComponentTextItem">
-                            <p>Price List</p>
+                            <Link to={"/priceList"}>
+                                <p>{t("priceList")}</p>
+                            </Link>
                         </div>
                         <div className="footerComponentTextItem">
-                            <p>Gallery</p>
+                            <Link to={"/gallery"}>
+                                <p>{t("gallery")}</p>
+                            </Link>
                         </div>
                         <div className="footerComponentTextItem">
-                            <p>Contacts</p>
+                            <Link to={"/contacts"}>
+                                <p>{t("contacts")}</p>
+                            </Link>
                         </div>
                     </div>
                 </div>

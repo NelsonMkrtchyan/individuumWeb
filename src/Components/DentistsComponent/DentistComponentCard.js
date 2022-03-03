@@ -1,7 +1,6 @@
 import React from "react";
 
 const DentistComponentCard = ({ imageClass, name, role }) => {
-    console.log(imageClass)
     return (
         <div className="dentistComponentCardContainer">
             <div className={`dentistComponentCardImage ${imageClass}`} />
