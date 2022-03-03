@@ -1,0 +1,39 @@
+.dentistComponentCardContainer{
+  background-color: #E9F0FE;
+  border-radius: 3vw;
+  width: 20vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+.dentistComponentCardImage{
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 2;
+  width: 85%;
+  margin-top: 1.5vw;
+}
+.dentistComponentCardTextContainer{
+  flex: 1;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+}
+.dentistComponentCardName{
+  color: #4D83F1;
+  padding-bottom: 1vw;
+  p{
+    font-weight: bold;
+  }
+}
+.dentistComponentCardRole{
+  p{
+    font-size: 1vw;
+  }
+}
