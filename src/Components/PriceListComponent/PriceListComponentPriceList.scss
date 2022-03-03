@@ -1,0 +1,51 @@
+.priceListComponentPriceListContainer{
+  height: 100%;
+  //flex: 1;
+  display: flex;
+  flex-direction: column;
+  //border: 1px solid red;
+  border-radius: 2vw;
+  background-color: white;
+  padding: 1vw 0 1vw 0;
+  //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.priceListComponentPriceListTitle{
+  padding: 1vw 2vw 2vw 5vw ;
+  p{
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+}
+.priceListComponentPriceListContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.priceListComponentPriceListContentItem{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75%;
+  flex: 1 1;
+  border-right: 1px solid #ecbe21;
+}
+
+
+.priceListComponentAgeGroupContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.priceListComponentAgeGroup{
+  flex: 1;
+  p{
+    font-weight: bold;
+  }
+}

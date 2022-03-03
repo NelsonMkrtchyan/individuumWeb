@@ -1,8 +1,9 @@
 //@import 'scss-reset/_reset.scss';
 @import "src/reset.scss";
 @import "Components/NavigationBar/NavigationBar.scss";
-@import "Components/AboutUsComponent/AboutUsComponent";
 @import "Components/SwiperComponent/SwiperComponent";
+@import "Components/AboutUsComponent/AboutUsComponent";
+@import "Components/PriceListComponent/PriceListComponent";
 @import "Components/Footer/Footer";
 
 .App{

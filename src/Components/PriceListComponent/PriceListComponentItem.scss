@@ -1,0 +1,81 @@
+.defaultPadding{
+  padding: 1vw 0;
+}
+
+.priceListComponentItemWrapper{
+  width: 31%;
+  height: 95%;
+  background-color: white;
+  //border: 1px solid green;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  transition: 0.9s;
+  &:hover{
+    cursor: default;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2vw 2vw;
+    //box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+}
+.priceListComponentItemColorBoxContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priceListComponentItemColorBox{
+  width: 10vw;
+  height: 10vw;
+  border-radius: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priceListComponentItemImage{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+}
+.tooth1{
+  .priceListComponentItemColorBox{
+    background-color: #F3D87C;
+  }
+  .priceListComponentItemImage{
+    background-image: url("../../Assets/Images/tooth_1.png");
+  }
+}
+.tooth2{
+  .priceListComponentItemColorBox{
+    background-color: #777FB0;
+  }
+  .priceListComponentItemImage{
+    background-image: url("../../Assets/Images/tooth_2.png");
+  }
+}
+.tooth3{
+  .priceListComponentItemColorBox{
+    background-color: #9B74B3;
+  }
+  .priceListComponentItemImage{
+    background-image: url("../../Assets/Images/tooth_3.png");
+    height: 45%;
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+.priceListComponentItemTitle{
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+  p{
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+}
+.priceListComponentItemList{
+
+}
