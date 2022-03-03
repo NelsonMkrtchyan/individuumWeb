@@ -36,27 +36,27 @@ const Footer = () => {
                         <p>Navigation</p>
                     </div>
                     <div className="footerComponentText">
-                        <div className="footerComponentTextItem">
+                        <div className="footerComponentTextItem footerNavigation">
                             <Link to={"/aboutUs"}>
                                 <p>{t("aboutUs")}</p>
                             </Link>
                         </div>
-                        <div className="footerComponentTextItem">
+                        <div className="footerComponentTextItem footerNavigation">
                             <Link to={"/dentists"}>
                                 <p>{t("dentists")}</p>
                             </Link>
                         </div>
-                        <div className="footerComponentTextItem">
+                        <div className="footerComponentTextItem footerNavigation">
                             <Link to={"/priceList"}>
                                 <p>{t("priceList")}</p>
                             </Link>
                         </div>
-                        <div className="footerComponentTextItem">
+                        <div className="footerComponentTextItem footerNavigation">
                             <Link to={"/gallery"}>
                                 <p>{t("gallery")}</p>
                             </Link>
                         </div>
-                        <div className="footerComponentTextItem">
+                        <div className="footerComponentTextItem footerNavigation">
                             <Link to={"/contacts"}>
                                 <p>{t("contacts")}</p>
                             </Link>
