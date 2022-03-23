@@ -16,7 +16,6 @@ const SwiperComponent = () => {
                     disableOnInteraction: false,
                 }}
                 loop={true}
-                // enteredSlides={true}
                 pagination={{
                     dynamicBullets: true,
                 }}

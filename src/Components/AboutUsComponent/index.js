@@ -6,7 +6,7 @@ const AboutUsComponent = () => {
             <div>
                 <div className="aboutUsComponentBackgroundTitleContainer">
                     <div>
-                        <p>ABOUT US</p>
+                        <p>About Us</p>
                     </div>
                 </div>
                 <div className="aboutUsComponentColorBox"/>
