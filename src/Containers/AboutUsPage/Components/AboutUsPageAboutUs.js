@@ -1,13 +1,10 @@
 import React from "react";
+import BackgroundTitle from "../../../Components/BackgroundTitle";
 
 const AboutUsPageAboutUs = ({styles}) => {
     return (
         <div className="aboutUsPageAboutUsWrapper" style={{...styles}}>
-            <div className="aboutUsPageAboutUsBackgroundTitleContainer">
-                <div>
-                    <p>About Us</p>
-                </div>
-            </div>
+            <BackgroundTitle backgroundTitle="About Us" direction="center" fontSize="20vw" />
             <div className="aboutUsPageAboutUsContainer">
                 <div className="aboutUsPageAboutUsTitle">
                     About Us

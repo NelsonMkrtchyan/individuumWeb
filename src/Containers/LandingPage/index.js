@@ -19,7 +19,7 @@ const LandingPage = () => {
             <StatisticsComponent />
             <DentistsComponent />
             {/*<PriceListComponent />*/}
-            <GalleryComponent />
+            <GalleryComponent title="Gallery" backgroundTitle="Gallery" />
             <Footer />
         </div>
     );

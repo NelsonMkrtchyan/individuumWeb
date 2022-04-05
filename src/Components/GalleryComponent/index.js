@@ -1,6 +1,7 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
 import SeeAllButton from "../SeeAllButton";
+import BackgroundTitle from "../BackgroundTitle";
 
 const GalleryComponent = ({styles, backgroundTitle, title}) => {
     const photos = [
