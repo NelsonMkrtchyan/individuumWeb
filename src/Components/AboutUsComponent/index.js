@@ -1,4 +1,5 @@
 import React from "react";
+import SeeAllButton from "../SeeAllButton";
 
 const AboutUsComponent = () => {
     return (
@@ -30,11 +31,7 @@ const AboutUsComponent = () => {
                                 </div>
                             </div>
                             <div className="aboutUsComponentButtonContainer">
-                                <div className="aboutUsComponentButton">
-                                    <p>
-                                        See All
-                                    </p>
-                                </div>
+                                <SeeAllButton />
                             </div>
                         </div>
                     </div>

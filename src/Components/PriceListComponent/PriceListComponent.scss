@@ -26,7 +26,7 @@
   margin-right: 2vw;
   border-radius: 25px;
   position: absolute;
-  right: -3vw;
+  right: 0;
   bottom: 0;
   background-color: #ECBE21;
 }
@@ -43,7 +43,7 @@
 }
 .priceListComponentContentContainer{
   width: 60%;
-  height: 80%;
+  //height: 80%;
   //border: 1px solid blue;
   display: flex;
   flex-direction: column;

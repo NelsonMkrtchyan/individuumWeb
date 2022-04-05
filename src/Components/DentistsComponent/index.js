@@ -18,7 +18,7 @@ const DentistsComponent = () => {
                     </div>
                 </div>
                 <div className="dentistsComponentColorBox"/>
-                <div className="dentistsComponentColorBoxYellow"/>
+                {/*<div className="dentistsComponentColorBoxYellow"/>*/}
             </div>
             <div className="dentistsComponentContentContainer">
                 <div className="dentistsComponentTitle">

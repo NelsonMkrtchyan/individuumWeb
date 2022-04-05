@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import PriceListComponentItem from "./PriceListComponentItem";
 import PriceListComponentPriceList from "./PriceListComponentPriceList";
+import SeeAllButton from "../SeeAllButton";
 
 const PriceListComponent = () => {
     const [itemTitle, setItemTitle] = useState("For Children");
@@ -29,11 +30,7 @@ const PriceListComponent = () => {
                         <PriceListComponentPriceList title={itemTitle} />
                     </div>
                     <div className="priceListComponentButtonContainer">
-                        <div className="priceListComponentButton">
-                            <p>
-                                See All
-                            </p>
-                        </div>
+                        <SeeAllButton />
                     </div>
                 </div>
             </div>

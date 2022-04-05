@@ -6,16 +6,20 @@ import DentistsComponent from "../../Components/DentistsComponent";
 import PriceListComponent from "../../Components/PriceListComponent";
 import Footer from "../../Components/Footer";
 import StatisticsComponent from "../../Components/StatisticsComponent";
+import PrincipalsComponent from "../../Components/PrincipalsComponent";
+import GalleryComponent from "../../Components/GalleryComponent";
 
 const LandingPage = () => {
     return (
         <div>
             <NavigationBar/>
             <SwiperComponent />
+            <PrincipalsComponent />
             <AboutUsComponent />
             <StatisticsComponent />
             <DentistsComponent />
-            <PriceListComponent />
+            {/*<PriceListComponent />*/}
+            <GalleryComponent />
             <Footer />
         </div>
     );

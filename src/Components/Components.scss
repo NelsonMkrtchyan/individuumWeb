@@ -1,0 +1,15 @@
+.seeAllButton{
+  width: fit-content;
+  color: #777FB0;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #777FB0 ;
+  p{
+    font-weight: bold;
+    font-size: 1.3vw;
+  }
+  &:hover{
+    color: #774C91;
+    cursor: default;
+    border-color: #774C91;
+  }
+}
