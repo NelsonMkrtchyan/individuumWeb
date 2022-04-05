@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 
 
 import { FreeMode } from "swiper";
+import SeeAllButton from "../SeeAllButton";
 
 const DentistsComponent = () => {
     return (
@@ -77,6 +78,9 @@ const DentistsComponent = () => {
                             />
                         </SwiperSlide>
                     </Swiper>
+                </div>
+                <div className="dentistsButtonContainer">
+                    <SeeAllButton />
                 </div>
             </div>
         </div>

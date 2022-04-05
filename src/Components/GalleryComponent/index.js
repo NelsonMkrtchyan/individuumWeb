@@ -2,7 +2,7 @@ import React from "react";
 import Gallery from "react-photo-gallery";
 import SeeAllButton from "../SeeAllButton";
 
-const GalleryComponent = () => {
+const GalleryComponent = ({styles, backgroundTitle, title}) => {
     const photos = [
         {
             src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
@@ -37,18 +37,20 @@ const GalleryComponent = () => {
     ];
 
     return (
-        <div className="galleryComponentWrapper">
-            <div>
-                <div className="galleryComponentBackgroundTitleContainer">
-                    <div>
-                        <p>Gallery</p>
+        <div className="galleryComponentWrapper" style={{...styles}}>
+            {backgroundTitle && (
+                <div>
+                    <div className="galleryComponentBackgroundTitleContainer">
+                        <div>
+                            <p>Gallery</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
             <div className="galleryComponentGalleryContainer">
                 <div className="galleryComponentTitle">
                     <p>
-                        Gallery
+                        {title}
                     </p>
                 </div>
                 <Gallery photos={photos} margin={20} direction={"row"} />

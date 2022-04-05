@@ -1,9 +1,9 @@
 import React from "react";
 import PrincipalsItem from "./PrincipalsItem";
 
-const PrincipalsComponent = () => {
+const PrincipalsComponent = ({styles}) => {
     return (
-        <div className="principalsComponentContainer">
+        <div className="principalsComponentContainer" style={{...styles}}>
             <PrincipalsItem title="Quality Dental Services" color="piruz" />
             <PrincipalsItem title="Availability" color="yellow" />
             <PrincipalsItem title="Work Transparency" color="lightBlue" />

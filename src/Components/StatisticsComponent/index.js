@@ -1,9 +1,9 @@
 import React from "react";
 import StatisticsItem from "./StatisticsItem";
 
-const StatisticsComponent = () => {
+const StatisticsComponent = ({styles}) => {
     return (
-        <div className="statisticsComponentContainer">
+        <div className="statisticsComponentContainer" style={{...styles}}>
             <StatisticsItem number={12} title="Years" />
             <StatisticsItem number={2746} title="Patients" />
             <StatisticsItem number={71} title="Certificates" />

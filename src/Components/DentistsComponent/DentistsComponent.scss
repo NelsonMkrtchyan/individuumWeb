@@ -46,6 +46,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  padding-top: 2vw;
 }
 .dentistsComponentTitle{
   font-size: 1.5vw;
@@ -90,4 +91,9 @@
     height: 100%;
     object-fit: cover;
   }
+}
+
+.dentistsButtonContainer{
+  padding-right: 20vw;
+  padding-top: 3vw;
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import SeeAllButton from "../SeeAllButton";
 
-const AboutUsComponent = () => {
+const AboutUsComponent = ({styles}) => {
     return (
-        <div className="aboutUsComponentWrapper">
+        <div className="aboutUsComponentWrapper" style={{...styles}}>
             <div>
                 <div className="aboutUsComponentBackgroundTitleContainer">
                     <div>
@@ -12,7 +12,6 @@ const AboutUsComponent = () => {
                 </div>
                 <div className="aboutUsComponentColorBox"/>
                 <div className="aboutUsComponentImage"/>
-
             </div>
             <div className="contentWrapper">
                 <div className="contentContainer">

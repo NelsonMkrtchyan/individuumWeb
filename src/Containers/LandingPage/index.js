@@ -14,8 +14,8 @@ const LandingPage = () => {
         <div>
             <NavigationBar/>
             <SwiperComponent />
-            <PrincipalsComponent />
-            <AboutUsComponent />
+            <PrincipalsComponent styles={{marginTop: "5vw"}} />
+            <AboutUsComponent styles={{marginTop: "5vw"}} />
             <StatisticsComponent />
             <DentistsComponent />
             {/*<PriceListComponent />*/}
