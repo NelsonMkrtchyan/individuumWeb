@@ -8,23 +8,23 @@ const BackgroundTitle = ({backgroundTitle, direction, fontSize, position = "abso
         switch (direction) {
             case "center":
                 setSide({
-                    "text-align": "center",
-                    "font-size": fontSize,
+                    "textAlign": "center",
+                    "fontSize": fontSize,
                     position: position
 
                 });
                 break;
             case "end":
                 setSide({
-                    "text-align": "end",
-                    "font-size": fontSize,
+                    "textAlign": "end",
+                    "fontSize": fontSize,
                     position: position
                 });
                 break;
             default:
                 setSide({
-                    "text-align": "start",
-                    "font-size": fontSize,
+                    "textAlign": "start",
+                    "fontSize": fontSize,
                     position: position
                 })
                 break;

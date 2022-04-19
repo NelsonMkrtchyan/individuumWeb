@@ -2,6 +2,8 @@
 @import "src/reset.scss";
 @import "Containers/LandingPage/LandingPage";
 @import "Containers/AboutUsPage/AboutUsPage";
+@import "Containers/ContactsPage/ContactsPage";
+@import "Containers/DentistsPage/DentistsPage";
 
 .App{
   font-family: Montserrat, serif;
@@ -23,3 +25,7 @@
   background-color: #9B74B3;
 }
 
+
+.marginRegularLeft{
+  margin-left: 15vw;
+}

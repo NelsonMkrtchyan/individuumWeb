@@ -1,5 +1,4 @@
 import React from "react";
-import DentistComponentCard from "./DentistComponentCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -8,6 +7,7 @@ import "swiper/css/pagination";
 
 import { FreeMode } from "swiper";
 import SeeAllButton from "../SeeAllButton";
+import DentistCard from "../../Containers/DentistsPage/Components/DentistCard";
 
 const DentistsComponent = () => {
     return (
@@ -36,47 +36,56 @@ const DentistsComponent = () => {
                         className="dentistsSwiper"
                     >
                         <SwiperSlide>
-                            <DentistComponentCard
-                                imageClass="imageVarazdat"
+                            <DentistCard
                                 name="Varazdat Tangamyan"
-                                role="Doctor - Dentist - Implantologist"
+                                position="Doctor"
+                                imageSrc={require("../../Assets/Images/Varazdat.png")}
+                                whereIs="dentistsComponent"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <DentistComponentCard
-                                imageClass="imageMarine"
+                            <DentistCard
                                 name="Marine Mkrtchyan"
-                                role="Doctor - Dentist - Implantologist"
+                                position="Doctor - Dentist - Implantologist"
+                                imageSrc={require("../../Assets/Images/Marine.png")}
+                                whereIs="dentistsComponent"
                             />
+
                         </SwiperSlide>
                         <SwiperSlide>
-                            <DentistComponentCard
-                                imageClass="imageAida"
+                            <DentistCard
                                 name="Aida Babayan"
-                                role="Doctor - Dentist - Implantologist"
+                                position="Doctor - Dentist - Implantologist"
+                                imageSrc={require("../../Assets/Images/Aida.png")}
+                                whereIs="dentistsComponent"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <DentistComponentCard
-                                imageClass="imageVarazdat"
+                            <DentistCard
                                 name="Varazdat Tangamyan"
-                                role="Doctor - Dentist - Implantologist"
+                                position="Doctor"
+                                imageSrc={require("../../Assets/Images/Varazdat.png")}
+                                whereIs="dentistsComponent"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <DentistComponentCard
-                                imageClass="imageMarine"
+                            <DentistCard
                                 name="Marine Mkrtchyan"
-                                role="Doctor - Dentist - Implantologist"
+                                position="Doctor - Dentist - Implantologist"
+                                imageSrc={require("../../Assets/Images/Marine.png")}
+                                whereIs="dentistsComponent"
                             />
+
                         </SwiperSlide>
                         <SwiperSlide>
-                            <DentistComponentCard
-                                imageClass="imageAida"
+                            <DentistCard
                                 name="Aida Babayan"
-                                role="Doctor - Dentist - Implantologist"
+                                position="Doctor - Dentist - Implantologist"
+                                imageSrc={require("../../Assets/Images/Aida.png")}
+                                whereIs="dentistsComponent"
                             />
                         </SwiperSlide>
+
                     </Swiper>
                 </div>
                 <div className="dentistsButtonContainer">

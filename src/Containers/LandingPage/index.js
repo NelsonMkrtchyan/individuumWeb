@@ -16,10 +16,10 @@ const LandingPage = () => {
             <SwiperComponent />
             <PrincipalsComponent styles={{marginTop: "5vw"}} />
             <AboutUsComponent styles={{marginTop: "5vw"}} />
-            <StatisticsComponent />
+            <StatisticsComponent styles={{marginTop: "10vw"}} />
             <DentistsComponent />
-            {/*<PriceListComponent />*/}
-            <GalleryComponent title="Gallery" backgroundTitle="Gallery" />
+            <PriceListComponent />
+            <GalleryComponent title="Gallery" backgroundTitle="Gallery" styles={{ marginTop: "8vw"}} />
             <Footer />
         </div>
     );

@@ -1,7 +1,6 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
 import SeeAllButton from "../SeeAllButton";
-import BackgroundTitle from "../BackgroundTitle";
 
 const GalleryComponent = ({styles, backgroundTitle, title}) => {
     const photos = [
@@ -38,7 +37,7 @@ const GalleryComponent = ({styles, backgroundTitle, title}) => {
     ];
 
     return (
-        <div className="galleryComponentWrapper" style={{...styles}}>
+        <div className="galleryComponentWrapper">
             {backgroundTitle && (
                 <div>
                     <div className="galleryComponentBackgroundTitleContainer">
@@ -48,7 +47,7 @@ const GalleryComponent = ({styles, backgroundTitle, title}) => {
                     </div>
                 </div>
             )}
-            <div className="galleryComponentGalleryContainer">
+            <div className="galleryComponentGalleryContainer" style={{...styles}}>
                 <div className="galleryComponentTitle">
                     <p>
                         {title}

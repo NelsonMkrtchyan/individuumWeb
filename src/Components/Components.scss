@@ -25,3 +25,36 @@
     opacity: 4%;
   }
 }
+
+.markerStyles{
+  margin-bottom: 4vw;
+  //background-color: #ffffff;;
+  position: relative;
+  padding: 1vw;
+  color: black;
+  //border: 1px solid black;
+  //&::after {
+  //  content: "";
+  //  position: absolute;
+  //  height: 1vw;
+  //  width: 1vw;
+  //  bottom: -25px;
+  //  left: 50%;
+  //  background-color: #ffffff;
+  //  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  //}
+}
+
+.PageTitleSectionContainer{
+  padding-top: 17vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.PageTitleSectionTitle{
+  font-size: 2vw;
+  font-stretch: expanded;
+  font-weight: bold;
+  padding-left: 20vw;
+}

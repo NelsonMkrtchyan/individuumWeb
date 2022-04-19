@@ -13,7 +13,7 @@ const AboutUsPage = () => {
             <PrincipalsComponent styles={{marginTop: "5vw"}} />
             <AboutUsPageAboutUs styles={{marginTop: "0"}} />
             <StatisticsComponent styles={{marginTop: "10vw"}} />
-            <GalleryComponent styles={{marginTop: "1vw"}} title="Our Works" />
+            <GalleryComponent styles={{marginTop: "8vw"}} title="Our Works" />
             <Footer />
         </div>
     );
