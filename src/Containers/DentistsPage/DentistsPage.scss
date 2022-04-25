@@ -1,4 +1,4 @@
-.dentistsPageContainer{
+.dentistsPageContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,20 +8,23 @@
 }
 
 
-.dentistsCardWrapper{
+.dentistsCardWrapper {
   position: relative;
-  a{
+
+  a {
     text-decoration: none;
-    .dentistCardName{
+
+    .dentistCardName {
       color: #4D83F1;
     }
-    .dentistCardRole{
+
+    .dentistCardRole {
       color: black;
     }
   }
 }
 
-.dentistsCardContainer{
+.dentistsCardContainer {
   position: relative;
   background-color: #E9F0FE;
   border-radius: 3vw;
@@ -35,15 +38,15 @@
   z-index: 10;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 
-  .dentistsCardImage{
-    background-size: contain;
+  .dentistsCardImage {
+    background-size: cover;
     background-repeat: no-repeat;
     flex: 2 1;
     width: 85%;
     margin-top: 1.5vw;
   }
 
-  .dentistsCardContent{
+  .dentistsCardContent {
     flex: 1 1;
     width: 85%;
     display: flex;
@@ -52,24 +55,26 @@
     align-items: flex-start;
     text-align: start;
   }
-  .dentistCardName{
+
+  .dentistCardName {
     color: #4D83F1;
     padding-bottom: 1vw;
-    p{
+
+    p {
       font-weight: bold;
     }
   }
-  .dentistCardRole{
-    p{
+
+  .dentistCardRole {
+    p {
       font-size: 1vw;
     }
   }
 }
 
 
-
-.dentistsPage{
-  .dentistsCardColorBox{
+.dentistsPage {
+  .dentistsCardColorBox {
     position: absolute;
     width: 20vw;
     height: 30vw;
@@ -79,78 +84,92 @@
     right: 0;
     border-radius: 3vw;
   }
-  &:hover{
+
+  &:hover {
     cursor: pointer;
-    .dentistsCardContainer{
+
+    .dentistsCardContainer {
       background-color: white;
     }
-    .dentistsCardColorBox{
-      background-color: #F1D163;
-    }
-  }
-}
-.dentistsComponent{
-  &:hover{
-    cursor: pointer;
-    .dentistsCardContainer{
+
+    .dentistsCardColorBox {
       background-color: #F1D163;
     }
   }
 }
 
-.dentistProfileAboutWrapper{
+.dentistsComponent {
+  &:hover {
+    cursor: pointer;
+
+    .dentistsCardContainer {
+      background-color: #F1D163;
+    }
+  }
+}
+
+.dentistProfileAboutWrapper {
   position: relative;
   margin-bottom: 15vw;
 }
 
-.dentistProfileAboutContainer{
+.dentistProfileAboutContainer {
   width: 80%;
-  margin: 7vw auto 0 auto ;
+  margin: 7vw auto 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 35vw;
   z-index: 10;
 }
-.dentistProfileAboutContentContainer{
+
+.dentistProfileAboutContentContainer {
   flex: 1;
-  .dentistProfileAboutName{
-    p{
+
+  .dentistProfileAboutName {
+    p {
       color: #4D83F1;
       font-size: 2vw;
     }
   }
-  .dentistProfileAboutRole{
+
+  .dentistProfileAboutRole {
     margin: 1vw 0 3vw 0;
   }
-  .dentistProfileAboutDescription{
+
+  .dentistProfileAboutDescription {
     width: 70%;
-    p{
+
+    p {
       color: #707070;
     }
 
   }
 }
-.dentistProfileAboutImageContainer{
+
+.dentistProfileAboutImageContainer {
   flex: 1;
   display: flex;
   align-items: center;
-  .dentistProfileAboutImage{
-    background-size: contain;
+
+  .dentistProfileAboutImage {
+    background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
     width: 30vw;
-    height: 32vw;
+    height: 40vw;
+    border-radius: 25px;
   }
 }
-.dentistProfileAboutBoxColor{
+
+.dentistProfileAboutBoxColor {
   position: absolute;
   margin-top: 0;
-  bottom: -5vw;
+  bottom: -10vw;
   right: -5vw;
   margin-right: 15vw;
   width: 30vw;
-  height: 35vw;
+  height: 40vw;
   border-radius: 25px;
   background-color: #777FB0;
   z-index: -5;

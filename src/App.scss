@@ -4,28 +4,34 @@
 @import "Containers/AboutUsPage/AboutUsPage";
 @import "Containers/ContactsPage/ContactsPage";
 @import "Containers/DentistsPage/DentistsPage";
+@import "Containers/Services/Services";
+@import "Containers/ServiceInfo/ServiceInfo";
 
-.App{
+.App {
   font-family: Montserrat, serif;
 }
 
-.piruz{
+.piruz {
   background-color: #64CBC2;
 }
-.lightBlue{
+
+.lightBlue {
   background-color: #6A92E9;
 }
-.yellow{
+
+.yellow {
   background-color: #ECBE21;
 }
-.green{
+
+.green {
   background-color: #80BF86;
 }
-.purple{
+
+.purple {
   background-color: #9B74B3;
 }
 
 
-.marginRegularLeft{
+.marginRegularLeft {
   margin-left: 15vw;
 }

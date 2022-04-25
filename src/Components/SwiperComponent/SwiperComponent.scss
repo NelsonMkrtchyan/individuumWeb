@@ -29,19 +29,23 @@
   height: 100%;
   object-fit: cover;
 }
-.swiper-button-next, .swiper-button-prev, .swiper-pagination-bullet-active{
+
+.swiper-button-next, .swiper-button-prev, .swiper-pagination-bullet-active {
   color: #ECBE21 !important;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
   background-color: #ECBE21 !important;
 }
 
 
-.swiperComponent{
+.swiperComponent {
   height: 40vw;
 }
-.swiperComponentSlideImage{
-  background-image: url("../../Assets/Images/LandingSwiper/image_1.png");
+
+.swiperComponentSlideImage {
+  //background-image: url("../../Assets/Images/LandingSwiper/image_1.png");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
