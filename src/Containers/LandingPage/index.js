@@ -10,19 +10,23 @@ import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import GalleryComponent from "../../Components/GalleryComponent";
 
 const LandingPage = () => {
-    return (
-        <div>
-            <NavigationBar/>
-            <SwiperComponent />
-            <PrincipalsComponent styles={{marginTop: "5vw"}} />
-            <AboutUsComponent styles={{marginTop: "5vw"}} />
-            <StatisticsComponent styles={{marginTop: "10vw"}} />
-            <DentistsComponent />
-            <PriceListComponent />
-            <GalleryComponent title="Gallery" backgroundTitle="Gallery" styles={{ marginTop: "8vw"}} />
-            <Footer />
-        </div>
-    );
-}
+  return (
+    <div>
+      <NavigationBar />
+      <SwiperComponent />
+      <PrincipalsComponent styles={{ marginTop: "5vw" }} />
+      <AboutUsComponent styles={{ marginTop: "5vw" }} />
+      <StatisticsComponent styles={{ marginTop: "10vw" }} />
+      <DentistsComponent />
+      <PriceListComponent />
+      <GalleryComponent
+        title="Gallery"
+        backgroundTitle="Gallery"
+        styles={{ marginTop: "8vw" }}
+      />
+      <Footer />
+    </div>
+  );
+};
 
 export default LandingPage;

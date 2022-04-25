@@ -7,16 +7,16 @@ import GalleryComponent from "../../Components/GalleryComponent";
 import AboutUsPageAboutUs from "./Components/AboutUsPageAboutUs";
 
 const AboutUsPage = () => {
-    return (
-        <div>
-            <NavigationBar/>
-            <PrincipalsComponent styles={{marginTop: "5vw"}} />
-            <AboutUsPageAboutUs styles={{marginTop: "0"}} />
-            <StatisticsComponent styles={{marginTop: "10vw"}} />
-            <GalleryComponent styles={{marginTop: "8vw"}} title="Our Works" />
-            <Footer />
-        </div>
-    );
-}
+  return (
+    <div>
+      <NavigationBar />
+      <PrincipalsComponent styles={{ marginTop: "5vw" }} />
+      <AboutUsPageAboutUs styles={{ marginTop: "0" }} />
+      <StatisticsComponent styles={{ marginTop: "10vw" }} />
+      <GalleryComponent styles={{ marginTop: "8vw" }} title="Our Works" />
+      <Footer />
+    </div>
+  );
+};
 
-export default AboutUsPage
+export default AboutUsPage;

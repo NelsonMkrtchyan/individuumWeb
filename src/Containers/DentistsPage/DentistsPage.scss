@@ -10,6 +10,15 @@
 
 .dentistsCardWrapper{
   position: relative;
+  a{
+    text-decoration: none;
+    .dentistCardName{
+      color: #4D83F1;
+    }
+    .dentistCardRole{
+      color: black;
+    }
+  }
 }
 
 .dentistsCardContainer{
@@ -87,4 +96,62 @@
       background-color: #F1D163;
     }
   }
+}
+
+.dentistProfileAboutWrapper{
+  position: relative;
+  margin-bottom: 15vw;
+}
+
+.dentistProfileAboutContainer{
+  width: 80%;
+  margin: 7vw auto 0 auto ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35vw;
+  z-index: 10;
+}
+.dentistProfileAboutContentContainer{
+  flex: 1;
+  .dentistProfileAboutName{
+    p{
+      color: #4D83F1;
+      font-size: 2vw;
+    }
+  }
+  .dentistProfileAboutRole{
+    margin: 1vw 0 3vw 0;
+  }
+  .dentistProfileAboutDescription{
+    width: 70%;
+    p{
+      color: #707070;
+    }
+
+  }
+}
+.dentistProfileAboutImageContainer{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  .dentistProfileAboutImage{
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 30vw;
+    height: 32vw;
+  }
+}
+.dentistProfileAboutBoxColor{
+  position: absolute;
+  margin-top: 0;
+  bottom: -5vw;
+  right: -5vw;
+  margin-right: 15vw;
+  width: 30vw;
+  height: 35vw;
+  border-radius: 25px;
+  background-color: #777FB0;
+  z-index: -5;
 }

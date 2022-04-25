@@ -1,23 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const DentistCard = ({ name, position, imageSrc, whereIs }) => {
-    return (
-        <div className={`dentistsCardWrapper ${whereIs}`}>
-            <div className="dentistsCardContainer">
-                <div className="dentistsCardImage" style={{ backgroundImage: `url("${imageSrc}")`}}/>
-                <div className="dentistsCardContent">
-                    <div className="dentistCardName">
-                        <p> {name} </p>
-                    </div>
-                    <div className="dentistCardRole">
-                        <p> {position} </p>
-                    </div>
-                </div>
+const DentistCard = ({ id, name, position, imageSrc, whereIs }) => {
+  return (
+    <div className={`dentistsCardWrapper ${whereIs}`}>
+      <Link to={`/dentists/${id}`}>
+        <div className="dentistsCardContainer">
+          <div
+            className="dentistsCardImage"
+            style={{ backgroundImage: `url("${imageSrc}")` }}
+          />
+          <div className="dentistsCardContent">
+            <div className="dentistCardName">
+              <p> {name} </p>
             </div>
-            <div className="dentistsCardColorBox"/>
-
+            <div className="dentistCardRole">
+              <p> {position} </p>
+            </div>
+          </div>
         </div>
-    );
+      </Link>
+      <div className="dentistsCardColorBox" />
+    </div>
+  );
 };
 
 export default DentistCard;
