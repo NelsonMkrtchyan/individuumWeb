@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const SeeAllButton = () => {
-  return (
-    <div className="seeAllButton">
-      <p>See All</p>
-    </div>
-  );
+const SeeAllButton = ({ text = "See All", whereTo = "" }) => {
+    return (
+      <div className="seeAllButton">
+          <Link to={whereTo ? `/${whereTo}` : "/"}>
+              <p>{text}</p>
+          </Link>
+      </div>
+    );
 };
 
 export default SeeAllButton;

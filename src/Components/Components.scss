@@ -1,32 +1,46 @@
-.seeAllButton{
+.seeAllButton {
   width: fit-content;
   color: #777FB0;
   padding-bottom: 5px;
-  border-bottom: 3px solid #777FB0 ;
-  p{
+  border-bottom: 3px solid #777FB0;
+
+  p {
     font-weight: bold;
     font-size: 1.3vw;
   }
-  &:hover{
-    color: #774C91;
-    cursor: default;
+
+  a {
+    text-decoration: none;
+    color: #777FB0;
+  }
+
+  &:hover {
+    cursor: pointer;
     border-color: #774C91;
+
+    a {
+      color: #774C91;
+      border-color: #774C91;
+    }
   }
 }
-.blockTitle{
+
+.blockTitle {
   font-size: 2vw;
   font-weight: bold;
 }
-.backgroundTitleContainer{
+
+.backgroundTitleContainer {
   position: absolute;
   width: 100%;
-  p{
+
+  p {
     color: #000000;
     opacity: 4%;
   }
 }
 
-.markerStyles{
+.markerStyles {
   margin-bottom: 4vw;
   //background-color: #ffffff;;
   position: relative;
@@ -45,14 +59,15 @@
   //}
 }
 
-.PageTitleSectionContainer{
+.PageTitleSectionContainer {
   padding-top: 17vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
 }
-.PageTitleSectionTitle{
+
+.PageTitleSectionTitle {
   font-size: 2vw;
   font-stretch: expanded;
   font-weight: bold;

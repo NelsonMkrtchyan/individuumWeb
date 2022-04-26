@@ -1,0 +1,55 @@
+.serviceInfoContentContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  min-height: 20vw;
+  margin: 11vw auto 5vw auto;
+  padding: 2vw;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  z-index: 10;
+
+  p {
+    font-size: 1vw;
+    color: #707070;
+    line-height: 1.5vw;
+  }
+
+  .serviceInfoLogo {
+    background-size: contain;
+    width: 6vw;
+    height: 6vw;
+    background-repeat: no-repeat;
+    top: 0;
+    //background-color: #ecbe21;
+    background-color: #9B74B3;
+    left: 0;
+    align-self: start;
+    align-content: start;
+    text-align: start;
+    margin-bottom: 3vw;
+  }
+}
+
+.serviceInfoBlueBox {
+  position: absolute;
+  top: -6vw;
+  background-color: #6A92E9;
+  border-radius: 25px;
+  width: 50vw;
+  height: 25vw;
+}
+
+.serviceInfoYellowBox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ecbe21;
+  border-radius: 25px;
+  width: 50vw;
+  height: 25vw;
+}
