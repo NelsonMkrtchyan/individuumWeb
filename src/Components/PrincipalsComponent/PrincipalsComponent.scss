@@ -1,5 +1,5 @@
 .principalsComponentContainer {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -11,7 +11,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
@@ -40,6 +40,6 @@
 
   p {
     text-align: center;
-    font-size: 0.9vw;
+    font-size: 1vw;
   }
 }

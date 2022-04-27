@@ -44,10 +44,44 @@
 }
 
 .swiperComponentSlideImage {
-  //background-image: url("../../Assets/Images/LandingSwiper/image_1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+}
+
+.swiperComponentWatermark {
+  position: absolute;
+  top: 2vw;
+  right: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperComponentWatermarkText {
+  position: absolute;
+  top: 3vw;
+  right: 1vw;
+  z-index: 10;
+
+  p {
+    //color: #9B74B3;
+    //color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+}
+
+.swiperComponentIcon {
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10vw;
+  height: 10vw;
+  margin-bottom: 1vw;
+  z-index: 0;
 }

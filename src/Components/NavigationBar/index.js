@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
     const { t } = useTranslation(["navbar"]);
-
     const handleOnclick = (lang) => {
         i18n.changeLanguage(lang).then();
     };
@@ -50,16 +49,12 @@ const NavigationBar = () => {
                   </li>
               </ul>
               <ul className="navigationBarLanguageContainer">
-                  <li className="countryFlag" onClick={() => handleOnclick("en")}>
-                      <div>
-                          <p>English</p>
-                      </div>
-                  </li>
-                  <li className="countryFlag" onClick={() => handleOnclick("am")}>
-                      <div>
-                          <p>Հայերեն</p>
-                      </div>
-                  </li>
+                  <li className="countryFlag"
+                      style={{ backgroundImage: `url(${require("../../Assets/Flags/united-states-of-america.svg").default})` }}
+                      onClick={() => handleOnclick("en")} />
+                  <li className="countryFlag"
+                      style={{ backgroundImage: `url(${require("../../Assets/Flags/armenia.svg").default})` }}
+                      onClick={() => handleOnclick("am")} />
               </ul>
           </div>
       </div>

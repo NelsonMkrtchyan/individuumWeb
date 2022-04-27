@@ -29,19 +29,25 @@ const SwiperComponent = () => {
               {swiperImages.map((image) => {
                   return (
                     <SwiperSlide>
-                        <div className="swiperComponentSlideImage" style={{ backgroundImage: `url("${image.src}")` }} />
+                        {/*<div style={{ position: "relative" }}>*/}
+
+
+                        <div className="swiperComponentSlideImage"
+                             style={{ backgroundImage: `url("${image.src}")` }} />
+
+                        <div className="swiperComponentWatermark">
+
+                            <div className="swiperComponentIcon"
+                                 style={{ backgroundImage: `url("${require("../../Assets/Images/LandingSwiper/swiperIcon.svg").default}")` }} />
+                            <div className="swiperComponentWatermarkText">
+                                <p>Individuum Clinic</p>
+                            </div>
+                        </div>
+
+                        {/*</div>*/}
                     </SwiperSlide>
                   );
               })}
-              {/*<SwiperSlide>*/}
-              {/*    <div className="swiperComponentSlideImage" />*/}
-              {/*</SwiperSlide>*/}
-              {/*<SwiperSlide>*/}
-              {/*    <div className="swiperComponentSlideImage" />*/}
-              {/*</SwiperSlide>*/}
-              {/*<SwiperSlide>*/}
-              {/*    <div className="swiperComponentSlideImage" />*/}
-              {/*</SwiperSlide>*/}
           </Swiper>
       </div>
     );

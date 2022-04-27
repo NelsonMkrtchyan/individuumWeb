@@ -1,48 +1,64 @@
-.footerComponentContainer{
+.footerComponentContainer {
   height: 20vw;
   margin-top: 5vw;
   display: flex;
   flex-direction: column;
 }
-.footerComponentUpperSection{
+
+.footerComponentUpperSection {
   flex: 1;
   background-color: #F0F0F0;
   display: flex;
   flex-direction: row;
   padding: 1vw 0;
 }
-.footerComponentUpperSectionItem{
+
+.footerComponentUpperSectionItem {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  .footerComponentTitle{
-    flex: 1;
-    padding-top: 1vw;
-    p{
+
+  .footerComponentTitle {
+    //flex: 1;
+    padding: 1vw 0 2vw 0;
+
+    p {
       font-size: 1.5vw;
       font-weight: bold;
     }
   }
-  .footerComponentText{
+
+  .footerComponentText {
     flex: 2;
     padding-bottom: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    p{
+
+    p {
       font-size: 1.2vw;
+    }
+
+    a {
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
-.footerComponentUpperSectionTextItem{
+
+.footerComponentUpperSectionTextItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.footerComponentFirst{
-  .footerComponentLogo{
+
+.footerComponentFirst {
+  .footerComponentLogo {
     background-image: url("../../Assets/Images/FooterLogo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -50,41 +66,99 @@
     height: 100%;
   }
 }
-.footerComponentSecond{
 
-}
-.footerComponentThird{
-
-}
-.footerComponentFourth{
+.footerComponentSecond {
 
 }
 
+.footerComponentThird {
+
+}
+
+.footerComponentFourth {
+
+}
 
 
-
-
-.footerComponentLowerSection{
+.footerComponentLowerSection {
   height: 3vw;
   background-color: #777FB0;
   display: flex;
   justify-content: center;
   align-items: center;
-  p{
+
+  p {
     color: white;
   }
 }
 
-.footerNavigation{
+.footerNavigation {
   padding: 5px;
-  &:hover{
+
+  &:hover {
     color: #774C91;
     cursor: default;
     border-bottom: 1px solid #774C91;
     text-decoration: none;
   }
-  a{
+
+  a {
     color: inherit;
     text-decoration: inherit;
+  }
+}
+
+.footerSocialIconContainer {
+  flex: 2;
+  padding-bottom: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  a {
+    margin-bottom: 1vw;
+  }
+}
+
+.footerSocialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  align-self: center;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+
+.footerComponentTextItem {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0.3vw 0;
+
+  .footerSocialIcon {
+    margin-right: 10px;
+    cursor: default;
+  }
+
+  p {
+    align-self: center;
+  }
+}
+
+
+.footerTabsContainer {
+  display: flex;
+  flex-direction: column;
+
+  .navigationBarTabsItem {
+    padding: 0.5vw;
+    display: flex;
+
+    a {
+      align-self: center;
+    }
   }
 }
