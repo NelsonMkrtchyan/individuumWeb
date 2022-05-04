@@ -2,6 +2,7 @@
   "name": "webapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://individuumclinic.com/",
   "dependencies": {
     "@react-google-maps/api": "^2.8.1",
     "@testing-library/jest-dom": "^5.16.2",
@@ -26,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "scp -r  build root@137.184.37.181:/var/www/individuum"
   },
   "eslintConfig": {
     "extends": [
