@@ -35,7 +35,7 @@ const dentistsInfo = [
     {
         id: 3,
         firstName: "Anahit",
-        secondName: "",
+        secondName: "Melkonyan",
         position: "Doctor - Dentist - Implantologist",
         imageSrc: require("../Assets/Images/Dentists/Anahit.jpeg"),
         description:
