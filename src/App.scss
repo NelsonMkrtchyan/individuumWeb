@@ -8,12 +8,17 @@
 @import "Containers/ServiceInfo/ServiceInfo";
 @import "Containers/PriceListPage/PriceListPage";
 
+body {
+  font-size: 1vw;
+}
+
 .App {
   font-family: Montserrat, serif;
 }
 
 .piruz {
-  background-color: #64CBC2;
+  //background-color: #64CBC2;
+  background-color: #62ccc0;
 }
 
 .lightBlue {
@@ -22,14 +27,17 @@
 
 .yellow {
   background-color: #ECBE21;
+  //background-color: #fbf49c;
 }
 
 .green {
-  background-color: #80BF86;
+  //background-color: #80BF86;
+  background-color: #81c085;
 }
 
 .purple {
-  background-color: #9B74B3;
+  //background-color: #9B74B3;
+  background-color: #6e5aa0;
 }
 
 

@@ -1,10 +1,12 @@
-.aboutUsPageAboutUsWrapper{
+.aboutUsPageAboutUsWrapper {
   width: 100%;
   position: relative;
 }
-.aboutUsPageAboutUsBackgroundTitleContainer{
+
+.aboutUsPageAboutUsBackgroundTitleContainer {
   position: absolute;
-  p{
+
+  p {
     font-size: 25vw;
     color: #000000;
     opacity: 4%;
@@ -12,7 +14,7 @@
   }
 }
 
-.aboutUsPageAboutUsContainer{
+.aboutUsPageAboutUsContainer {
   padding-top: 20vw;
   display: flex;
   flex-direction: column;
@@ -20,13 +22,14 @@
   align-items: flex-start;
 }
 
-.aboutUsPageAboutUsTitle{
+.aboutUsPageAboutUsTitle {
   font-size: 2vw;
   font-stretch: expanded;
   font-weight: bold;
   padding-left: 20vw;
 }
-.aboutUsPageAboutUsContainerContent{
+
+.aboutUsPageAboutUsContainerContent {
   width: 90%;
   margin: 5vw 0 auto;
   align-self: center;
@@ -34,10 +37,12 @@
   justify-content: space-around;
   align-items: center;
 }
-.aboutUsPageAboutUsImageContainer{
+
+.aboutUsPageAboutUsImageContainer {
   flex: 1;
   position: relative;
-  .aboutUsPageColorBox{
+
+  .aboutUsPageColorBox {
     margin-top: 8vw;
     margin-right: 15vw;
     height: 47vw;
@@ -45,41 +50,47 @@
     border-radius: 25px;
     background-color: #ECBE21;
   }
-  .aboutUsPageAboutUsImage{
+
+  .aboutUsPageAboutUsImage {
     z-index: 10;
     top: 0;
     left: 8vw;
-    background-image: url("../../Assets/Images/AboutUsComponent.png");
+    background-image: url("../../Assets/Images/AboutUsComponent.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     height: 47vw;
     width: 36vw;
+    border-radius: 3vw;
   }
 }
 
-.aboutUsPageAboutUsTextContainer{
+.aboutUsPageAboutUsTextContainer {
   height: 55vw;
   display: flex;
   flex-direction: column;
-  .aboutUsPageAboutUsText{
+
+  .aboutUsPageAboutUsText {
     flex: 1;
     font-size: 1.7vw;
     color: #707070;
   }
-  .aboutUsPageAboutUsFooter{
-    .aboutUsPageAboutUsWorkingHoursTitle{
+
+  .aboutUsPageAboutUsFooter {
+    .aboutUsPageAboutUsWorkingHoursTitle {
       font-size: 1.9vw;
       font-weight: bold;
       text-align: start;
     }
-    .aboutUsPageAboutUsHoursContainer{
+
+    .aboutUsPageAboutUsHoursContainer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       margin-top: 2vw;
     }
-    .aboutUsPageAboutUsHours{
+
+    .aboutUsPageAboutUsHours {
       font-size: 1.9vw;
     }
   }
