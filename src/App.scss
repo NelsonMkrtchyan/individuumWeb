@@ -1,4 +1,3 @@
-//@import 'scss-reset/_reset.scss';
 @import "src/reset.scss";
 @import "Containers/LandingPage/LandingPage";
 @import "Containers/AboutUsPage/AboutUsPage";
@@ -7,9 +6,12 @@
 @import "Containers/Services/Services";
 @import "Containers/ServiceInfo/ServiceInfo";
 @import "Containers/PriceListPage/PriceListPage";
+@import "variables";
 
 body {
   font-size: 1vw;
+  font-family: Montserrat, serif;
+
 }
 
 .App {
@@ -18,11 +20,11 @@ body {
 
 .piruz {
   //background-color: #64CBC2;
-  background-color: #62ccc0;
+  background-color: $aquamarine;
 }
 
 .lightBlue {
-  background-color: #6A92E9;
+  background-color: $light_blue;
 }
 
 .yellow {
