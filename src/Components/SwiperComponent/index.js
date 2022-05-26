@@ -29,9 +29,6 @@ const SwiperComponent = () => {
               {swiperImages.map((image) => {
                   return (
                     <SwiperSlide>
-                        {/*<div style={{ position: "relative" }}>*/}
-
-
                         <div className="swiperComponentSlideImage"
                              style={{ backgroundImage: `url("${image.src}")` }} />
 
@@ -43,8 +40,6 @@ const SwiperComponent = () => {
                                 <p>Individuum Clinic</p>
                             </div>
                         </div>
-
-                        {/*</div>*/}
                     </SwiperSlide>
                   );
               })}

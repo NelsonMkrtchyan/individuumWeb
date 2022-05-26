@@ -1,6 +1,6 @@
 .priceListCategoryWrapper {
   position: relative;
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -60,7 +60,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -69,6 +68,7 @@
   //border-right: 2px solid #ecbe21;
   padding: 0 1vw;
   margin: 3vw 0.2vw;
+  font-size: 0.9vw;
 }
 
 .firstOne {
