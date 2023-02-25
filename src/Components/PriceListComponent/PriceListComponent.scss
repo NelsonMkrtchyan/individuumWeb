@@ -7,20 +7,23 @@
   position: relative;
   height: 75vw;
 }
-.priceListComponentBackgroundTitleContainer{
+
+.priceListComponentBackgroundTitleContainer {
   position: absolute;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
-  p{
+
+  p {
     font-size: 12vw;
     color: #000000;
     opacity: 4%;
   }
 }
-.priceListComponentColorBox{
+
+.priceListComponentColorBox {
   height: 27vw;
   width: 50vw;
   margin-right: 2vw;
@@ -32,7 +35,7 @@
 }
 
 
-.priceListComponentContentWrapper{
+.priceListComponentContentWrapper {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -41,7 +44,8 @@
   align-items: center;
   z-index: 10;
 }
-.priceListComponentContentContainer{
+
+.priceListComponentContentContainer {
   width: 60%;
   //height: 80%;
   //border: 1px solid blue;
@@ -49,7 +53,7 @@
   flex-direction: column;
 }
 
-.priceListComponentCategories{
+.priceListComponentCategories {
   flex: 6;
   padding: 1vw 0vw 1vw 0vw;
   display: flex;
@@ -59,38 +63,41 @@
 }
 
 
-.priceListComponentPrices{
+.priceListComponentPrices {
   flex: 6;
   padding: 1vw 0 0 0;
 }
 
 
-
-
-.priceListComponentTitle{
+.priceListComponentTitle {
   flex: 1;
   padding: 1vw 0 1vw 0;
-  p{
+
+  p {
     font-size: 1.5vw;
     font-weight: bold;
   }
 }
-.priceListComponentButtonContainer{
+
+.priceListComponentButtonContainer {
   position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   bottom: 0;
 }
-.priceListComponentButton{
+
+.priceListComponentButton {
   color: #777FB0;
   padding-bottom: 5px;
-  border-bottom: 3px solid #777FB0 ;
-  p{
+  border-bottom: 3px solid #777FB0;
+
+  p {
     font-weight: bold;
     font-size: 1.3vw;
   }
-  &:hover{
+
+  &:hover {
     color: #774C91;
     cursor: default;
     border-color: #774C91;

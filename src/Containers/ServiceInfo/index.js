@@ -14,7 +14,6 @@ const ServiceInfo = () => {
     const currentService = servicesInfo.filter(
       (dentist) => dentist.id.toString() === serviceId
     )[0];
-    console.log(currentService.imageSrc, JSON.stringify(currentService.imageSrc));
     return (
       <div>
           <NavigationBar />
@@ -25,9 +24,7 @@ const ServiceInfo = () => {
                   <div className="serviceInfoLogo"
                        style={{ backgroundImage: `url("${currentService.imageSrc.default}")` }} />
                   <div>
-                      <p>
-                          {currentService.description}
-                      </p>
+                      {currentService.description}
                   </div>
               </div>
               <div style={{ width: "50%", margin: "auto" }}>

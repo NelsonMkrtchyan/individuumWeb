@@ -8,10 +8,23 @@
 @import "Containers/PriceListPage/PriceListPage";
 @import "variables";
 
+$small: 300px;
+$medium: 900px;
+
+
+//1920×1080 (9.94%)
+//1366×768 (6.22%)
+//360×640 (5.88%)
+//414×896 (4.21%)
+//1536×864 (3.94%)
+//375×667 (3.74%)
+
 body {
   font-size: 1vw;
   font-family: Montserrat, serif;
-
+  @media screen and (max-width: $medium) {
+    background-color: #ecbe21;
+  }
 }
 
 .App {

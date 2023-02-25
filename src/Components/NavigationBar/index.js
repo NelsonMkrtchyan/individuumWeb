@@ -12,9 +12,7 @@ const NavigationBar = () => {
       <div className="navigationBarWrapper">
           <div className="navigationBarContainer">
               <Link to="/" className="navigationBarLogoContainer">
-                  {" "}
                   <div className="navigationBarLogo" />
-                  {" "}
               </Link>
               <ul className="navigationBarTabsContainer">
                   <li className="navigationBarTabsItem">

@@ -34,7 +34,7 @@ const DentistProfile = () => {
                           {currentDentist.position}
                       </div>
                       <div className="dentistProfileAboutDescription">
-                          <p>{currentDentist.description}</p>
+                          {/*<p>{currentDentist.description}</p>*/}
                       </div>
                   </div>
                   <div className="dentistProfileAboutImageContainer">

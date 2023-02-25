@@ -86,12 +86,13 @@ const Footer = () => {
                       <p>Find Us</p>
                   </div>
                   <div className="footerSocialIconContainer">
-                      <a href="https://www.instagram.com/individuum_dental_clinic/?hl=en" target="_blank">
+                      <a href="https://www.instagram.com/individuum_dental_clinic/?hl=en" target="_blank"
+                         rel="noreferrer">
                           <div className="footerSocialIcon"
                                style={{ backgroundImage: `url(${require("../../Assets/Icons/instagram.svg").default})` }}
                           />
                       </a>
-                      <a href="https://www.facebook.com/Individuumdentalclinic" target="_blank">
+                      <a href="https://www.facebook.com/Individuumdentalclinic" target="_blank" rel="noreferrer">
                           <div className="footerSocialIcon"
                                style={{ backgroundImage: `url(${require("../../Assets/Icons/facebook.svg").default})` }}
                           />

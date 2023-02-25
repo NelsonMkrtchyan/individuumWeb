@@ -8,8 +8,10 @@ import Footer from "../../Components/Footer";
 import StatisticsComponent from "../../Components/StatisticsComponent";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import GalleryComponent from "../../Components/GalleryComponent";
+import { useTranslation } from "react-i18next";
 
 const LandingPage = () => {
+    const { t } = useTranslation(["navbar"]);
     return (
       <div>
           <NavigationBar />
@@ -20,8 +22,8 @@ const LandingPage = () => {
           <DentistsComponent />
           {/*<PriceListComponent />*/}
           <GalleryComponent
-            title="Gallery"
-            backgroundTitle="Gallery"
+            title={t("gallery")}
+            backgroundTitle={t("gallery")}
             styles={{ marginTop: "8vw" }}
           />
           <Footer />

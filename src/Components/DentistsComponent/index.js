@@ -8,15 +8,17 @@ import { FreeMode } from "swiper";
 import SeeAllButton from "../SeeAllButton";
 import DentistCard from "../../Containers/DentistsPage/Components/DentistCard";
 import { getDentistsInfo } from "../../Data/dentistsInfo";
+import { useTranslation } from "react-i18next";
 
 const DentistsComponent = () => {
+    const { t } = useTranslation(["navbar"]);
     const dentistsInfo = getDentistsInfo();
     return (
       <div className="dentistsComponentWrapper">
           <div>
               <div className="dentistsComponentBackgroundTitleContainer">
                   <div>
-                      <p>Dentists</p>
+                      <p>{t("dentists")}</p>
                   </div>
               </div>
               <div className="dentistsComponentColorBox" />
@@ -24,7 +26,7 @@ const DentistsComponent = () => {
           </div>
           <div className="dentistsComponentContentContainer">
               <div className="dentistsComponentTitle">
-                  <p>Dentists</p>
+                  <p>{t("dentists")}</p>
               </div>
               <div>
                   <Swiper

@@ -1,3 +1,7 @@
 {
-  "welcome": "Welcome"
+  "aboutUs": {
+    "title": "About Us",
+    "workingHours": "Working Hours"
+  },
+  "ourWorks": "Our Works"
 }
