@@ -32,7 +32,7 @@ const BackgroundTitle = ({
             });
             break;
         }
-    }, [direction]);
+    }, [direction, fontSize, position]);
 
     return (
       <div className="backgroundTitleContainer" style={{ ...side }}>
