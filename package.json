@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "scp -r  build root@137.184.37.181:/var/www/individuum",
-    "deployPassword": "individuum_123_Dental"
+    "deployPassword": "Dental_123"
   },
   "eslintConfig": {
     "extends": [
