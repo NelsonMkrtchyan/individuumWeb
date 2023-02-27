@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { PageLink, PagesList } from "../NavigationBar";
 
 const Footer = () => {
     const { t } = useTranslation(["navbar"]);
@@ -47,38 +47,26 @@ const Footer = () => {
                   <div className="footerComponentTitle">
                       <p>Navigation</p>
                   </div>
-                  <ul className="footerTabsContainer">
-                      <li className="navigationBarTabsItem">
-                          <Link to="/aboutUs">
-                              <p>{t("aboutUs")}</p>
-                          </Link>
+                  <PagesList footer={true}>
+                      <li>
+                          <PageLink to="/aboutUs">{t("aboutUs")}</PageLink>
                       </li>
-                      <li className="navigationBarTabsItem">
-                          <Link to="/dentists">
-                              <p>{t("dentists")}</p>
-                          </Link>
+                      <li>
+                          <PageLink to="/dentists">{t("dentists")}</PageLink>
                       </li>
-                      <li className="navigationBarTabsItem">
-                          <Link to="/priceList">
-                              <p>{t("priceList")}</p>
-                          </Link>
+                      <li>
+                          <PageLink to="/priceList">{t("priceList")}</PageLink>
                       </li>
-                      <li className="navigationBarTabsItem">
-                          <Link to="/services">
-                              <p>{t("services")}</p>
-                          </Link>
+                      <li>
+                          <PageLink to="/services">{t("services")}</PageLink>
                       </li>
-                      <li className="navigationBarTabsItem">
-                          <Link to="/gallery">
-                              <p>{t("gallery")}</p>
-                          </Link>
+                      <li>
+                          <PageLink to="/gallery">{t("gallery")}</PageLink>
                       </li>
-                      <li className="navigationBarTabsItem">
-                          <Link to={"/contacts"}>
-                              <p>{t("contacts")}</p>
-                          </Link>
+                      <li>
+                          <PageLink to="/contacts">{t("contacts")}</PageLink>
                       </li>
-                  </ul>
+                  </PagesList>
               </div>
               <div
                 className="footerComponentUpperSectionItem footerComponentUpperSectionTextItem footerComponentFourth">
@@ -102,7 +90,7 @@ const Footer = () => {
           </div>
           <div className="footerComponentLowerSection">
               <div className="footerComponentCopyright">
-                  <p>Copyright &copy; 2022 All Rights Reserved</p>
+                  <p>Copyright &copy; {new Date().getFullYear()} All Rights Reserved</p>
               </div>
           </div>
       </div>
