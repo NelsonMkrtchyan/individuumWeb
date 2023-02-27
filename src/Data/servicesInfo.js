@@ -1,7 +1,7 @@
 const servicesInfo = [
     {
         id: 0,
-        title: "Consultations",
+        title: "Խորհրդատվություն",
         imageSrc: require("../Assets/Images/Services/consultation_white.svg"),
         description:
           <div>
@@ -102,7 +102,7 @@ const servicesInfo = [
     },
     {
         id: 1,
-        title: "Diagnostic Dentistry",
+        title: "Դիագնոստիկ Ստոմատոլոգիա",
         imageSrc: require("../Assets/Images/Services/diagnostic_dentistry.svg"),
         description:
           <div>
@@ -126,11 +126,11 @@ const servicesInfo = [
     },
     {
         id: 2,
-        title: "Aesthetics",
+        title: "Էսթետիկ Ստոմատոլոգիա",
         imageSrc: require("../Assets/Images/Services/aesthetics.svg"),
         description:
           <div>
-              <div style={{ textAlign: "center" }}><p><b>Էսթետիկ ստոմատոլոգիա</b></p></div>
+              <div style={{ textAlign: "center" }}><p><b>Էսթետիկ Ստոմատոլոգիա</b></p></div>
               <br />
               <p>Պացիենտների գեղեցիկ ժպիտ ունենալու ակնկալիքների աճի հետ մեկտեղ զգալի վերելք է ապրել ստոմատոլոգիայի
                   էսթետիկ ճյուղը: Էսթետիկ ստոմատոլոգիան գիտության և արվեստի համադրություն է: Կարելի է ասել, որ այն
@@ -214,7 +214,7 @@ const servicesInfo = [
     },
     {
         id: 3,
-        title: "Teeth Whitening",
+        title: "Ատամների Սպիտակեցում",
         imageSrc: require("../Assets/Images/Services/teeth_whitening.svg"),
         description:
           <div>
@@ -278,7 +278,7 @@ const servicesInfo = [
     },
     {
         id: 4,
-        title: "Orthodontics",
+        title: "Բրեկետներ",
         imageSrc: require("../Assets/Images/Services/orthodontics.svg"),
         description:
           <div>
@@ -300,7 +300,7 @@ const servicesInfo = [
     },
     {
         id: 5,
-        title: "Prosthetics",
+        title: "ՕՐԹՈՊԵԴԻԿ ՍՏՈՄԱՏՈԼՈԳԻԱ",
         imageSrc: require("../Assets/Images/Services/prosthetics.svg"),
         description:
           <div>
@@ -329,7 +329,7 @@ const servicesInfo = [
     },
     {
         id: 6,
-        title: "Therapeutic dentistry",
+        title: "Թերապևտիկ ստոմատոլոգիա",
         imageSrc: require("../Assets/Images/Services/therapeutic_dentistry.svg"),
         description:
           <div>
@@ -378,7 +378,7 @@ const servicesInfo = [
     },
     {
         id: 7,
-        title: "Surgical dentistry",
+        title: "Վիրաբուժական ստոմատոլոգիա",
         imageSrc: require("../Assets/Images/Services/surgical_dentistry.svg"),
         description:
           <div>
@@ -456,7 +456,7 @@ const servicesInfo = [
     },
     {
         id: 8,
-        title: "Parontology",
+        title: "Պարօդոնտոլոգիա",
         imageSrc: require("../Assets/Images/Services/parontology.svg"),
         description:
           <div>
@@ -564,6 +564,750 @@ const servicesInfo = [
     }
 ];
 
+const servicesInfoEnglish = [
+    {
+        id: 0,
+        title: "Consultations",
+        imageSrc: require("../Assets/Images/Services/consultation_white.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p><b>Consultation</b></p>
+                  <br />
+              </div>
+              <p>
+                  What kind of expectation does the patient has attending dental consultation?
+              </p>
+              <p>
+                  Seems like it is possible to describe the problem in couple minutes, get to know doctor’s opinion and
+                  leave the cabinet
+                  satisfied or somewhat satisfied. Let us understand the volume of the information the patient gets
+                  attending dental clinic.
+              </p>
+              <ol>
+                  <li>
+                      Patient meets clinic’s administrator – who presents clinic’s order, helps to fill out medical
+                      cars, organizes the appointments and deals with all organizational work.
+                  </li>
+                  <li>
+                      Patient gets acquainted with general atmosphere of the clinic, medical personnel – people, with
+                      the help of which all the medical interventions are being performed.
+                  </li>
+                  <li>
+                      Patient is being informed about sanitary-hygienic condition of the clinic. If desired, with the
+                      help of nurse a tour can be organized, during which the patient can have a closer look at the
+                      process of the medical instruments, equipments disinfection and the operating rules.
+                  </li>
+                  <li>
+                      Patient can look at the works done in the clinic through photos.
+                  </li>
+              </ol>
+              <br />
+              <p>
+                  What are the steps of dental consultation?
+              </p>
+              <ol>
+                  <li>
+                      <p>
+                          The patient describes his/her complaints in details, objective examination of the situation
+                          and also all the required examinations are being performed, including X-ray diagnosis (OPTG),
+                          computer tomography (CT) if necessary, diagnosis by intra-oral camera during which the patient
+                          can see such details on the monitor which were not visible to the eye.
+                      </p>
+                      <p>
+                          If needed the patient might undergo several extra examinations,
+                      </p>
+                  </li>
+                  <li>
+                      Professional photos are taken for the patient, during which he/she is looked at from different
+                      perspectives. Those pictures are used for diagnosis, coming up with treatment plan, actual
+                      treatment, additional diagnosis if needed, as well as for up-to-date evaluation.
+                  </li>
+                  <li>
+                      Additional consultation is organized with the narrow specialist. A consultation can be conducted
+                      by several specialists (implantologist, endodontist, orthodontist) at the same time.
+                  </li>
+              </ol>
+              <br />
+              <p>
+                  &emsp;Complete medical consultation is the basis for offering a precise diagnosis and therefore a
+                  reasonable treatment plan. After consultation an interclinical consilium is organized, where the
+                  situation is being thoroughly discussed. Only after that the full treatment plan is offered to the
+                  patient that considers the amount of work to be done, which are described in an order of importance
+                  and necessity.
+              </p>
+              <p>
+                  &emsp; It’s important to notice, that besides the main treatment plan an alternative option id offered
+                  to the patient (econom). The first option includes innovative treatment technologies which is usually
+                  more expensive. Both options include the price, and also the paying plan in sections.
+              </p>
+              <p>
+                  &emsp;Very often, the patient knows only the smallest part of his/her problem. The doctor’s job is to
+                  identify all the problems, which might seem to be minor but often have huge consequences.
+              </p>
+              <p>
+                  &emsp;The human factor should be highlighted as well in the process of delivering the most important
+                  and indispensable medical advice and generally in performing competent treatment. Of course, it is
+                  very important to equip the clinic with state-of-the-art equipment, the use of innovative materials
+                  and technologies, as the speed of development in the dental field is very high and modern high-level
+                  professionalism requires continuous education and training. And only the doctor is the mediator that
+                  can make this innovative work for the patient. It is the doctor who, using his years of experience,
+                  knowledge, medical intuition, can offer and implement an appropriate treatment plan. The particular
+                  important factor is the ability of the doctor to present the situation in detail in a language
+                  understandable to the patient, bypassing professional terminology as far as possible. Not so less
+                  important are personal attributes, the ability to hear and understand the other, the ability to
+                  identify the patient's psychological and other characteristics.
+              </p>
+              <p>
+                  &emsp;It is not accidental that one of the philosophers said: "If the patient's condition does not
+                  ease after talking to the doctor, then he is not a doctor"
+              </p>
+          </div>
+
+    },
+    {
+        id: 1,
+        title: "Diagnostic Dentistry",
+        imageSrc: require("../Assets/Images/Services/diagnostic_dentistry.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b>Diagnostic dentistry</b>
+                  </p>
+                  <br />
+              </div>
+              <ul>
+                  <li>X-ray pictures</li>
+                  <li>Diagnosis with interoral camera</li>
+              </ul>
+              <br />
+              <p>
+                  “Individuum” dental clinic by applying the basic principle of medicine treats not the disease but
+                  patient, each person with an individual approach, each problem with an individual solution.
+              </p>
+          </div>
+    },
+    {
+        id: 2,
+        title: "Aesthetics",
+        imageSrc: require("../Assets/Images/Services/aesthetics.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}><p><b>Aesthetics</b></p></div>
+              <br />
+              <p>With the growth of patients’ perceptions of having beautiful smile aesthetic dentistry developed
+                  tremendously. Aesthetic dentistry is the combination of science and art. It is not a separate
+                  discipline of dentistry; it combines all disciplines in one. Our team of professional is here to guide
+                  you through the path of reaching the best outcome for you as an individuum from aesthetic, functional
+                  and biological perspectives.
+              </p>
+              <p>
+                  We are here to provide you individualized treatment according to your case. With the development of
+                  aesthetic dentistry we offer you the following ways of recreating your natural smile:
+              </p>
+              <ul>
+                  <li>Smile design</li>
+                  <li>Teeth whitening</li>
+                  <li>Professional cleaning and teeth polishing</li>
+                  <li>Aesthetic teeth restoration (direct, indirect)</li>
+                  <li>Veneers</li>
+                  <li>Inlays, onlays</li>
+              </ul>
+              <br />
+              <p><b> Teeth whitening</b></p>
+              <p>
+                  Our clinic is ready to provide you two types of teeth whitening systems: in the clinic and at home.
+                  Both ways of teeth whitening are safe for your teeth enamel and the products used are approved by
+                  American Dental Association. Products for both type of procedures contain hydrogen peroxide with
+                  different concentration. The whitening procedure in the clinic is conducted by the dentist. It takes
+                  approximately 60 minutes to complete the whitening process (depending your natural teeth shade and the
+                  shade you want to achieve). For the home whitening procedure the dentist provides you individualized
+                  loading trays and whitening gels with the instructions for usage.
+              </p>
+              <br />
+              <p><b>Aesthetic teeth restoration (direct, indirect)</b></p>
+              <p>
+                  Direct aesthetic teeth restorations are widely spread type of restorations with the use of
+                  composite/dental fillings. Direct restorations are done by our high qualified specialists who know the
+                  nuances of the used fillings. Restorations are done by recreating teeth layers, their translucency,
+                  forms and functions. Direct composite restorations are suitable for all teeth.
+              </p>
+              <p>
+                  Indirect aesthetic teeth restorations are the branch of aesthetic dentistry including prosthetic
+                  dental field. With the development of dentistry and patients’ perceptions zirconia crowns, veneers,
+                  inlays and onlays are used for indirect teeth restorations. The details are provided below.
+              </p>
+              <br />
+              <p><b>Veneers</b></p>
+              <p>
+                  Veneers are custom made thin shells that used for aesthetic restorations for improving teeth
+                  appearance. Veneers can be made directly in the mouth with composite materials and indirectly in
+                  dental laboratory using porcelain material. According to you individualizes case our dentist will help
+                  you with the right choice of the veneer type. Veneers are usually used to fix
+              </p>
+              <ul>
+                  <li>Discolored teeth</li>
+                  <li>Teeth that are worn out</li>
+                  <li>Chipped or broken teeth</li>
+                  <li>Irregularly or unevenly aligned teeth</li>
+                  <li>Teeth that have gaps between them</li>
+              </ul>
+              <p>
+                  During the consultation our professional dentist will make a diagnosis and provide you the dental
+                  treatment plan guiding you with the steps for having veneers.
+              </p>
+              <br />
+              <p><b> Inlays and onlays</b></p>
+              <p>
+                  Usually too much damage of the teeth is considered as a contraindication for successful teeth
+                  restoration using dental filling and having sufficient amount of healthy teeth for using crown. In
+                  that case, inlays and onlyas are the ideal solution for recovering teeth appearance and function.
+                  Inlays and onlays are made in dental laboratories from ceramic materials. The benefits of inlays and
+                  onlays are the following:
+              </p>
+              <ul>
+                  <li>Allow dentist to conserve more of the patient’s natural teeth material</li>
+                  <li>They are durable – made of hard wearing materials</li>
+                  <li>They strengthen teeth up to 75%</li>
+                  <li>Prolong tooth life</li>
+                  <li>Prevent extra/more dental treatment in the near future</li>
+              </ul>
+              <br />
+              <p><b> Teeth whitening</b></p>
+              <p>
+                  Modern dentistry offers many ways of bleaching. Anyone who wants to have a flattering smile can find a
+                  suitable and affordable whitening method. Professional cleaning of dental calculus and teeth plaque
+                  can even change the color of your teeth, and with professional whitening you can make your smile
+                  whiter. In any case, with the help of a dentist you can find the best option for you.
+              </p>
+              <ul>
+                  <li>
+                      <p>Office whitening</p>
+                      <p>
+                          The essence of the method is that teeth are covered with a bleaching agent that contains
+                          active components. In advance soft tissues are protected to prevent burns. The active gel
+                          stays on the teeth for 30-60 minutes, during which the active oxygen changes the color of the
+                          enamel. The method is not indicated if there are numerous cracks in the teeth. The result of
+                          the yellow enamel accessory will be more impressive than in the gray shade. It is possible to
+                          repeat the procedure several times for the desired result.
+                      </p>
+                  </li>
+                  <li>
+                      <p>
+                          Home whitening
+                      </p>
+                      <p>
+                          For home bleaching, transparent and elastic bands are made in advance that are fully
+                          compatible with the patient's teeth. The whitening gel is spread over the teeth evenly with
+                          the aid of a individualized trays and stays there until the end of the procedure. Duration may
+                          vary from 8 to 14 days depending on the method selected.
+                      </p>
+                  </li>
+                  <li>
+                      <p>
+                          Laser whitening
+                      </p>
+                      <p>
+                          After protecting the soft tissues, the teeth are coated with a bleaching agent. Activation of
+                          the gel is done by laser beam, during which the active substances released and penetrate into
+                          the deep layers of the enamel and dentin of the teeth and change their color. The procedure
+                          lasts from 30 to 40 minutes.
+                      </p>
+                  </li>
+              </ul>
+              <br />
+              <p>
+                  It is important to know that prior to whitening it is essential to perform a complete oral cavity
+                  repair, including gingival treatment if needed, replacement of old restorations, cavities. It is also
+                  necessary to have a professional teeth calculus and plaque removal, which prepares the teeth for the
+                  bleaching procedure. After teeth whitening the patient should avoid using colored food for couple of
+                  days (wine, tea, coffee, colored fruits, berries).
+              </p>
+          </div>
+    },
+    {
+        id: 3,
+        title: "Teeth Whitening",
+        imageSrc: require("../Assets/Images/Services/teeth_whitening.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b>Teeth whitening</b>
+                  </p>
+              </div>
+              <br />
+              <p>
+                  Our clinic is ready to provide you two types of teeth whitening systems: in the clinic and at home.
+                  Both ways of teeth whitening are safe for your teeth enamel and the products used are approved by
+                  American Dental Association. Products for both type of procedures contain hydrogen peroxide with
+                  different concentration. The whitening procedure in the clinic is conducted by the dentist. It takes
+                  approximately 60 minutes to complete the whitening process (depending your natural teeth shade and the
+                  shade you want to achieve). For the home whitening procedure the dentist provides you individualized
+                  loading trays and whitening gels with the instructions for usage.
+              </p>
+              <p>
+                  Modern dentistry offers many ways of bleaching. Anyone who wants to have a flattering smile can find a
+                  suitable and affordable whitening method. Professional cleaning of dental calculus and teeth plaque
+                  can even change the color of your teeth, and with professional whitening you can make your smile
+                  whiter. In any case, with the help of a dentist you can find the best option for you.
+              </p>
+              <br />
+              <ul>
+                  <li>
+                      <p>
+                          Office whitening
+                      </p>
+                      <p>
+                          The essence of the method is that teeth are covered with a bleaching agent that contains
+                          active components. In advance soft tissues are protected to prevent burns. The active gel
+                          stays on the teeth for 30-60 minutes, during which the active oxygen changes the color of the
+                          enamel. The method is not indicated if there are numerous cracks in the teeth. The result of
+                          the yellow enamel accessory will be more impressive than in the gray shade. It is possible to
+                          repeat the procedure several times for the desired result.
+                      </p>
+                      <br />
+                  </li>
+                  <li>
+                      <p>
+                          Home whitening
+                      </p>
+                      <p>
+                          For home bleaching, transparent and elastic bands are made in advance that are fully
+                          compatible with the patient's teeth. The whitening gel is spread over the teeth evenly with
+                          the aid of a individualized trays and stays there until the end of the procedure. Duration may
+                          vary from 8 to 14 days depending on the method selected.
+                      </p>
+                      <br />
+                  </li>
+                  <li>
+                      <p>
+                          Laser whitening
+                      </p>
+                      <p>
+                          After protecting the soft tissues, the teeth are coated with a bleaching agent. Activation of
+                          the gel is done by laser beam, during which the active substances released and penetrate into
+                          the deep layers of the enamel and dentin of the teeth and change their color. The procedure
+                          lasts from 30 to 40 minutes.
+
+                          It is important to know that prior to whitening it is essential to perform a complete oral
+                          cavity repair, including gingival treatment if needed, replacement of old restorations,
+                          cavities. It is also necessary to have a professional teeth calculus and plaque removal, which
+                          prepares the teeth for the bleaching procedure. After teeth whitening the patient should avoid
+                          using colored food for couple of days (wine, tea, coffee, colored fruits, berries).
+                      </p>
+                  </li>
+              </ul>
+          </div>
+    },
+    {
+        id: 4,
+        title: "Orthodontics",
+        imageSrc: require("../Assets/Images/Services/orthodontics.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b>Orthodontics</b>
+                  </p>
+              </div>
+              <br />
+              <p>
+                  Orthodontics is a branch of dentistry that deals with teeth and jaws that are positioned improperly.
+                  The important part of orthodontic treatment is not only the choice of high qualified dentist but also
+                  the proper time period of the future treatment. Another important factor for the best outcome is the
+                  patient’s readiness to follow the dentist’s guides throughout the whole treatment period. Orthodontic
+                  treatment might be necessary if you have:
+              </p>
+              <ul>
+                  <li>
+                      Crossbite
+                  </li>
+                  <li>
+                      Crowding
+                  </li>
+                  <li>
+                      Overjet
+                  </li>
+                  <li>
+                      Disfiguring of the jaw
+                  </li>
+                  <li>
+                      Breathing/swallowing problems
+                  </li>
+                  <li>
+                      Missing or extra teeth
+                  </li>
+                  <li>
+                      TMJ issues
+                  </li>
+              </ul>
+              <p>
+                  Our clinic can give you two well known options for orthodontic treatment:
+              </p>
+              <ul>
+                  <li>
+                      Traditional braces
+                  </li>
+                  <li>
+                      Invisaligns
+                  </li>
+                  <li>
+                      Appliances
+                  </li>
+              </ul>
+              <br />
+              <p><b> Traditional braces</b></p>
+              <p>
+                  Braces are the common type of orthodontic treatment provided by the majority of orthodontists.
+                  Brackets are placed on the teeth connected with wire which allows tightening teeth or creating
+                  movement. Usually two types of brackets are used: metallic and ceramic. When the appearance and the
+                  aesthetic is the priority for the patient ceramic brackets can be used. Braces can be used at any ages
+                  and when invisaligns are not the best option for the specific case.
+              </p>
+              <br />
+              <p><b>Invisaligns</b></p>
+              <p>
+                  Very often people who need orthodontic treatment avoid using traditional braces for different reasons.
+                  In this case with the development of medicine dentist offer Invisaligns as an option for orthodontic
+                  treatment. Invisaligns consist of custom mage, invisible, plastic aligners that gradually straighten
+                  teeth. Over the treatment period dentist provides new aligners after certain period of time.
+              </p>
+              <p>
+                  Your fist visit and the consultation is an important part for the planning phase, during which the
+                  dentist will let you know the best option for your individualized case.
+              </p>
+              <br />
+              <p><b>Appliances</b></p>
+              <p>
+                  There are different types of appliances used both for children and grown-up. The professional
+                  specialist can choose a right appliance for your case after consultation. They can be fixed or
+                  removable, depending on the type and again the case of usage.
+              </p>
+          </div>
+    },
+    {
+        id: 5,
+        title: "Prosthetics",
+        imageSrc: require("../Assets/Images/Services/prosthetics.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b>Prosthetics</b>
+                  </p>
+              </div>
+              <br />
+              <p>
+                  Prosthetic dentistry is an area in dentistry that concentrates on aesthetic restoration and
+                  replacement of missing teeth, soft and hard tissues to their proper look and function.
+              </p>
+              <p>
+                  As an innovative dental clinic we offer to our patients’ wide range of prosthodontic treatment. In
+                  order to restore your smile we can offer you the following dental prostheses:
+              </p>
+              <ul>
+                  <li>
+                      Fixed (crowns, bridges)
+                  </li>
+                  <li>
+                      Removable (complete and partial dentures)
+                  </li>
+                  <li>
+                      Prostheses fixed and supported on implants
+                  </li>
+              </ul>
+              <br />
+              <p><b>Crowns</b></p>
+              <p>
+                  Crowns are prostheses that help to restore your tooth’s shape and function. They are most often used
+                  for teeth that are broken, worn out and destroyed by tooth decay. Compare crown to a “cap” that covers
+                  your tooth. Crown materials vary according to materials’ aesthetics, physical functions and price. The
+                  crowns can be made of metals, ceramic compounds such as porcelains or zirconia, and also combine both
+                  materials (metal-ceramic crowns).
+              </p>
+              <br />
+              <p><b>Bridges</b></p>
+              <p>
+                  Bridges are fixed prostheses which are usually used to replace one or two missing teeth. Dental
+                  bridges are being cemented on teeth next to the missing part. This way the bridge is being fixed on
+                  the natural teeth and replaces the missing part with artificial teeth. The bridges are made of metals,
+                  ceramic compounds such as porcelains or zirconia, and also combine both materials (metal-ceramic
+                  crowns).
+              </p>
+              <br />
+              <p><b>Dentures</b></p>
+              <p>
+                  Complete dentures are made for patients who are edentulous (do not have any natural teeth). It can be
+                  made for upper or lower jaw. Patients are able to remove their dentures when needed, usually for
+                  carrying hygiene procedures. Complete removable dentures are made of acrylic resins which serve as a
+                  base for artificial teeth. The artificial teeth are made of ceramic or acrylic materials.
+              </p>
+              <p>
+                  Partial dentures are a treatment option for patients who have several natural teeth left on a
+                  particular jaw. The dentist will let you know if your natural teeth can serve as a base for partial
+                  dentures. These types of dentures are made of acrylic and metal materials with artificial teeth on
+                  them. The metal frame connects to your natural teeth and feels in the missing part of the jaw.
+              </p>
+              <br />
+              <p><b>Veneers</b></p>
+              <p>
+                  Veneers are custom made thin shells that used for aesthetic restorations for improving teeth
+                  appearance. Veneers can be made directly in the mouth with composite materials and indirectly in
+                  dental laboratory using porcelain material. According to you individualizes case our dentist will help
+                  you with the right choice of the veneer type. Veneers are usually used to fix
+              </p>
+              <ul>
+                  <li>Discolored teeth</li>
+                  <li>Teeth that are worn out</li>
+                  <li>Chipped or broken teeth</li>
+                  <li>Irregularly or unevenly aligned teeth</li>
+                  <li>Teeth that have gaps between them</li>
+              </ul>
+              <p>During the consultation our professional dentist will make a diagnosis and provide you the dental
+                  treatment plan guiding you with the steps for having veneers.
+              </p>
+              <br />
+              <p><b>Inlays and onlays</b></p>
+              <p>
+                  Usually too much damage of the teeth is considered as a contraindication for successful teeth
+                  restoration using dental filling and having sufficient amount of healthy teeth for using crown. In
+                  that case, inlays and onlyas are the ideal solution for recovering teeth appearance and function.
+                  Inlays and onlays are made in dental laboratories from ceramic materials. The benefits of inlays and
+                  onlays are the following:
+              </p>
+              <ul>
+                  <li>Allow dentist to conserve more of the patient’s natural teeth material</li>
+                  <li>They are durable – made of hard wearing materials</li>
+                  <li>They strengthen teeth up to 75%</li>
+                  <li>Prolong tooth life</li>
+                  <li>Prevent extra/more dental treatment in the near future</li>
+              </ul>
+          </div>
+    },
+    {
+        id: 6,
+        title: "Therapeutic dentistry",
+        imageSrc: require("../Assets/Images/Services/therapeutic_dentistry.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b> Therapeutic dentistry</b>
+                  </p>
+              </div>
+              <br />
+              <p>
+                  One of the main branches of dentistry - therapeutic dentistry deals with the treatment and prevention
+                  of dental diseases.
+              </p>
+              <br />
+              <p>
+                  Treatment, teeth restoration are a link of modern therapeutic dentistry, which includes all the
+                  innovations and inventions of this field. The problem of therapeutic dentistry is the treatment of
+                  teeth with any degree of deterioration and injury, such as caries, non-carious lesions and their
+                  complications, treatment of stomatitis, fractures and any other injuries.
+              </p>
+              <p>
+                  Therapeutic dentistry is now on such a level that can practically save any tooth. With the development
+                  of endodontics, the indications for tooth removal are diminishing.
+              </p>
+              <p>
+                  Endodontics deals with the treatment and restoration of tooth roots. Dental treatment will only be
+                  considered successful if the tooth function is restored.
+              </p>
+              <br />
+              <p>
+                  Dental restoration is one of the main areas of therapeutic dentistry. Today, it is possible to
+                  precisely restore the natural shape of the tooth, while still maintaining its natural color.
+              </p>
+              <p>
+                  Nowadays, all modern materials and equipments are used and easily available for professionals.
+              </p>
+          </div>
+    },
+    {
+        id: 7,
+        title: "Surgical dentistry",
+        imageSrc: require("../Assets/Images/Services/surgical_dentistry.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b> Surgical dentistry</b>
+                  </p>
+              </div>
+              <br />
+              <p>
+                  Dental surgery is a special part of dentistry that allows the specialist to conduct surgeries of
+                  teeth, gums and jaw bones. Our high qualified surgeon is here to provide you the following surgical
+                  procedures:
+              </p>
+              <ul>
+                  <li>Teeth extractions</li>
+                  <li>Extractions of retained teeth</li>
+                  <li>Surgical root surgery (apectomy)</li>
+                  <li>Implant surgeries and bone graft</li>
+              </ul>
+              <br />
+              <p>
+                  With our experienced dental surgeon the procedures are done quickly and efficiently, allowing our
+                  patient feel comfortable during the process. Combination of modern equipment and the professionalism
+                  of our dentist mean that even complex cases are handled easily and competently letting our patients to
+                  have minimal postsurgical recovery period.
+              </p>
+              <br />
+              <p><b>Dental implantation</b></p>
+              <p>
+                  Dental implants are artificial roots placed in a jawbone. Dental implants are considered for patients
+                  who have lost one or more teeth. This way the healthy teeth are not used as an anchor for creating
+                  bridges to replace the missing tooth.
+              </p>
+              <p>
+                  The implants are like screws inserted into the bone. Usually, they are cylindrical or root form. The
+                  implants are made of titanium which is a biocompatible material. The surface of the implants is
+                  modified for the better osseointegration. Once the implants are placed in the bone and the proper
+                  osseointegration is completed around the implant, the only way to remove it is to drill the bone
+                  around it. After placing the implants a certain amount of time is needed for the osseointegration. For
+                  the lower jaw, it is 3 months and for the upper jaw, it is 6 months. Later then abutments are placed
+                  into the implants which are going to hold the crown, bridge or the designed prosthesis.
+              </p>
+              <br />
+              <p>
+                  Implants have the following benefits:
+              </p>
+              <ul>
+                  <li>More comfortable</li>
+                  <li>No adhesives are required to use for dentures</li>
+                  <li>Better stability</li>
+                  <li>Short time for adaptation</li>
+                  <li>Reduce the stress on the structure</li>
+                  <li>Do not require modifying the adjacent teeth</li>
+                  <li>Reliable and long term solution</li>
+              </ul>
+              <br />
+              <p>
+                  Depending on the number of missing teeth and the final outcome we want to reach the number of implants
+                  can vary. Dental implants are placed under local anesthesia and the guidance of a qualified dentist.
+                  The time span of implant placements varies, starting from 15 to 60 minutes depending on the number of
+                  the implants. Moreover, we can say that implants placement is less stressful and takes less time than
+                  tooth treatment. Our professional surgeon-implantologist will provide you detailed information about
+                  the variety of implants and the proper solution for your specific case during the consultation. All
+                  your fear will pass as you talk to our dentist-implantologist and get the step by step treatment plan.
+              </p>
+              <br />
+              <p>
+                  Implants can add value to your quality of life. Be brave, take a step and enjoy your fearless smile.
+              </p>
+          </div>
+    },
+    {
+        id: 8,
+        title: "Parontology",
+        imageSrc: require("../Assets/Images/Services/parontology.svg"),
+        description:
+          <div>
+              <div style={{ textAlign: "center" }}>
+                  <p>
+                      <b>Parodontology</b>
+                  </p>
+              </div>
+              <br />
+              <p>
+                  Parodontology deals with the treatment and prevention of periosteal tissue diseases. Lets try to get
+                  familiar with some of the medical terms in the public language and get information about the necessary
+                  medical treatment.
+              </p>
+              <p>
+                  The main aspects of parodontology are:
+              </p>
+              <ol>
+                  <li>
+                      Gingivitis
+                  </li>
+                  <li>
+                      Parodontitis
+                  </li>
+                  <li>
+                      Parodontosis
+                  </li>
+                  <li>
+
+                      Gingivitis is an early stage of gums inflammation process. It is characterized by mild gingival
+                      bleeding, itching, and tooth decay (dental plaque and calculus)
+                  </li>
+                  <li>
+                      Parodontitis is the next, second stage of gingivitis. It is characterized by hard tooth deposits,
+                      unpleasant odor, swollen and bleeding gums, gingivitis that cause tooth movement.
+                  </li>
+                  <li>
+                      Parodontosis usually appears due to systematic diseases, has chronic nature. The characteristics
+                      are: absence of teeth movement, absence of gingival pockets, especially on the first stage there
+                      are cervical and root exposure without gingival inflammation; progressive bone resorbtion occurs.
+                  </li>
+              </ol>
+              <br />
+              <p>
+                  Prevention and treatment in the early stages of the disease are considered to be more effective
+                  worldwide than the disease found after complains. Especially in developed countries, the main
+                  requirement of the medical insurances is preventive screening, as it is more effective and less costly
+                  for the insurance company or the state than the treatment of accidentally discovered illness.
+              </p>
+              <p>
+                  F or example, in Germany the patient is obliged to cover the costs of self-treatment if he / she does
+                  not follow the schedule of mandatory prophylactic examinations, does not visit the doctor on time, and
+                  the disease is discovered only after development, with complaints only. That is why the population of
+                  Germany visits a doctor in a very conscientious, clear schedule, even in the absence of complaints.
+              </p>
+              <br />
+              <p>
+                  Our field of dentistry is no exception. In particular, we can offer some tips for avoiding periodontal
+                  problems.
+              </p>
+              <ol>
+                  <li>
+                      <p>
+                          The easiest is the prevention of gingivitis – you need to have dental examination 1-2 time a
+                          year, remove dental plaque. This procedure requires very little time from the patient and is
+                          effective enough to avoid gingivitis. The salts in the water always leave stains on the bottom
+                          of the tea pot visible to us. In the same way, the salts from saliva leave plaque on teeth
+                          producing dental calculus. This process is different in different people depending on the
+                          patient's hygiene, saliva composition, metabolism, genetic predisposition and other
+                          circumstances. It is important to point out the dental calculus can be above and under
+                          gingiva. The latter remain unnoticed for the patient's eye, are only found when examined with
+                          the use od instrument, and if you are sure that you do not have a calculus because you do not
+                          see it, it does not mean that it does not exist.
+                      </p>
+                  </li>
+                  <li>
+                      Parodontitis requires a slightly more careful approach. Removal of dental calculus is mandatory
+                      twice a year, if necessary also use of medication in the form of rashes, intravenous medications
+                      and topical creams.
+                  </li>
+                  <li>
+                      In case of parodontosis, in addition to the mandatory visits to the dentist twice a year, it is
+                      also necessary to identify the cause of the parodontosis. It is often caused by systemic diseases
+                      (cardiovascular, diabetes mellitus, metabolic disorders, kidney diseases, etc.). In this case,
+                      treatment should be carried out with a specialist in the field of chronic disease to obtain the
+                      best treatment outcome. Parodontosis is very common in cases where the patient did not pay
+                      attention to the oral hygiene and oral problems for a long time.
+                  </li>
+              </ol>
+              <br />
+              <p>
+                  To summarize the above, we recommend that you visit a dentist twice a year, get acquainted with your
+                  problems and provide timely solutions to them.
+              </p>
+          </div>
+    }
+];
+
 export function getServicesInfo() {
     return servicesInfo;
 }
+
+export function getServicesInfoEnglish() {
+    return servicesInfoEnglish;
+}
+
