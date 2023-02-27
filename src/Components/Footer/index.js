@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { PageLink, PagesList } from "../NavigationBar";
 
 const Footer = () => {
-    const { t } = useTranslation(["navbar"]);
+    const { t } = useTranslation(["navbar", "common"]);
 
     return (
       <div className="footerComponentContainer">
@@ -14,7 +14,7 @@ const Footer = () => {
               <div
                 className="footerComponentUpperSectionItem footerComponentUpperSectionTextItem footerComponentSecond">
                   <div className="footerComponentTitle">
-                      <p>Contacts</p>
+                      <p>{t("common:contacts")}</p>
                   </div>
                   <div className="footerComponentText">
                       <div className="footerComponentTextItem">
@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
               <div className="footerComponentUpperSectionItem footerComponentUpperSectionTextItem footerComponentThird">
                   <div className="footerComponentTitle">
-                      <p>Navigation</p>
+                      <p>{t("common:navigation")}</p>
                   </div>
                   <PagesList footer={true}>
                       <li>
@@ -71,7 +71,7 @@ const Footer = () => {
               <div
                 className="footerComponentUpperSectionItem footerComponentUpperSectionTextItem footerComponentFourth">
                   <div className="footerComponentTitle">
-                      <p>Find Us</p>
+                      <p>{t("common:findUs")}</p>
                   </div>
                   <div className="footerSocialIconContainer">
                       <a href="https://www.instagram.com/individuum_dental_clinic/?hl=en" target="_blank"

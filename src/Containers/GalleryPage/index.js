@@ -5,8 +5,11 @@ import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import BackgroundTitle from "../../Components/BackgroundTitle";
 import { getGalleryPageImages } from "../../Data/galleryPageImages";
 import Gallery from "react-photo-gallery";
+import { useTranslation } from "react-i18next";
 
 const GalleryPage = () => {
+    const { t } = useTranslation(["navbar"]);
+
     const images = getGalleryPageImages();
     return (
       <div>
@@ -15,12 +18,12 @@ const GalleryPage = () => {
           <div style={{ position: "relative", marginTop: "2vw" }}>
               <BackgroundTitle
                 position="relative"
-                backgroundTitle="Gallery"
+                backgroundTitle={t("navbar:gallery")}
                 direction="center"
                 fontSize="20vw"
               />
               <div style={{ position: "absolute", bottom: "2vw", left: "15vw" }}>
-                  <p className="blockTitle">Gallery</p>
+                  <p className="blockTitle">{t("navbar:gallery")}</p>
               </div>
           </div>
           <div className="galleryComponentGalleryContainer">

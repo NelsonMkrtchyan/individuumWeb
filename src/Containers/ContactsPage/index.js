@@ -4,22 +4,24 @@ import Footer from "../../Components/Footer";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import BackgroundTitle from "../../Components/BackgroundTitle";
 import GoogleMapComponent from "../../Components/GoogleMapComponent";
+import { useTranslation } from "react-i18next";
 
 const ContactsPage = () => {
+    const { t } = useTranslation(["navbar", "common"]);
     return (
       <div>
           <NavigationBar />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <div style={{ width: "100%", margin: "auto" }}>
               <BackgroundTitle
-                backgroundTitle="Contacts"
+                backgroundTitle={t("navbar:contacts")}
                 direction="center"
                 fontSize="20vw"
               />
               <div className="contactsPageContactsContent">
                   <div>
                       <div className="contactsPageTitle">
-                          <p>Contacts</p>
+                          <p>{t("navbar:contacts")}</p>
                       </div>
                       <div className="footerComponentText">
                           <div className="contactUsComponentTextItem">
@@ -50,7 +52,7 @@ const ContactsPage = () => {
                   </div>
                   <div>
                       <div className="contactsPageTitle">
-                          <p>Find Us</p>
+                          <p>{t("common:findUs")}</p>
                       </div>
                       <div className="contactUsSocialIconContainer">
                           <a href="https://www.instagram.com/individuum_dental_clinic/?hl=en" target="_blank"
@@ -76,7 +78,7 @@ const ContactsPage = () => {
                     className="contactsPageTitle"
                     style={{ width: "60%", margin: "auto" }}
                   >
-                      <p>Map</p>
+                      <p>{t("common:map")}</p>
                   </div>
                   <div className="contactsPageMapContainer">
                       <GoogleMapComponent />

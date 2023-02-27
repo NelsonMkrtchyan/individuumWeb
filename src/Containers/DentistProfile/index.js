@@ -6,8 +6,10 @@ import NavigationBar from "../../Components/NavigationBar";
 import PageTitleSection from "../../Components/PageTitleSection";
 import Footer from "../../Components/Footer";
 import GalleryComponent from "../../Components/GalleryComponent";
+import { useTranslation } from "react-i18next";
 
 const DentistProfile = () => {
+    const { t } = useTranslation(["navbar", "common"]);
     const { dentistId } = useParams();
     const dentistsInfo = getDentistsInfo();
 
@@ -20,7 +22,7 @@ const DentistProfile = () => {
       <div>
           <NavigationBar />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
-          <PageTitleSection title="Dentists" />
+          <PageTitleSection title={t("navbar:dentists")} />
 
           <div className="dentistProfileAboutWrapper">
               <div className="dentistProfileAboutContainer">
@@ -47,8 +49,8 @@ const DentistProfile = () => {
               <div className="dentistProfileAboutBoxColor" />
           </div>
           <GalleryComponent
-            title="Works"
-            backgroundTitle="Works"
+            title={t("common:works")}
+            backgroundTitle={t("common:works")}
             styles={{ marginTop: "8vw" }}
           />
           <Footer />

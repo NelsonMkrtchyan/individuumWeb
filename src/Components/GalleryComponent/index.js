@@ -2,8 +2,10 @@ import React from "react";
 import Gallery from "react-photo-gallery";
 import SeeAllButton from "../SeeAllButton";
 import { getGalleryComponentImages } from "../../Data/galleryComponentImages";
+import { useTranslation } from "react-i18next";
 
 const GalleryComponent = ({ styles, backgroundTitle, title }) => {
+    const { t } = useTranslation(["common"]);
     const photos = getGalleryComponentImages();
     return (
       <div className="galleryComponentWrapper">
@@ -24,7 +26,7 @@ const GalleryComponent = ({ styles, backgroundTitle, title }) => {
           </div>
           <div>
               <div className="galleryComponentButtonContainer">
-                  <SeeAllButton whereTo="gallery" />
+                  <SeeAllButton text={t("common:seeAll")} whereTo="gallery" />
               </div>
           </div>
       </div>

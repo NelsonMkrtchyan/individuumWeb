@@ -1,7 +1,20 @@
 {
+  "principals": {
+    "teamWork": "Թիմային Աշխատանք",
+    "patientCenteredCare": "Հիվանդի Կենտրոնացված Խնամք",
+    "safety": "Ապահովություն",
+    "professionalism": "Պրոֆեսիոնալիզմ"
+  },
   "aboutUs": {
     "title": "Մեր Մասին",
     "workingHours": "Աշխատանքային ժամեր"
   },
-  "ourWorks": "Մեր Աշխատանքները"
+  "works": "Աշխատանքներ",
+  "ourWorks": "Մեր Աշխատանքները",
+  "findUs": "Գտեք մեզ",
+  "map": "Քարտեզ",
+  "navigation": "Էջեր",
+  "contacts": "Կապ",
+  "seeAll": "Տեսնել Ավելին",
+  "back": "Հետ գնալ"
 }

@@ -53,7 +53,7 @@ const DentistsComponent = () => {
                   </Swiper>
               </div>
               <div className="dentistsButtonContainer">
-                  <SeeAllButton whereTo="dentists" />
+                  <SeeAllButton text={t("common:seeAll")} whereTo="dentists" />
               </div>
           </div>
       </div>

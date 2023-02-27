@@ -1,7 +1,20 @@
 {
+  "principals": {
+    "teamWork": "Team Work",
+    "patientCenteredCare": "Patient Centered Care",
+    "safety": "Safety",
+    "professionalism": "Professionalism"
+  },
   "aboutUs": {
     "title": "About Us",
     "workingHours": "Working Hours"
   },
-  "ourWorks": "Our Works"
+  "works": "Works",
+  "ourWorks": "Our Works",
+  "findUs": "Find Us",
+  "map": "Map",
+  "navigation": "Navigation",
+  "contacts": "Contacts",
+  "seeAll": "See All",
+  "back": "Back"
 }

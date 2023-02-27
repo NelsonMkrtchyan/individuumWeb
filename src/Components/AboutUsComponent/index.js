@@ -70,7 +70,7 @@ const AboutUsComponent = ({ styles }) => {
                               </div>
                           </div>
                           <div className="aboutUsComponentButtonContainer">
-                              <SeeAllButton whereTo="aboutUs" />
+                              <SeeAllButton text={t("common:seeAll")} whereTo="aboutUs" />
                           </div>
                       </div>
                   </div>

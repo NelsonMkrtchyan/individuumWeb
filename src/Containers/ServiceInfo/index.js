@@ -34,7 +34,7 @@ const ServiceInfo = () => {
                         </div>
                     </div>
                     <div style={{ width: "50%", margin: "auto" }}>
-                        <SeeAllButton text="Back" whereTo="services" />
+                        <SeeAllButton text={t("common:back")} whereTo="services" />
                     </div>
                     <div className="serviceInfoBlueBox" />
                     <div className="serviceInfoYellowBox" />
