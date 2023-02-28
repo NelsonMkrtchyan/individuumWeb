@@ -22,5 +22,11 @@
   "navigation": "Էջեր",
   "contacts": "Կապ",
   "seeAll": "Տեսնել Ավելին",
-  "back": "Հետ գնալ"
+  "back": "Հետ գնալ",
+  "statistics": {
+    "year": "Տարի",
+    "patients": "Պացիենտ",
+    "certificates": "Սերտիֆիկատներ",
+    "dentists": "Ատամնաբուժեր"
+  }
 }

@@ -1,27 +1,3 @@
-.statisticsComponentContainer{
-  height: 10vw;
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
-  align-self: center;
-}
-.statisticsItemContainer{
-  width: 15vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  border-radius: 20px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
-}
-.statisticsItemNumber{
-  color: #ecbe21;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
-.statisticsItemTitle{
-  font-size: 2vw;
+.statisticsComponentContainer {
+
 }

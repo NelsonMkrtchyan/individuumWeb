@@ -16,8 +16,6 @@ const DentistProfile = () => {
     const currentDentist = dentistsInfo.filter(
       (dentist) => dentist.id.toString() === dentistId
     )[0];
-
-    console.log(currentDentist.imageSrc);
     return (
       <div>
           <NavigationBar />

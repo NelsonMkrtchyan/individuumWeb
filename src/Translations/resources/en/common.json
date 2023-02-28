@@ -22,5 +22,11 @@
   "navigation": "Navigation",
   "contacts": "Contacts",
   "seeAll": "See All",
-  "back": "Back"
+  "back": "Back",
+  "statistics": {
+    "year": "Year",
+    "patients": "Patients",
+    "certificates": "Certificates",
+    "dentists": "Dentists"
+  }
 }

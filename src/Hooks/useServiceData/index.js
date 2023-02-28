@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getServicesInfo, getServicesInfoEnglish } from "../../Data/servicesInfo";
 import { useTranslation } from "react-i18next";
 
-export const useServiceData = (language) => {
+export const useServiceData = () => {
     const { i18n } = useTranslation();
     const [serviceData, setServiceData] = useState([]);
 
