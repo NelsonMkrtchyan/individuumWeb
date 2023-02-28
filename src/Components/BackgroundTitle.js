@@ -1,4 +1,18 @@
 import React, { useEffect, useState } from "react";
+import styled from "styled-components";
+
+
+const Container = styled.div.attrs((style) => ({
+    ...style
+}))`
+  position: absolute;
+  width: 100%;
+
+  p {
+    color: #000000;
+    opacity: 4%;
+  }
+`;
 
 const BackgroundTitle = ({
     backgroundTitle,
@@ -36,9 +50,9 @@ const BackgroundTitle = ({
     }, [direction, fontSize, position]);
 
     return (
-      <div className="backgroundTitleContainer" style={{ ...side, ...style }}>
+      <Container style={{ ...side, ...style }}>
           <p>{backgroundTitle}</p>
-      </div>
+      </Container>
     );
 };
 

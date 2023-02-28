@@ -46,7 +46,7 @@ export const PageLink = styled(Link)`
 
   &:hover {
     color: #774C91;
-    cursor: default;
+    cursor: pointer;
     border-bottom: 1px solid #774C91;
     text-decoration: none;
   }
