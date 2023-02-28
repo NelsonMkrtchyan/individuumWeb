@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const SeeAllButton = ({ text, whereTo = "" }) => {
+const Button = ({ text, whereTo = "", style = {} }) => {
     return (
-      <div className="seeAllButton">
+      <div className="button" style={{ ...style }}>
           <Link to={whereTo ? `/${whereTo}` : "/"}>
               <p>{text}</p>
           </Link>
@@ -11,4 +11,4 @@ const SeeAllButton = ({ text, whereTo = "" }) => {
     );
 };
 
-export default SeeAllButton;
+export default Button;

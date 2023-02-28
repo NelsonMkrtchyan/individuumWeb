@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { FreeMode } from "swiper";
-import SeeAllButton from "../SeeAllButton";
+import Button from "../Button";
 import DentistCard from "../../Containers/DentistsPage/Components/DentistCard";
 import { getDentistsInfo } from "../../Data/dentistsInfo";
 import { useTranslation } from "react-i18next";
@@ -53,7 +53,7 @@ const DentistsComponent = () => {
                   </Swiper>
               </div>
               <div className="dentistsButtonContainer">
-                  <SeeAllButton text={t("common:seeAll")} whereTo="dentists" />
+                  <Button text={t("common:seeAll")} whereTo="dentists" />
               </div>
           </div>
       </div>

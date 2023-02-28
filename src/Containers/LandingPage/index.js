@@ -17,7 +17,7 @@ const LandingPage = () => {
           <NavigationBar />
           <SwiperComponent />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
-          <AboutUsComponent styles={{ marginTop: "5vw" }} />
+          <AboutUsComponent />
           <StatisticsComponent styles={{ marginTop: "10vw" }} />
           <DentistsComponent />
           {/*<PriceListComponent />*/}

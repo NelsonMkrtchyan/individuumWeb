@@ -17,7 +17,6 @@ const LogoWrapper = styled.div`
     display: block;
   }
 `;
-
 const Logo = styled.a`
   font-size: 1.5rem;
   font-weight: bold;
@@ -25,7 +24,6 @@ const Logo = styled.a`
   text-decoration: none;
   margin-right: auto;
 `;
-
 export const PagesList = styled.ul`
   display: flex;
   flex-direction: ${props => (props.footer ? "column" : "row")};
@@ -40,9 +38,8 @@ export const PagesList = styled.ul`
 
 
 `;
-
 export const PageLink = styled(Link)`
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: inherit;
   text-decoration: none;
   padding: 10px;
@@ -54,7 +51,6 @@ export const PageLink = styled(Link)`
     text-decoration: none;
   }
 `;
-
 const LanguageWrapper = styled.ul`
   display: flex;
 `;

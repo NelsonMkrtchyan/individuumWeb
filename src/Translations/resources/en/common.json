@@ -5,9 +5,15 @@
     "safety": "Safety",
     "professionalism": "Professionalism"
   },
-  "aboutUs": {
-    "title": "About Us",
-    "workingHours": "Working Hours"
+  "workingHours": "Working Hours",
+  "weekdays": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
   },
   "works": "Works",
   "ourWorks": "Our Works",

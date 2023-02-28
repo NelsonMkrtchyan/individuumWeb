@@ -5,9 +5,15 @@
     "safety": "Ապահովություն",
     "professionalism": "Պրոֆեսիոնալիզմ"
   },
-  "aboutUs": {
-    "title": "Մեր Մասին",
-    "workingHours": "Աշխատանքային ժամեր"
+  "workingHours": "Աշխատանքային ժամեր",
+  "weekdays": {
+    "monday": "Երկուշաբթի",
+    "tuesday": "Երեքշաբաթի",
+    "wednesday": "Չորեքշաբթի",
+    "thursday": "Հինգշաբաթի",
+    "friday": "ՈՒրբաթ",
+    "saturday": "Շաբաթ",
+    "sunday": "Կիրակի"
   },
   "works": "Աշխատանքներ",
   "ourWorks": "Մեր Աշխատանքները",

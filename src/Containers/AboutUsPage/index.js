@@ -14,7 +14,7 @@ const AboutUsPage = () => {
       <div>
           <NavigationBar />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
-          <AboutUsPageAboutUs styles={{ marginTop: "0" }} />
+          <AboutUsPageAboutUs />
           <StatisticsComponent styles={{ marginTop: "10vw" }} />
           <GalleryComponent styles={{ marginTop: "8vw" }} title={t("common:ourWorks")} />
           <Footer />

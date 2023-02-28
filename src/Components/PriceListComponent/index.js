@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PriceListComponentItem from "./PriceListComponentItem";
 import PriceListComponentPriceList from "./PriceListComponentPriceList";
-import SeeAllButton from "../SeeAllButton";
+import Button from "../Button";
 
 const PriceListComponent = () => {
     const [itemTitle, setItemTitle] = useState("For Children");
@@ -42,7 +42,7 @@ const PriceListComponent = () => {
                       <PriceListComponentPriceList title={itemTitle} />
                   </div>
                   <div className="priceListComponentButtonContainer">
-                      <SeeAllButton text={t("common:seeAll")} />
+                      <Button text={t("common:seeAll")} />
                   </div>
               </div>
           </div>

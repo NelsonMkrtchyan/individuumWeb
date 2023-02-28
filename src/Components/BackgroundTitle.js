@@ -4,7 +4,8 @@ const BackgroundTitle = ({
     backgroundTitle,
     direction,
     fontSize,
-    position = "absolute"
+    position = "absolute",
+    style = {}
 }) => {
     const [side, setSide] = useState({});
 
@@ -35,10 +36,8 @@ const BackgroundTitle = ({
     }, [direction, fontSize, position]);
 
     return (
-      <div className="backgroundTitleContainer" style={{ ...side }}>
-          <div>
-              <p>{backgroundTitle}</p>
-          </div>
+      <div className="backgroundTitleContainer" style={{ ...side, ...style }}>
+          <p>{backgroundTitle}</p>
       </div>
     );
 };
