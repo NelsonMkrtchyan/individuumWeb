@@ -84,7 +84,7 @@ export const useAboutUsData = () => {
         } else {
             setAboutUsData(aboutUsEng);
         }
-    }, [i18n.language]);
+    }, [i18n.language, aboutUsArm, aboutUsEng]);
 
     return aboutUsData;
 };
