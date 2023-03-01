@@ -118,7 +118,7 @@ const DentistProfile = () => {
               <BackgroundTitle
                 backgroundTitle={currentDentist.positionBackground}
                 fontSize="12vw"
-                style={{ top: 0, marginLeft: "5vw" }}
+                style={{ top: 0, left: "5vw", width: "unset" }}
               />
           </Container>
           <GalleryComponent

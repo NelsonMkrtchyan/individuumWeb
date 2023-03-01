@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.div.attrs((style) => ({
+    ...style
+}))`
   position: relative;
   display: flex;
   flex-direction: row;
