@@ -45,9 +45,9 @@ const PriceListSubCategory = ({ name, treatments, currency }) => {
         <Wrapper>
             {name && <Title title={name} style={{ textAlign: "center", fontSize: "1.2vw", margin: "0 0 2vw 0" }} />}
             <ItemWrapper>
-                {treatments.map((treatment) => {
+                {treatments.map((treatment, i) => {
                     return (
-                      <Item>
+                      <Item key={i}>
                           <ItemName>
                               {treatment.name}
                           </ItemName>

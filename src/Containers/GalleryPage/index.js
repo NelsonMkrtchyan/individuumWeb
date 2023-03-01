@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "../../Components/NavigationBar";
 import Footer from "../../Components/Footer";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import { getGalleryPageImages } from "../../Data/galleryPageImages";
@@ -25,7 +24,7 @@ const GalleryPage = () => {
     const images = getGalleryPageImages();
     return (
       <div>
-          <NavigationBar />
+
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <PageTitleSection title={t("navbar:gallery")} backgroundTitle={t("navbar:gallery")} />
           <GalleryWrapper>

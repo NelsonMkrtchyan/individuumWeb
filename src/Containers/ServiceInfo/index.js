@@ -1,5 +1,4 @@
 import React, { useMemo } from "react";
-import NavigationBar from "../../Components/NavigationBar";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import PageTitleSection from "../../Components/PageTitleSection";
 import { useParams } from "react-router-dom";
@@ -20,7 +19,7 @@ const ServiceInfo = () => {
     }, [serviceData, serviceId]);
     return (
       <div>
-          <NavigationBar />
+
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           {currentService && (
             <>

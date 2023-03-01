@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { useTranslation } from "react-i18next";
 import i18n from "../../Translations/i18n";
 import { Link } from "react-router-dom";
+import { useScreens } from "../../Data/useScreenData";
+import ScreenTab from "./ScreenTab";
 
 const Navbar = styled.nav`
   display: flex;
@@ -10,6 +11,12 @@ const Navbar = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 10px 5vw;
+
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
 `;
 const LogoWrapper = styled.div`
   img {
@@ -69,7 +76,7 @@ const LanguageLink = styled.li`
 `;
 
 const NavigationBar = () => {
-    const { t } = useTranslation(["navbar"]);
+    const screens = useScreens();
     const handleOnclick = (lang) => {
         i18n.changeLanguage(lang).then();
     };
@@ -81,24 +88,13 @@ const NavigationBar = () => {
               </Logo>
           </LogoWrapper>
           <PagesList>
-              <li>
-                  <PageLink to="/aboutUs">{t("aboutUs")}</PageLink>
-              </li>
-              <li>
-                  <PageLink to="/dentists">{t("dentists")}</PageLink>
-              </li>
-              <li>
-                  <PageLink to="/priceList">{t("priceList")}</PageLink>
-              </li>
-              <li>
-                  <PageLink to="/services">{t("services")}</PageLink>
-              </li>
-              <li>
-                  <PageLink to="/gallery">{t("gallery")}</PageLink>
-              </li>
-              <li>
-                  <PageLink to="/contacts">{t("contacts")}</PageLink>
-              </li>
+              {screens.map((screen, i) => (
+                <ScreenTab
+                  key={i}
+                  title={screen.name}
+                  whereTo={screen.to}
+                />
+              ))}
           </PagesList>
           <LanguageWrapper>
               <LanguageLink

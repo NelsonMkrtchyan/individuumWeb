@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "../../Components/NavigationBar";
 // import PriceListComponent from "../../Components/PriceListComponent";
 import Footer from "../../Components/Footer";
 import SwiperComponent from "../../Components/SwiperComponent";
@@ -14,7 +13,7 @@ const LandingPage = () => {
     const { t } = useTranslation(["navbar"]);
     return (
       <div>
-          <NavigationBar />
+          
           <SwiperComponent />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <AboutUsComponent />

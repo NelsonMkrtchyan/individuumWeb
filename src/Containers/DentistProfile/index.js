@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { getDentistsInfo } from "../../Data/dentistsInfo";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
-import NavigationBar from "../../Components/NavigationBar";
 import Footer from "../../Components/Footer";
 import GalleryComponent from "../../Components/GalleryComponent";
 import { useTranslation } from "react-i18next";
@@ -79,7 +78,7 @@ const DentistProfile = () => {
     )[0];
     return (
       <>
-          <NavigationBar />
+
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <Container>
               <Left>

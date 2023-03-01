@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "../../Components/NavigationBar";
 import Footer from "../../Components/Footer";
 import StatisticsComponent from "../../Components/StatisticsComponent";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
@@ -13,7 +12,7 @@ const AboutUsPage = () => {
 
     return (
       <div>
-          <NavigationBar />
+
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <PageTitleSection title={t("navbar:aboutUs")} />
           <AboutUsPageAboutUs />

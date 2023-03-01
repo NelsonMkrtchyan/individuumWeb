@@ -13,6 +13,7 @@ import DentistProfile from "./Containers/DentistProfile";
 import ServicesPage from "./Containers/Services";
 import ServiceInfo from "./Containers/ServiceInfo";
 import { useLocation } from "react-router";
+import NavigationBar from "./Components/NavigationBar";
 
 
 const ScrollToTop = (props) => {
@@ -41,7 +42,7 @@ function App() {
       <>
           <Router>
               <ScrollToTop>
-                  {/*<NavigationBar />*/}
+                  <NavigationBar />
                   <Routes>
                       <Route path="/" element={<LandingPage />} />
                       <Route path="/aboutUs" element={<AboutUsPage />} />

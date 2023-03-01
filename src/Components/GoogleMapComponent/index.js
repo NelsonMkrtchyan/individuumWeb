@@ -14,14 +14,14 @@ const GoogleMapComponent = () => {
             }}
             // center={{ lat: 40.15123176305087, lng: 44.500573092268 }}
             center={{ lat: 40.17932294727421, lng: 44.517237757670756 }}
-            zoom={17}
+            zoom={12}
           >
               <Marker
                 key="marker_1"
                 position={{ lat: 40.15140742273631, lng: 44.499909157443085 }}
               />
               <Marker
-                key="marker_1"
+                key="marker_2"
                 position={{ lat: 40.17932294727421, lng: 44.517237757670756 }}
               />
           </GoogleMap>

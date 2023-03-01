@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import { PageLink, PagesList } from "../NavigationBar";
 import Title from "../Title";
 import styled from "styled-components";
+import ScreenTab from "../NavigationBar/ScreenTab";
+import { useScreens } from "../../Data/useScreenData";
 
 const Wrapper = styled.div`
   display: flex;
@@ -34,9 +36,14 @@ export const Column = styled.div.attrs((style) => ({
   display: flex;
   flex-direction: column;
 `;
-export const ContactsList = styled.ul`
+export const List = styled.ul`
   flex: 1;
   list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   li {
     padding: ${props => (props.footer ? "10px" : "0")};
@@ -59,8 +66,9 @@ export const Socials = styled.div`
   flex: 2;
   padding-bottom: 1vw;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
   a {
     margin-bottom: 1vw;
@@ -69,7 +77,12 @@ export const Socials = styled.div`
 export const SocialItem = styled("a").attrs(() => ({
     target: "_blank",
     rel: "noreferrer"
-}))``;
+}))`
+  img {
+    width: 50px;
+    height: 50px;
+  }
+`;
 
 export const Icon = styled.div`
   display: flex;
@@ -89,7 +102,7 @@ const LogoContainer = styled.div`
 
 const Footer = () => {
     const { t } = useTranslation(["navbar", "common"]);
-
+    const screens = useScreens();
     return (
       <Wrapper>
           <UpperContainer>
@@ -102,8 +115,8 @@ const Footer = () => {
                   </PageLink>
               </LogoContainer>
               <Column style={{ flex: 1 }}>
-                  <Title title={t("common:contacts")} style={{ textAlign: "center" }} />
-                  <ContactsList>
+                  <Title title={t("common:address")} style={{ textAlign: "center" }} />
+                  <List>
                       <ContactsItem>
                           <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
                           <p>Armenia, Yerevan, 0026 Vardanants 2</p>
@@ -112,6 +125,11 @@ const Footer = () => {
                           <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
                           <p>Armenia, Yerevan, 0026 Garegin Njdeh 44</p>
                       </ContactsItem>
+                  </List>
+              </Column>
+              <Column style={{ flex: 1 }}>
+                  <Title title={t("common:contacts")} style={{ textAlign: "center" }} />
+                  <List>
                       <ContactsItem>
                           <img src={require("../../Assets/Icons/phone.svg").default} alt="icon" />
                           <p>+374 10 44 84 21</p>
@@ -124,29 +142,18 @@ const Footer = () => {
                           <img src={require("../../Assets/Icons/email.svg").default} alt="icon" />
                           <p>individuumclinic@gmail.com</p>
                       </ContactsItem>
-                  </ContactsList>
+                  </List>
               </Column>
               <Column style={{ flex: 1, alignItems: "center" }}>
                   <Title title={t("common:navigation")} />
                   <PagesList footer={true}>
-                      <li>
-                          <PageLink to="/aboutUs">{t("aboutUs")}</PageLink>
-                      </li>
-                      <li>
-                          <PageLink to="/dentists">{t("dentists")}</PageLink>
-                      </li>
-                      <li>
-                          <PageLink to="/priceList">{t("priceList")}</PageLink>
-                      </li>
-                      <li>
-                          <PageLink to="/services">{t("services")}</PageLink>
-                      </li>
-                      <li>
-                          <PageLink to="/gallery">{t("gallery")}</PageLink>
-                      </li>
-                      <li>
-                          <PageLink to="/contacts">{t("contacts")}</PageLink>
-                      </li>
+                      {screens.map((screen, i) => (
+                        <ScreenTab
+                          key={i}
+                          title={screen.name}
+                          whereTo={screen.to}
+                        />
+                      ))}
                   </PagesList>
               </Column>
               <Column style={{ flex: 0, minWidth: "10vw", alignItems: "center" }}>
@@ -157,10 +164,7 @@ const Footer = () => {
                               <img
                                 src={require("../../Assets/Icons/instagram.svg").default}
                                 alt="icon"
-                                style={{
-                                    width: "35px",
-                                    height: "35px"
-                                }}
+
                               />
                           </Icon>
                       </SocialItem>
@@ -169,10 +173,6 @@ const Footer = () => {
                               <img
                                 src={require("../../Assets/Icons/facebook.svg").default}
                                 alt="icon"
-                                style={{
-                                    width: "35px",
-                                    height: "35px"
-                                }}
                               />
                           </Icon>
                       </SocialItem>

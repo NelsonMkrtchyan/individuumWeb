@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "../../Components/NavigationBar";
 import Footer from "../../Components/Footer";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import PageTitleSection from "../../Components/PageTitleSection";
@@ -13,7 +12,7 @@ const PriceListPage = () => {
     const { priceData, currency } = usePriceData();
     return (
       <div>
-          <NavigationBar />
+
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <PageTitleSection title={t("navbar:priceList")} />
           {priceData.map((category, index) => {

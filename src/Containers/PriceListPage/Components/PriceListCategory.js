@@ -25,6 +25,7 @@ const Category = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 3vw;
+  padding: 3vw 0;
   background-color: white;
   border-radius: 25px;
   box-shadow: rgb(0 0 0 / 10%) 0 0.5vw 1vw;
@@ -65,7 +66,7 @@ const PriceListCategory = ({ title, color, logo, data, id, currency }) => {
                   <Icon src={logo} />
               </Circle>
               <Category>
-                  <Title title={title} style={{ fontSize: "1.5vw", paddingTop: "3vw" }}
+                  <Title title={title} style={{ fontSize: "1.5vw" }}
                   />
                   <SubCategory>
                       {data.map((subCategory, index) => {
