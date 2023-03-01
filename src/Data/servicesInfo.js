@@ -300,7 +300,7 @@ const servicesInfo = [
     },
     {
         id: 5,
-        title: "ՕՐԹՈՊԵԴԻԿ ՍՏՈՄԱՏՈԼՈԳԻԱ",
+        title: "Օրթոպեդիկ Ստոմատոլոգիա ",
         imageSrc: require("../Assets/Images/Services/prosthetics.svg"),
         description:
           <div>
@@ -329,7 +329,7 @@ const servicesInfo = [
     },
     {
         id: 6,
-        title: "Թերապևտիկ ստոմատոլոգիա",
+        title: "Թերապևտիկ Ստոմատոլոգիա",
         imageSrc: require("../Assets/Images/Services/therapeutic_dentistry.svg"),
         description:
           <div>
@@ -378,7 +378,7 @@ const servicesInfo = [
     },
     {
         id: 7,
-        title: "Վիրաբուժական ստոմատոլոգիա",
+        title: "Վիրաբուժական Ստոմատոլոգիա",
         imageSrc: require("../Assets/Images/Services/surgical_dentistry.svg"),
         description:
           <div>

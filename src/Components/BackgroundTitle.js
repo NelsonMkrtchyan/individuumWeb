@@ -8,6 +8,7 @@ const Container = styled.div.attrs((style) => ({
   position: absolute;
   width: 100%;
   z-index: 100;
+  word-wrap: break-word;
 
   p {
     color: #000000;

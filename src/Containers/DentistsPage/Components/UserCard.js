@@ -11,10 +11,6 @@ const CardWrapper = styled.div`
   height: 30vw;
   margin: 2vw;
 
-  a {
-    text-decoration: none;
-  }
-
   img {
     width: 100%;
     height: 100%;

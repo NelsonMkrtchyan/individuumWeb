@@ -21,7 +21,6 @@ const Logo = styled.a`
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
-  text-decoration: none;
   margin-right: auto;
 `;
 export const PagesList = styled.ul`
@@ -41,14 +40,12 @@ export const PagesList = styled.ul`
 export const PageLink = styled(Link)`
   font-size: 1rem;
   color: inherit;
-  text-decoration: none;
   padding: 10px;
 
   &:hover {
     color: #774C91;
     cursor: pointer;
     border-bottom: 1px solid #774C91;
-    text-decoration: none;
   }
 `;
 const LanguageWrapper = styled.ul`

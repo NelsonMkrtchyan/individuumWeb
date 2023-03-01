@@ -16,18 +16,14 @@ const PriceListPage = () => {
           <NavigationBar />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <PageTitleSection title={t("navbar:priceList")} />
-          <div>
-              {priceList.map((category, index) => {
-                  return (
-                    <div>
-                        <PriceListCategory key={index} id={category.id} title={category.categoryName}
-                                           color={category.color}
-                                           logo={category.logo}
-                                           data={category.subCategories} />
-                    </div>
-                  );
-              })}
-          </div>
+          {priceList.map((category, index) => {
+              return (
+                <PriceListCategory key={index} id={category.id} title={category.categoryName}
+                                   color={category.color}
+                                   logo={category.logo}
+                                   data={category.subCategories} />
+              );
+          })}
           <Footer />
       </div>
     );

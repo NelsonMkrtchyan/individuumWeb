@@ -19,7 +19,7 @@ const PageTitleSection = ({ title, backgroundTitle }) => {
           <BackgroundTitle
             backgroundTitle={backgroundTitle ? backgroundTitle : title}
             direction="center"
-            fontSize="12vw"
+            fontSize="10vw"
             style={{ top: "5vw" }}
           />
           <Title title={title} style={{

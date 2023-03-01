@@ -1,14 +1,11 @@
 import React from "react";
+import Title from "../../../Components/Title";
 
 const PriceListSubCategory = ({ name, treatments, id, left }) => {
     return (
       // ${id === 0 && "firstOne"}
       <div className={`subCategoryContainer `}>
-          <div className="subCategoryName">
-              <p>
-                  {name}
-              </p>
-          </div>
+          <Title title={name} style={{ textAlign: "center", fontSize: "1.2vw", margin: "0 0 2vw 0" }} />
           <div className="subCategoryContent">
               {treatments.map((treatment) => {
                   return (
@@ -18,7 +15,6 @@ const PriceListSubCategory = ({ name, treatments, id, left }) => {
                         </div>
                         <div style={{ flex: 1, paddingLeft: "2vw" }}>
                             <p>{treatment.price}</p>
-
                         </div>
                     </div>
                   );

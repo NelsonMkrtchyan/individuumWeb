@@ -91,7 +91,7 @@ const AboutUsComponent = () => {
           </Right>
           <BackgroundTitle
             backgroundTitle={t("navbar:aboutUs")}
-            fontSize="12vw"
+            fontSize="10vw"
             style={{ top: 0 }}
           />
       </Container>

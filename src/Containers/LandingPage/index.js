@@ -24,7 +24,6 @@ const LandingPage = () => {
           <GalleryComponent
             title={t("gallery")}
             backgroundTitle={t("gallery")}
-            styles={{ marginTop: "8vw" }}
           />
           <Footer />
       </div>

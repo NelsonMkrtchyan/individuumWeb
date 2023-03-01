@@ -1,18 +1,18 @@
 import React from "react";
 import PriceListSubCategory from "./PriceListSubCategory";
+import { Circle, Icon } from "../../../Components/PrincipalsComponent/PrincipalsItem";
+import Title from "../../../Components/Title";
 
 const PriceListCategory = ({ title, color, logo, data, id }) => {
     return (
       <div className="priceListCategoryWrapper">
           <div className={`priceListCategoryContainer ${parseInt(id) % 2 && "reverseFlexRow"}`}>
-              <div className="priceListCategoryLogoContainer" style={{ backgroundColor: `${color}` }}>
-                  <div className="priceListCategoryLogo"
-                       style={{ backgroundImage: `url("${logo}")` }} />
-              </div>
+              <Circle color={color}>
+                  <Icon src={logo} />
+              </Circle>
               <div className="priceListCategoryContentContainer">
-                  <div className="priceListCategoryName">
-                      <p>{title}</p>
-                  </div>
+                  <Title title={title} style={{ fontSize: "1.5vw", paddingTop: "3vw" }}
+                  />
                   <div className="priceListSubCategoryWrapper">
                       {data.map((subCategory, index) => {
                           return (

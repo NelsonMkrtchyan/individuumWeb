@@ -49,7 +49,6 @@ export const ContactsItem = styled("li")`
   margin: 10px 0;
   padding: 10px;
   font-size: 1.1rem;
-  text-decoration: none;
   color: inherit;
 
   &:hover {
@@ -84,7 +83,6 @@ const LogoContainer = styled.div`
   margin: 10px 0;
   padding: 10px;
   font-size: 1.1rem;
-  text-decoration: none;
   color: inherit;
 `;
 

@@ -11,7 +11,6 @@ import Title from "../../Components/Title";
 
 const Info = styled.div`
   position: relative;
-  //border: 1px solid red;
   width: 80%;
   margin: auto;
 `;

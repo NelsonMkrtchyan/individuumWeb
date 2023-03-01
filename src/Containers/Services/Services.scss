@@ -1,36 +1,4 @@
-.servicesPageContainer {
-  display: flex;
-  width: 60vw;
-  margin: 3vw auto auto auto;
-  flex-wrap: wrap;
-}
-
-.serviceBlockWrapper {
-
-  display: flex;
-  flex: 1;
-  width: 33%;
-  margin: 1vw 1vw;
-
-  a {
-    text-decoration: none;
-    width: 100%;
-  }
-
-}
-
 .serviceBlockContainer {
-  background-color: #777FB0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1vw;
-  max-width: 25vw;
-  border-radius: 1.5vw;
-
-  &:hover {
-    background-color: #F3D87C;
-  }
 
 }
 

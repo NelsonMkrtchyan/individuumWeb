@@ -117,14 +117,13 @@ const DentistProfile = () => {
               </Right>
               <BackgroundTitle
                 backgroundTitle={currentDentist.positionBackground}
-                fontSize="12vw"
-                style={{ top: 0, left: "5vw", width: "unset" }}
+                fontSize="10vw"
+                style={{ top: 0, left: "5vw" }}
               />
           </Container>
           <GalleryComponent
             title={t("common:works")}
             backgroundTitle={t("common:works")}
-            styles={{ marginTop: "8vw" }}
           />
           <Footer />
       </>

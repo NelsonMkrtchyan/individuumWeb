@@ -3,33 +3,50 @@ import Gallery from "react-photo-gallery";
 import Button from "../Button";
 import { getGalleryComponentImages } from "../../Data/galleryComponentImages";
 import { useTranslation } from "react-i18next";
+import { Container } from "../Styles";
+import BackgroundTitle from "../BackgroundTitle";
+import styled from "styled-components";
+import Title from "../Title";
 
-const GalleryComponent = ({ styles, backgroundTitle, title }) => {
+
+const GalleryWrapper = styled.div`
+  width: 90%;
+  padding: 3vw 10px 10px 10px;
+  align-self: center;
+  margin-top: 8vw;
+
+  img {
+    border-radius: 20px;
+  }
+`;
+
+
+const GalleryComponent = ({ backgroundTitle, title }) => {
     const { t } = useTranslation(["common"]);
     const photos = getGalleryComponentImages();
     return (
-      <div className="galleryComponentWrapper">
+      <Container style={{ flexDirection: "column" }}>
           {backgroundTitle && (
-            <div>
-                <div className="galleryComponentBackgroundTitleContainer">
-                    <div>
-                        <p>{backgroundTitle}</p>
-                    </div>
-                </div>
-            </div>
+            <BackgroundTitle
+              backgroundTitle={backgroundTitle}
+              fontSize="8vw"
+              style={{ top: 0, textAlign: "end" }}
+            />
           )}
-          <div className="galleryComponentGalleryContainer" style={{ ...styles }}>
-              <div className="galleryComponentTitle">
-                  <p>{title}</p>
-              </div>
+          <GalleryWrapper>
+              <Title title={title} style={{ fontSize: "2vw", paddingRight: "10vw", textAlign: "end" }} />
               <Gallery photos={photos} margin={20} direction={"row"} />
-          </div>
-          <div>
-              <div className="galleryComponentButtonContainer">
-                  <Button text={t("common:seeAll")} whereTo="gallery" />
-              </div>
-          </div>
-      </div>
+          </GalleryWrapper>
+          <Button
+            text={t("common:seeAll")}
+            whereTo="dentists"
+            style={{
+                position: "relative",
+                alignSelf: "end",
+                marginRight: "10vw"
+            }}
+          />
+      </Container>
     );
 };
 

@@ -18,7 +18,10 @@ const AboutUsPage = () => {
           <PageTitleSection title={t("navbar:aboutUs")} />
           <AboutUsPageAboutUs />
           <StatisticsComponent />
-          <GalleryComponent styles={{ marginTop: "8vw" }} title={t("common:ourWorks")} />
+          <GalleryComponent
+            title={t("common:ourWorks")}
+            backgroundTitle={t("common:ourWorks")}
+          />
           <Footer />
       </div>
     );

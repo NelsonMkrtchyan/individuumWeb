@@ -42,11 +42,11 @@ const DentistsComponent = () => {
     const { t } = useTranslation(["navbar"]);
     const dentistsInfo = getDentistsInfo();
     return (
-      <Container style={{ width: "100%", height: "55vw", flexDirection: "column" }}>
+      <Container style={{ width: "100%", height: "50vw", flexDirection: "column" }}>
           <>
               <BackgroundTitle
                 backgroundTitle={t("navbar:dentists")}
-                fontSize="12vw"
+                fontSize="10vw"
                 style={{ top: 0, textAlign: "end" }}
               />
               {/*<Title*/}
