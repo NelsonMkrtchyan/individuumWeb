@@ -55,8 +55,10 @@ export const Image = styled.img.attrs((style) => ({
     alt: "About us Image"
 }))`
   height: 100%;
-  width: auto;
+  width: 36vw;
+  max-width: 36vw;
   border-radius: 3vw;
+  object-fit: cover;
 `;
 
 

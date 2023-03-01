@@ -1,27 +1,11 @@
 import React from "react";
-import BackgroundTitle from "../../../Components/BackgroundTitle";
 import { useTranslation } from "react-i18next";
 import Title from "../../../Components/Title";
 import styled from "styled-components";
 import { Content, Image, ImageBox, Left, YellowBox } from "../../../Components/AboutUsComponent";
 import { useAboutUsData } from "../../../Hooks/useAboutUsData";
+import { Container } from "../../../Components/Styles";
 
-const Wrapper = styled.div`
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-top: 20vw;
-`;
-const Container = styled.div`
-  position: relative;
-  display: flex;
-  align-self: center;
-  width: 90%;
-  margin-top: 5vw;
-`;
 const Right = styled.div`
   flex: 1;
   display: flex;
@@ -44,18 +28,7 @@ const AboutUsPageAboutUs = () => {
     const { t } = useTranslation(["common"]);
     const aboutUsData = useAboutUsData();
     return (
-      <Wrapper>
-          <BackgroundTitle
-            backgroundTitle={t("navbar:aboutUs")}
-            direction="center"
-            fontSize="12vw"
-            style={{ top: "5vw" }}
-          />
-          <Title title={t("navbar:aboutUs")} style={{
-              fontSize: "2vw",
-              paddingLeft: "20vw"
-          }}
-          />
+      <>
           <Container>
               <Left>
                   <YellowBox style={{ margin: "8vw 15vw 0 0" }} />
@@ -79,7 +52,7 @@ const AboutUsPageAboutUs = () => {
                   </Schedule>
               </Right>
           </Container>
-      </Wrapper>
+      </>
     );
 };
 

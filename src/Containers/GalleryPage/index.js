@@ -20,7 +20,7 @@ const GalleryPage = () => {
                 position="relative"
                 backgroundTitle={t("navbar:gallery")}
                 direction="center"
-                fontSize="20vw"
+                fontSize="12vw"
               />
               <div style={{ position: "absolute", bottom: "2vw", left: "15vw" }}>
                   <p className="blockTitle">{t("navbar:gallery")}</p>

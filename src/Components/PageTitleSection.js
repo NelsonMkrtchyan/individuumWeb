@@ -1,18 +1,34 @@
 import React from "react";
 import BackgroundTitle from "./BackgroundTitle";
+import Title from "./Title";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20vw;
+`;
 
 const PageTitleSection = ({ title, backgroundTitle }) => {
     return (
-      <div>
+      <Wrapper>
           <BackgroundTitle
             backgroundTitle={backgroundTitle ? backgroundTitle : title}
             direction="center"
-            fontSize="20vw"
+            fontSize="12vw"
+            style={{ top: "5vw" }}
           />
-          <div className="PageTitleSectionContainer">
-              <div className="PageTitleSectionTitle">{title}</div>
-          </div>
-      </div>
+          <Title title={title} style={{
+              paddingLeft: "20vw",
+              fontSize: "2vw",
+              fontStretch: "expanded",
+              fontWeight: "bold"
+          }} />
+      </Wrapper>
     );
 };
 

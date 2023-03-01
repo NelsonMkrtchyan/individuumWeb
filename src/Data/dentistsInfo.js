@@ -4,6 +4,7 @@ const dentistsInfo = [
         firstName: "Varazdat",
         secondName: "Tangamyan",
         position: "Doctor - Dentist - Implantologist",
+        positionBackground: "Doctor",
         imageSrc: require("../Assets/Images/Dentists/Varazdat.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -15,6 +16,7 @@ const dentistsInfo = [
         firstName: "Marine",
         secondName: "Mkrtchyan",
         position: "Doctor - Dentist",
+        positionBackground: "Doctor",
         imageSrc: require("../Assets/Images/Dentists/Marine.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -26,6 +28,7 @@ const dentistsInfo = [
         firstName: "Aida",
         secondName: "Babayan",
         position: "Doctor - Dentist",
+        positionBackground: "Doctor",
         imageSrc: require("../Assets/Images/Dentists/Aida.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -37,6 +40,7 @@ const dentistsInfo = [
         firstName: "Anahit",
         secondName: "Melkonyan",
         position: "Doctor - Dentist",
+        positionBackground: "Doctor",
         imageSrc: require("../Assets/Images/Dentists/Anahit.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -48,6 +52,7 @@ const dentistsInfo = [
         firstName: "Hovhannes",
         secondName: "Zeynalyan",
         position: "Doctor - Dentist",
+        positionBackground: "Doctor",
         imageSrc: require("../Assets/Images/Dentists/Hovhannes.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -59,6 +64,7 @@ const dentistsInfo = [
         firstName: "Armenak",
         secondName: "Srocanc",
         position: "Doctor - Dentist",
+        positionBackground: "Doctor",
         imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -70,6 +76,7 @@ const dentistsInfo = [
         firstName: "Anush",
         secondName: "Karapetyan",
         position: "Cosmetologist",
+        positionBackground: "Cosmetologist",
         imageSrc: require("../Assets/Images/Staff/Anush.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -81,6 +88,7 @@ const dentistsInfo = [
         firstName: "Christine",
         secondName: "Ghazaryan",
         position: "Nurse",
+        positionBackground: "Nurse",
         imageSrc: require("../Assets/Images/Staff/Christine_Ghazaryan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -92,6 +100,7 @@ const dentistsInfo = [
         firstName: "Evelina",
         secondName: "Beglaryan",
         position: "Nurse",
+        positionBackground: "Nurse",
         imageSrc: require("../Assets/Images/Staff/Evelina_Beglaryan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -103,6 +112,7 @@ const dentistsInfo = [
         firstName: "Karine",
         secondName: "Hambardzumyan",
         position: "Nurse",
+        positionBackground: "Nurse",
         imageSrc: require("../Assets/Images/Staff/Karine_Hambardzumyan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -114,6 +124,7 @@ const dentistsInfo = [
         firstName: "Yelena",
         secondName: "Alexanyan",
         position: "Nurse",
+        positionBackground: "Nurse",
         imageSrc: require("../Assets/Images/Staff/Yelena_Alexanyan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -125,6 +136,7 @@ const dentistsInfo = [
         firstName: "Mariam",
         secondName: "Fahradyan",
         position: "Nurse",
+        positionBackground: "Nurse",
         imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -136,6 +148,7 @@ const dentistsInfo = [
         firstName: "Sofy",
         secondName: "Hakobyan",
         position: "Nurse",
+        positionBackground: "Nurse",
         imageSrc: require("../Assets/Images/Staff/Sofy_Hakobyan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
@@ -147,6 +160,7 @@ const dentistsInfo = [
         firstName: "Shushan",
         secondName: "Abrahamyan",
         position: "Administrator",
+        positionBackground: "Administrator",
         imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n" +
