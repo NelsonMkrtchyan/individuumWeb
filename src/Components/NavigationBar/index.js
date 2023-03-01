@@ -102,14 +102,14 @@ const NavigationBar = () => {
           </PagesList>
           <LanguageWrapper>
               <LanguageLink
-                selected={i18n.language === "en"}
-                backgroundImage={`url(${require("../../Assets/Flags/united-states-of-america.svg").default})`}
-                onClick={() => handleOnclick("en")}
-              />
-              <LanguageLink
                 selected={i18n.language === "am"}
                 backgroundImage={`url(${require("../../Assets/Flags/armenia.svg").default})`}
                 onClick={() => handleOnclick("am")}
+              />
+              <LanguageLink
+                selected={i18n.language === "en"}
+                backgroundImage={`url(${require("../../Assets/Flags/united-states-of-america.svg").default})`}
+                onClick={() => handleOnclick("en")}
               />
           </LanguageWrapper>
 

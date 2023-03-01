@@ -8,16 +8,16 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    resources: {
-      ...Object.entries(resources).reduce(
-        (acc, [key, value]) => ({
-          ...acc,
-          [key]: value,
-        }),
-        {}
-      ),
-    },
-    lng: "en",
+      resources: {
+          ...Object.entries(resources).reduce(
+            (acc, [key, value]) => ({
+                ...acc,
+                [key]: value
+            }),
+            {}
+          )
+      },
+      lng: "am"
   })
   .then();
 

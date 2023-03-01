@@ -36,24 +36,6 @@ const priceList = [
                 ]
             },
             {
-                subCategoryName: "Teeth Whitening",
-                treatments: [
-                    {
-                        name: "Opalescence boost / office whitening",
-                        price: "30000"
-                    },
-                    {
-                        name: "Ultradent opalescence/ home whitening",
-                        price: "65000"
-                    },
-                    {
-                        name: "One tooth whitening",
-                        price: "10000"
-                    }
-
-                ]
-            },
-            {
                 subCategoryName: "Endodontics / root canal treatment",
                 treatments: [
                     {
@@ -270,7 +252,7 @@ const priceList = [
     {
         id: 4,
         categoryName: "Prosthodontic dentistry",
-        color: "#9B74B3",
+        color: "#777FB0",
         logo: require("../Assets/Images/tooth_1.png"),
         subCategories: [
             {
@@ -415,9 +397,43 @@ const priceList = [
                         price: ""
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        id: 5,
+        categoryName: "Teeth Whitening",
+        color: "#9B74B3",
+        logo: require("../Assets/Images/tooth_2.png"),
+        subCategories: [
             {
-                subCategoryName: "Orthodontics",
+                subCategoryName: "",
+                treatments: [
+                    {
+                        name: "Opalescence boost / office whitening",
+                        price: "30000"
+                    },
+                    {
+                        name: "Ultradent opalescence/ home whitening",
+                        price: "65000"
+                    },
+                    {
+                        name: "One tooth whitening",
+                        price: "10000"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        id: 6,
+        categoryName: "Orthodontics",
+        color: "#ECBE21",
+        logo: require("../Assets/Images/tooth_1.png"),
+        subCategories: [
+            {
+                subCategoryName: "",
                 treatments: [
                     {
                         name: "Apparat treatment",
@@ -457,6 +473,482 @@ const priceList = [
     }
 ];
 
+
+const priceListArmenian = [
+    {
+        id: 0,
+        categoryName: "Թերապևտիկ ստոմատոլոգիա",
+        color: "#ECBE21",
+        logo: require("../Assets/Images/tooth_1.png"),
+        subCategories: [
+            {
+                subCategoryName: "Կարիեսի Բուժում",
+                treatments: [
+                    {
+                        name: "Միջին կարիեսի բուժում",
+                        price: "12000"
+                    },
+                    {
+                        name: "Խորանիստ կարիեսի բուժում",
+                        price: "15000"
+                    },
+                    {
+                        name: "Էսթետիկ ռեստավրացիա",
+                        price: "15000"
+                    },
+                    {
+                        name: "Ֆիսուրների հերմետիզացիա",
+                        price: "6000"
+                    },
+                    {
+                        name: "Ապակեմանրաթելային հիմքով կոմպոզիտային կամուրջ",
+                        price: "20000"
+                    },
+                    {
+                        name: "Կոմպոզիտային ներդիր",
+                        price: "35000"
+                    }
+
+                ]
+            },
+            {
+                subCategoryName: "Էնդոդոնտիա /արմատախողովակների բուժում/",
+                treatments: [
+                    {
+                        name: "Արմատախողովակների բուժում և պսակի վերականգնում /մեկարմատանի/",
+                        price: "27000"
+                    },
+                    {
+                        name: "Արմատախողովակների բուժում և պսակի վերականգնում /երկարմատանի/",
+                        price: "35000"
+                    },
+                    {
+                        name: "Արմատախողովակների բուժում և պսակի վերականգնում /բազմարմատ/",
+                        price: "40000"
+                    },
+                    {
+                        name: "Մեկարմատանի ատամի արմատախողովակների բուժում",
+                        price: "15000"
+                    },
+                    {
+                        name: "Երկարմատանի ատամի արմատախողովակների բուժում",
+                        price: "18000"
+                    },
+                    {
+                        name: "Բազմարմատ ատամի արմատախողովակների բուժում",
+                        price: "23000"
+                    },
+                    {
+                        name: "Ապակեմանրաթելային գամիկ",
+                        price: "2000"
+                    },
+                    {
+                        name: "Ատամի վերականգնում պսակի տակ",
+                        price: "3000"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        id: 1,
+        categoryName: "Մանկական ստոմատոլոգիա",
+        color: "#777FB0",
+        logo: require("../Assets/Images/tooth_2.png"),
+        subCategories: [
+            {
+                subCategoryName: "",
+                treatments: [
+                    {
+                        name: "Կարիեսի բուժում",
+                        price: "10000"
+                    },
+                    {
+                        name: "Մանկական էնդոդոնտիա և պսակի վերականգնում",
+                        price: "15000"
+                    },
+                    {
+                        name: "Մանկական էնդոդոնտիա և ստանդարտ պսակի տեղադրում",
+                        price: "15000"
+                    },
+                    {
+                        name: "Ատամնաքարերի հեռացում, ռեմիներալիզացիոն թերապիա, ֆտորացում /մանկական/",
+                        price: "30000"
+                    },
+                    {
+                        name: "Կաթնատամի  հեռացում",
+                        price: "4000"
+                    },
+                    {
+                        name: "Հեռացված ատամի տեղի պահպանիչի տեղադրում",
+                        price: "13000"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        id: 2,
+        categoryName: "Պարօդոնտոլոգիա",
+        color: "#9B74B3",
+        logo: require("../Assets/Images/tooth_1.png"),
+        subCategories: [
+            {
+                subCategoryName: "",
+                treatments: [
+                    {
+                        name: "Պարօդոնտիտի բուժում /կյուրետաժ/",
+                        price: "30000"
+                    },
+                    {
+                        name: "Aphtous stomatitis treatment",
+                        price: "6000"
+                    },
+                    {
+                        name: "Լնդային պլաստիկա 3-6 ատամի շրջանում",
+                        price: "20000"
+                    },
+                    {
+                        name: "Լնդի հատում մեկ ատամի շրջանում",
+                        price: "3000"
+                    },
+                    {
+                        name: "Ատամների շինավորում /4-6 ատամ/",
+                        price: "15000"
+                    }
+                ]
+            },
+            {
+                subCategoryName: "",
+                treatments: [
+                    {
+                        name: "Ատամնաքարերի հեռացում և էմալի փայլեցում",
+                        price: "14000"
+                    },
+                    {
+                        name: "Գինգիվիտի բուժում /2 այց/",
+                        price: "15000"
+                    },
+                    {
+                        name: "Գինգիվիտի բուժում /3-4այց/",
+                        price: "20000"
+                    },
+                    {
+                        name: "Ատամնաքարերի հեռացում, ռեմիներալիզացիոն թերապիա, ֆտորացում",
+                        price: "33000"
+                    },
+                    {
+                        name: "Պարօդոնտիտի բուժում ",
+                        price: "25000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 3,
+        categoryName: "Վիրաբուժական ստոմատոլոգիա",
+        color: "#ECBE21",
+        logo: require("../Assets/Images/tooth_2.png"),
+        subCategories: [
+            {
+                subCategoryName: "Ատամի հեռացում",
+                treatments: [
+                    {
+                        name: "Կաթնատամի  հեռացում",
+                        price: "4000"
+                    },
+                    {
+                        name: "Մեկարմատանի ատամի հեռացում",
+                        price: "5000"
+                    },
+                    {
+                        name: "Բազմարմատ ատամի հեռացում",
+                        price: "7000"
+                    },
+                    {
+                        name: "8-րդ ատամի հեռացում",
+                        price: "10000"
+                    },
+                    {
+                        name: "Ռետենցված ատամի հեռացում",
+                        price: "30000"
+                    },
+                    {
+                        name: "Ատամի հեմիսեկցիա",
+                        price: "5000"
+                    },
+                    {
+                        name: "Աբսցեսի բուժում",
+                        price: "10000"
+                    },
+                    {
+                        name: "Պերիկորոնարիտի բուժում",
+                        price: "8000"
+                    }
+                ]
+            },
+            {
+                subCategoryName: "Ատամի հեռացում",
+                treatments: [
+                    {
+                        name: "Ալվեոլիտի բուժում",
+                        price: "9000"
+                    },
+                    {
+                        name: "Էքզոսթոզների հեռացում /1 սեգմենտ/",
+                        price: "5000"
+                    },
+                    {
+                        name: "Սինուս լիֆթինգ",
+                        price: "250000"
+                    },
+                    {
+                        name: "Իմպլանտացիա JD/icon",
+                        price: "200000"
+                    },
+                    {
+                        name: "Իմպլանտացիա /NeoBiotech/",
+                        price: "160000"
+                    },
+                    {
+                        name: "Իմպլանտացիա /Nobel Biocare/",
+                        price: "400000"
+                    },
+                    {
+                        name: "Ոսկրային պլաստիկա (մինիմալ արժեք) ",
+                        price: "60000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 4,
+        categoryName: "Օրթոպեդիկ ստոմատոլոգիա",
+        color: "#777FB0",
+        logo: require("../Assets/Images/tooth_1.png"),
+        subCategories: [
+            {
+                subCategoryName: "Անշարժ պրոթեզավորում",
+                treatments: [
+                    {
+                        name: "Մետաղկերամիկական պսակ /Noritake/",
+                        price: "45000"
+                    },
+                    {
+                        name: "Մետաղկերամիկական պսակ /Ivoclar/",
+                        price: "55000"
+                    },
+                    {
+                        name: "Կերամիկական պսակ զիրկոնօքսիդի հիմքով",
+                        price: "95000"
+                    },
+                    {
+                        name: "Կերամիկական վինիր/պսակ",
+                        price: "105000"
+                    },
+                    {
+                        name: "Կերամիկական վերդիր, ներդիր /e-max press/",
+                        price: "70000"
+                    },
+                    {
+                        name: "Զիրկոնօքսիդե անատոմիական պսակ ",
+                        price: "65000"
+                    },
+                    {
+                        name: "Ամբողջաձույլ պսակ ոչ թանկարժեք մետաղով",
+                        price: "15000"
+                    },
+                    {
+                        name: "Ամբողջաձույլ գամիկ",
+                        price: "10000"
+                    },
+                    {
+                        name: "Զիրկոնօքսիդի հիմքի վրա գամիկ",
+                        price: "26000"
+                    },
+                    {
+                        name: "Ժամանակավոր պլաստմասե պսակ՝ մետաղական հենքով",
+                        price: "8000"
+                    }
+                ]
+            },
+            {
+                subCategoryName: "Անշարժ պրոթեզավորում",
+                treatments: [
+                    {
+                        name: "Ժամանակավոր պլաստմասե պսակ",
+                        price: "5000"
+                    },
+                    {
+                        name: "Մետաղկերամիկական պսակ իմպլանտանտի վրա /Noritake/",
+                        price: "50000"
+                    },
+                    {
+                        name: "Մետաղկերամիկական պսակ իմպլանտանտի վրա   /Ivoclar/",
+                        price: "60000"
+                    },
+                    {
+                        name: "Կերամիկական պսակ զիրկոնօքսիդի հիմքով իմպլանտի վրա",
+                        price: "95000"
+                    },
+                    {
+                        name: "Ժամանակավոր վինիր /mock up/",
+                        price: "8000"
+                    },
+                    {
+                        name: "Ստանդարտ աբաթմենթ",
+                        price: "25000"
+                    },
+                    {
+                        name: "Անհատական աբաթմենթ",
+                        price: "40000"
+                    },
+                    {
+                        name: "Անհատական աբաթմենթ զիրկոնօքսիդի հիմքով",
+                        price: ""
+                    },
+                    {
+                        name: "Գնդաձև աբաթմենթ",
+                        price: "35000"
+                    },
+                    {
+                        name: "Multiunit աբաթմենթ",
+                        price: ""
+                    },
+                    {
+                        name: "Լնդի ձևավորիչ",
+                        price: "5000"
+                    }
+                ]
+            },
+            {
+                subCategoryName: "Շարժական պրոթեզավորում",
+                treatments: [
+                    {
+                        name: "Շարժական թիթեղյա պրոթեզ /1 ծնոտ/",
+                        price: "75000"
+                    },
+                    {
+                        name: "Շարժական թիթեղյա պրոթեզ իմպլանտանտների հենքով",
+                        price: "150000"
+                    },
+                    {
+                        name: "Շարժական պրոթեզի կցամաս-լոկատոր",
+                        price: "32500"
+                    },
+                    {
+                        name: "Կապրոնե կլամեր",
+                        price: "100000"
+                    },
+                    {
+                        name: "Մասնակի մետաղական պրոթեզ /բյուգել/ /1 ծնոտ/",
+                        price: "150000"
+                    },
+                    {
+                        name: "Մասնակի կապրոնե պրոթեզ / բյուգել/ /1 ծնոտ/",
+                        price: "150000"
+                    },
+                    {
+                        name: "Մետաղական միակողմանի պրոթեզ /բյուգել/",
+                        price: "8000"
+                    },
+                    {
+                        name: "Պրոթեզի վերահենքավորում /1 ծնոտ/",
+                        price: "10000"
+                    },
+                    {
+                        name: "Պրոթեզի փափուկ վերահենքավորում /1 ծնոտ/",
+                        price: "15000"
+                    },
+                    {
+                        name: "Կոտրված պրոթեզի վերականգնում",
+                        price: "4000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 5,
+        categoryName: "Ատամների սպիտակեցում",
+        color: "#9B74B3",
+        logo: require("../Assets/Images/tooth_2.png"),
+        subCategories: [
+            {
+                subCategoryName: "",
+                treatments: [
+                    {
+                        name: "Opalescence boost /Օֆիսային/ սպիտակեցում",
+                        price: "30000"
+                    },
+                    {
+                        name: "Ultradent opalescence /տնային/ սպիտակեցում",
+                        price: "65000"
+                    },
+                    {
+                        name: "Մեկ ատամի սպիտակեցում",
+                        price: "10000"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        id: 6,
+        categoryName: "Օրթոդոնտիկ ստոմատոլոգիա",
+        color: "#ECBE21",
+        logo: require("../Assets/Images/tooth_1.png"),
+        subCategories: [
+            {
+                subCategoryName: "",
+                treatments: [
+                    {
+                        name: "Ապարատային բուժում",
+                        price: "200000"
+                    },
+                    {
+                        name: "Բրեկետային բուժում (մետաղական բրեկետներ)",
+                        price: "450000"
+                    },
+                    {
+                        name: "Բրեկետային բուժում (կերամիկական բրեկետներ)",
+                        price: "500000"
+                    },
+                    {
+                        name: "Բրուքսիզմի կապպա",
+                        price: "13000"
+                    },
+                    {
+                        name: "Օրթոդոնտիկ ֆիքսող կապպա ",
+                        price: "13000"
+                    },
+                    {
+                        name: "TENS ախտորոշում",
+                        price: "60000"
+                    },
+                    {
+                        name: "OPG ռենտգեն հետազոտություն",
+                        price: "6000"
+                    },
+                    {
+                        name: "Ռենտգեն հետազոտություն",
+                        price: "1000"
+                    }
+                ]
+            }
+        ]
+    }
+];
+
 export function getPriceList() {
     return priceList;
+}
+
+export function getPriceListArmenian() {
+    return priceListArmenian;
 }

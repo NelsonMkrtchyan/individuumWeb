@@ -41,6 +41,7 @@ function App() {
       <>
           <Router>
               <ScrollToTop>
+                  {/*<NavigationBar />*/}
                   <Routes>
                       <Route path="/" element={<LandingPage />} />
                       <Route path="/aboutUs" element={<AboutUsPage />} />

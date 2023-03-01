@@ -3,25 +3,30 @@ import NavigationBar from "../../Components/NavigationBar";
 import Footer from "../../Components/Footer";
 import PrincipalsComponent from "../../Components/PrincipalsComponent";
 import PageTitleSection from "../../Components/PageTitleSection";
-import { getPriceList } from "../../Data/priceList";
 import PriceListCategory from "./Components/PriceListCategory";
 import { useTranslation } from "react-i18next";
+import { usePriceData } from "../../Hooks/usePriceData";
 
 const PriceListPage = () => {
     const { t } = useTranslation(["navbar"]);
 
-    const priceList = getPriceList();
+    const { priceData, currency } = usePriceData();
     return (
       <div>
           <NavigationBar />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <PageTitleSection title={t("navbar:priceList")} />
-          {priceList.map((category, index) => {
+          {priceData.map((category, index) => {
               return (
-                <PriceListCategory key={index} id={category.id} title={category.categoryName}
-                                   color={category.color}
-                                   logo={category.logo}
-                                   data={category.subCategories} />
+                <PriceListCategory
+                  key={index}
+                  id={category.id}
+                  title={category.categoryName}
+                  color={category.color}
+                  logo={category.logo}
+                  data={category.subCategories}
+                  currency={currency}
+                />
               );
           })}
           <Footer />
