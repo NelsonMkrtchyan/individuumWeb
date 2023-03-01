@@ -1,9 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { PageLink, PagesList } from "../NavigationBar";
+import { PageLink } from "../NavigationBar";
 import Title from "../Title";
 import styled from "styled-components";
-import ScreenTab from "../NavigationBar/ScreenTab";
 import { useScreens } from "../../Data/useScreenData";
 
 const Wrapper = styled.div`
@@ -144,22 +143,22 @@ const Footer = () => {
                       </ContactsItem>
                   </List>
               </Column>
-              <Column style={{ flex: 1, alignItems: "center" }}>
-                  <Title title={t("common:navigation")} />
-                  <PagesList footer={true}>
-                      {screens.map((screen, i) => (
-                        <ScreenTab
-                          key={i}
-                          title={screen.name}
-                          whereTo={screen.to}
-                        />
-                      ))}
-                  </PagesList>
-              </Column>
-              <Column style={{ flex: 0, minWidth: "10vw", alignItems: "center" }}>
+              {/*<Column style={{ flex: 1, alignItems: "center" }}>*/}
+              {/*    <Title title={t("common:navigation")} />*/}
+              {/*    <PagesList footer={true}>*/}
+              {/*        {screens.map((screen, i) => (*/}
+              {/*          <ScreenTab*/}
+              {/*            key={i}*/}
+              {/*            title={screen.name}*/}
+              {/*            whereTo={screen.to}*/}
+              {/*          />*/}
+              {/*        ))}*/}
+              {/*    </PagesList>*/}
+              {/*</Column>*/}
+              <Column style={{ flex: 1, minWidth: "10vw", alignItems: "center" }}>
                   <Title title={t("common:findUs")} />
                   <Socials>
-                      <SocialItem href="https://www.instagram.com/individuum_dental_clinic/?hl=en">
+                      <SocialItem href="https://www.instagram.com/individuum_idm/">
                           <Icon>
                               <img
                                 src={require("../../Assets/Icons/instagram.svg").default}
