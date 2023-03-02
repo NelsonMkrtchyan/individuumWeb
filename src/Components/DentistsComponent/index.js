@@ -7,11 +7,11 @@ import "swiper/css/pagination";
 import { FreeMode } from "swiper";
 import Button from "../Button";
 import UserCard from "../../Containers/DentistsPage/Components/UserCard";
-import { getDentistsInfo } from "../../Data/dentistsInfo";
 import { useTranslation } from "react-i18next";
 import { Container } from "../Styles";
 import styled from "styled-components";
 import BackgroundTitle from "../BackgroundTitle";
+import { useStaffData } from "../../Hooks/useStaffData";
 
 const BlueBox = styled.div.attrs((style) => ({
     ...style
@@ -40,7 +40,7 @@ const SwiperWrapper = styled.div`
 `;
 const DentistsComponent = () => {
     const { t } = useTranslation(["navbar"]);
-    const dentistsInfo = getDentistsInfo();
+    const staffData = useStaffData();
     return (
       <Container style={{ width: "100%", height: "50vw", flexDirection: "column" }}>
           <>
@@ -79,7 +79,7 @@ const DentistsComponent = () => {
                     }}
                     className="dentistsSwiper"
                   >
-                      {dentistsInfo.map((dentist) => {
+                      {staffData.map((dentist) => {
                           return (
                             <SwiperSlide>
                                 <UserCard
