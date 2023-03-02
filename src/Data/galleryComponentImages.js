@@ -1,37 +1,155 @@
-const photos = [
+export const landingGalleryImagesAlt = [
     {
-        src: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        width: 5,
-        height: 3
+        src: require("../Assets/Images/Gallery/macro_1.jpeg"),
+        width: 3,
+        height: 2
     },
     {
-        src: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        width: 6,
+        src: require("../Assets/Images/Gallery/macro_3.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/macro_2.jpeg"),
+        width: 2,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/macro_4.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/macro_5.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/macro_1.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/macro_5.jpeg"),
+        width: 3,
+        height: 2
+    }
+];
+export const landingGalleryImagesMain = [
+    {
+        src: require("../Assets/Images/LandingSwiper/team_1.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/LandingSwiper/team_3.jpeg"),
+        width: 4,
         height: 4
     },
     {
-        src: "https://images.unsplash.com/photo-1606811951341-756fdd437682?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80",
+        src: require("../Assets/Images/Gallery/team_5.jpeg"),
         width: 5,
         height: 4
     },
     {
-        src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80",
-        width: 4,
+        src: require("../Assets/Images/LandingSwiper/team_2.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/team_4.jpeg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/AboutUsComponent.jpeg"),
+        width: 3,
+        height: 4
+    }
+];
+export const aboutUsImages = [
+    {
+        src: require("../Assets/Images/Gallery/armenak_1.jpeg"),
+        width: 3,
+        height: 4
+    },
+    {
+        src: require("../Assets/Images/Gallery/anahit_1.jpeg"),
+        width: 3,
         height: 3
     },
     {
-        src: "https://images.unsplash.com/photo-1620775997780-a01e050a9db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        width: 4,
+        src: require("../Assets/Images/Gallery/marine_1.jpeg"),
+        width: 3,
+        height: 4
+    },
+    {
+        src: require("../Assets/Images/Gallery/anush.jpeg"),
+        width: 2,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/armenak_2.jpeg"),
+        width: 3,
         height: 3
     },
     {
-        src: "https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        width: 5,
+        src: require("../Assets/Images/Gallery/hovhannes_2.jpeg"),
+        width: 2,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/marine_2.jpeg"),
+        width: 2,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/marine_3.jpeg"),
+        width: 3,
         height: 3
     }
 ];
+export const dentistsWorksImages = [
+    {
+        src: require("../Assets/Images/Gallery/work_1_2.jpeg"),
+        width: 3,
+        height: 3
+    },
+    {
+        src: require("../Assets/Images/Gallery/work_2.jpeg"),
+        width: 3,
+        height: 4
+    },
+    {
+        src: require("../Assets/Images/Gallery/work_3.jpeg"),
+        width: 2,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/work_4_1.jpeg"),
+        width: 3,
+        height: 3
+    },
+    {
+        src: require("../Assets/Images/Gallery/work_4_2.jpeg"),
+        width: 2,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/Gallery/work_5.jpeg"),
+        width: 2,
+        height: 2
+    }
+];
 
+export function getLandingGalleryImages() {
+    return { photos: landingGalleryImagesMain, limitNodeSearch: 3, direction: "row" };
+}
 
-export function getGalleryComponentImages() {
-    return photos;
+export function getAboutUsImages() {
+    return { photos: aboutUsImages, limitNodeSearch: 3, direction: "column" };
+}
+
+export function getDentistsWorksImages() {
+    return { photos: dentistsWorksImages, limitNodeSearch: 3, direction: "column" };
 }

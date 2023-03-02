@@ -6,10 +6,11 @@ import GalleryComponent from "../../Components/GalleryComponent";
 import AboutUsPageAboutUs from "./Components/AboutUsPageAboutUs";
 import { useTranslation } from "react-i18next";
 import PageTitleSection from "../../Components/PageTitleSection";
+import { getAboutUsImages } from "../../Data/galleryComponentImages";
 
 const AboutUsPage = () => {
     const { t } = useTranslation(["common"]);
-
+    const values = getAboutUsImages();
     return (
       <div>
 
@@ -20,6 +21,7 @@ const AboutUsPage = () => {
           <GalleryComponent
             title={t("common:ourWorks")}
             backgroundTitle={t("common:ourWorks")}
+            values={values}
           />
           <Footer />
       </div>

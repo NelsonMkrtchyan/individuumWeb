@@ -1,13 +1,12 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
 import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
 import Button from "../Button";
-import { getGalleryComponentImages } from "../../Data/galleryComponentImages";
 import { useTranslation } from "react-i18next";
 import { Container } from "../Styles";
 import BackgroundTitle from "../BackgroundTitle";
 import styled from "styled-components";
 import Title from "../Title";
-
 
 const GalleryWrapper = styled.div`
   width: 90%;
@@ -19,34 +18,67 @@ const GalleryWrapper = styled.div`
     border-radius: 20px;
   }
 `;
-
-
-const GalleryComponent = ({ backgroundTitle, title }) => {
+const GalleryComponent = ({ backgroundTitle, title, values }) => {
     const { t } = useTranslation(["common"]);
-    const photos = getGalleryComponentImages();
+    const [currentImage, setCurrentImage] = useState(0);
+    const [viewerIsOpen, setViewerIsOpen] = useState(false);
+    const openLightbox = useCallback((event, { photo, index }) => {
+        setCurrentImage(index);
+        setViewerIsOpen(true);
+    }, []);
+    const closeLightbox = () => {
+        setCurrentImage(0);
+        setViewerIsOpen(false);
+    };
+
     return (
-      <Container style={{ flexDirection: "column" }}>
-          {backgroundTitle && (
-            <BackgroundTitle
-              backgroundTitle={backgroundTitle}
-              fontSize="8vw"
-              style={{ top: 0, textAlign: "end" }}
-            />
+      <>
+          {values.photos && (
+            <Container style={{ flexDirection: "column" }}>
+                {backgroundTitle && (
+                  <BackgroundTitle
+                    backgroundTitle={backgroundTitle}
+                    fontSize="8vw"
+                    style={{ top: 0, textAlign: "end" }}
+                  />
+                )}
+                <GalleryWrapper>
+                    <Title title={title} style={{ fontSize: "2vw", paddingRight: "10vw", textAlign: "end" }} />
+                    <Gallery
+                      onClick={openLightbox}
+                      photos={values.photos}
+                      margin={20}
+                      targetRowHeight={10}
+                      limitNodeSearch={values.limitNodeSearch}
+                      direction={values.direction}
+                    />
+                    <ModalGateway>
+                        {viewerIsOpen ? (
+                          <Modal onClose={closeLightbox}>
+                              <Carousel
+                                currentIndex={currentImage}
+                                views={values.photos.map(x => ({
+                                    ...x,
+                                    srcset: x.srcSet,
+                                    caption: x.title
+                                }))}
+                              />
+                          </Modal>
+                        ) : null}
+                    </ModalGateway>
+                </GalleryWrapper>
+                <Button
+                  text={t("common:seeAll")}
+                  whereTo="gallery"
+                  style={{
+                      position: "relative",
+                      alignSelf: "end",
+                      marginRight: "10vw"
+                  }}
+                />
+            </Container>
           )}
-          <GalleryWrapper>
-              <Title title={title} style={{ fontSize: "2vw", paddingRight: "10vw", textAlign: "end" }} />
-              <Gallery photos={photos} margin={20} direction={"row"} />
-          </GalleryWrapper>
-          <Button
-            text={t("common:seeAll")}
-            whereTo="dentists"
-            style={{
-                position: "relative",
-                alignSelf: "end",
-                marginRight: "10vw"
-            }}
-          />
-      </Container>
+      </>
     );
 };
 

@@ -1,8 +1,8 @@
 {
   "principals": {
     "teamWork": "Թիմային Աշխատանք",
-    "patientCenteredCare": "Հիվանդի Կենտրոնացված Խնամք",
-    "safety": "Ապահովություն",
+    "patientCenteredCare": "Պացիենտակենտրոն Մոտեցում",
+    "safety": "Ապահովության Մթնոլորտ",
     "professionalism": "Պրոֆեսիոնալիզմ"
   },
   "workingHours": "Աշխատանքային ժամեր",

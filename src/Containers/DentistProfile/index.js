@@ -8,6 +8,7 @@ import styled from "styled-components";
 import Title from "../../Components/Title";
 import Button from "../../Components/Button";
 import { useStaffData } from "../../Hooks/useStaffData";
+import { getDentistsWorksImages } from "../../Data/galleryComponentImages";
 
 
 const Container = styled.div`
@@ -76,6 +77,8 @@ const Image = styled.img.attrs((style) => ({
 
 const DentistProfile = () => {
     const { t } = useTranslation(["navbar", "common"]);
+    const values = getDentistsWorksImages();
+
     const { dentistId } = useParams();
     const staffData = useStaffData();
     const currentDentist = useMemo(() => {
@@ -131,6 +134,7 @@ const DentistProfile = () => {
           <GalleryComponent
             title={t("common:works")}
             backgroundTitle={t("common:works")}
+            values={values}
           />
           <Footer />
       </>
