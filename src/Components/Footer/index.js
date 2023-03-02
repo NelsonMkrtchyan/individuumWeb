@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { PageLink } from "../NavigationBar";
 import Title from "../Title";
 import styled from "styled-components";
-import { useScreens } from "../../Data/useScreenData";
 
 const Wrapper = styled.div`
   display: flex;
@@ -101,7 +100,6 @@ const LogoContainer = styled.div`
 
 const Footer = () => {
     const { t } = useTranslation(["navbar", "common"]);
-    const screens = useScreens();
     return (
       <Wrapper>
           <UpperContainer>

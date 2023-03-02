@@ -12,7 +12,6 @@ const PriceListPage = () => {
     const { priceData, currency } = usePriceData();
     return (
       <div>
-
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <PageTitleSection title={t("navbar:priceList")} />
           {priceData.map((category, index) => {

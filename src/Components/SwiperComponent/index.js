@@ -10,7 +10,6 @@ import { getSwiperImages } from "../../Data/swiperImages";
 
 const SwiperComponent = () => {
       const swiperImages = getSwiperImages();
-
       return (
         <div className="swiperComponentContainer">
             <Swiper
@@ -31,13 +30,12 @@ const SwiperComponent = () => {
                       <SwiperSlide>
                           <div className="swiperComponentSlideImage"
                                style={{ backgroundImage: `url("${image.src}")` }} />
-
                           <div className="swiperComponentWatermark">
-                              <div className="swiperComponentIcon"
-                                   style={{ backgroundImage: `url("${require("../../Assets/Images/LandingSwiper/swiperIcon.svg").default}")` }} />
-                              <div className="swiperComponentWatermarkText">
-                                  <p>Individuum Clinic</p>
-                              </div>
+                              {/*<div className="swiperComponentIcon"*/}
+                              {/*     style={{ backgroundImage: `url("${require("../../Assets/Images/LandingSwiper/swiperIcon.svg").default}")` }} />*/}
+                              {/*<div className="swiperComponentWatermarkText">*/}
+                              {/*    <p>Individuum Clinic</p>*/}
+                              {/*</div>*/}
                           </div>
                       </SwiperSlide>
                     );
