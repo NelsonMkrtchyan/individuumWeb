@@ -85,7 +85,7 @@ const DentistProfile = () => {
         return staffData.filter(
           (dentist) => dentist.id.toString() === dentistId
         )[0];
-    }, [staffData]);
+    }, [staffData, dentistId]);
     return (
       <>
 

@@ -35,7 +35,6 @@ const ContactsPage = () => {
     const { t } = useTranslation(["navbar", "common"]);
     return (
       <div>
-
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <Info>
               <BackgroundTitle
@@ -55,11 +54,11 @@ const ContactsPage = () => {
                       <List>
                           <ContactsItem>
                               <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
-                              <p>Armenia, Yerevan, 0026 Vardanants 2</p>
+                              <p>{t("common:address1")}</p>
                           </ContactsItem>
                           <ContactsItem>
                               <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
-                              <p>Armenia, Yerevan, 0026 Garegin Njdeh 44</p>
+                              <p>{t("common:address2")}</p>
                           </ContactsItem>
                       </List>
                   </Column>

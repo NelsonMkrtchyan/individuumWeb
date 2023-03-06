@@ -108,7 +108,7 @@ const Footer = () => {
                       <img style={{
                           width: "auto",
                           height: "200px"
-                      }} src={require("../../Assets/Images/FooterLogo.png")} alt="icon" />
+                      }} src={require("../../Assets/Images/IndividuumLogo.png")} alt="icon" />
                   </PageLink>
               </LogoContainer>
               <Column style={{ flex: 1 }}>
@@ -116,11 +116,11 @@ const Footer = () => {
                   <List>
                       <ContactsItem>
                           <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
-                          <p>Armenia, Yerevan, 0026 Vardanants 2</p>
+                          <p>{t("common:address1")}</p>
                       </ContactsItem>
                       <ContactsItem>
                           <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
-                          <p>Armenia, Yerevan, 0026 Garegin Njdeh 44</p>
+                          <p>{t("common:address2")}</p>
                       </ContactsItem>
                   </List>
               </Column>
