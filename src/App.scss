@@ -19,9 +19,9 @@ $medium: 900px;
 body {
   font-size: 1vw;
   font-family: Montserrat, serif;
-  @media screen and (max-width: $medium) {
-    background-color: #ecbe21;
-  }
+  //@media screen and (max-width: $medium) {
+  //  background-color: #ecbe21;
+  //}
 }
 
 .App {
