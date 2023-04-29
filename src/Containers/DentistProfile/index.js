@@ -131,11 +131,11 @@ const DentistProfile = () => {
                 {/*/>*/}
             </Container>
           )}
-          <GalleryComponent
-            title={t("common:works")}
-            backgroundTitle={t("common:works")}
-            values={values}
-          />
+          {/*<GalleryComponent*/}
+          {/*  title={t("common:works")}*/}
+          {/*  backgroundTitle={t("common:works")}*/}
+          {/*  values={values}*/}
+          {/*/>*/}
           <Footer />
       </>
     );

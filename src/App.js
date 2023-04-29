@@ -181,18 +181,18 @@ function App() {
       <>
           <Router>
               <ScrollToTop>
-                  {/*<NavigationBar />*/}
+                  <NavigationBar />
                   <Routes>
-                      <Route path="/*" element={<ComingSoon />} />
-                      {/*<Route path="/" element={<LandingPage />} />*/}
-                      {/*<Route path="/aboutUs" element={<AboutUsPage />} />*/}
-                      {/*<Route path="/dentists" element={<DentistsPage />} />*/}
-                      {/*<Route path="/dentists/:dentistId" element={<DentistProfile />} />*/}
-                      {/*<Route path="/priceList" element={<PriceListPage />} />*/}
-                      {/*<Route path="/services" element={<ServicesPage />} />*/}
-                      {/*<Route path="/services/:serviceId" element={<ServiceInfo />} />*/}
-                      {/*<Route path="/gallery" element={<GalleryPage />} />*/}
-                      {/*<Route path="/contacts" element={<ContactsPage />} />*/}
+                      {/*<Route path="/*" element={<ComingSoon />} />*/}
+                      <Route path="/" element={<LandingPage />} />
+                      <Route path="/aboutUs" element={<AboutUsPage />} />
+                      <Route path="/dentists" element={<DentistsPage />} />
+                      <Route path="/dentists/:dentistId" element={<DentistProfile />} />
+                      <Route path="/priceList" element={<PriceListPage />} />
+                      <Route path="/services" element={<ServicesPage />} />
+                      <Route path="/services/:serviceId" element={<ServiceInfo />} />
+                      <Route path="/gallery" element={<GalleryPage />} />
+                      <Route path="/contacts" element={<ContactsPage />} />
                   </Routes>
               </ScrollToTop>
           </Router>
