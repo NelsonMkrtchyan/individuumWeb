@@ -481,9 +481,6 @@ const servicesInfo = [
                   <li>
                       Պարօդոնտիտ
                   </li>
-                  <li>
-                      Պարօդոնտոզ
-                  </li>
               </ol>
               <br />
               <ul style={{ marginLeft: "20px" }}>
@@ -494,12 +491,6 @@ const servicesInfo = [
                   <li>
                       Պարօդոնտիտը գինգիվիտի հաջորդ`երկրորդ փուլն է. բնորոշ են` կարծր ատամնային նստվածքներ, տհաճ հոտ,
                       այտուցված և արյունահոսող լնդեր, լնդագրպանիկներ որոնք բերում են ատամների շարժի:
-                  </li>
-                  <li>
-                      Պարօդոնտոզը հիմնականում արտահայտվում է համակարգային հիվանդությունների ֆոնի վրա, ունի քրոնիկական
-                      բնույթ, հիմնականում նկատվում է ատամների շարժունության և լնդագրպանիկների բացակայություն, հատկապես
-                      հիվանդության վաղ փուլում, լինում է վզիկների և արմատների մերկացում`առանց լնդերի բորբոքման, տեղի է
-                      ունենում ոսկրային հյուսվաքի պրոգրեսիվ լուծում:
                   </li>
               </ul>
               <br />
@@ -541,15 +532,6 @@ const servicesInfo = [
                       Պարօդոնտիտը պահանջում է մի փոքր ավելի ուշադիր մոտեցում. Տարին 2 անգամ պարտադիր ատամնաքարերի
                       հեռացում, հարկ եղած դեպքում նաև դեղորայքային բուժում` ողողումների, ներքին ընդունման դեղերի և
                       տեղային քսուքների տեսքով:
-                  </li>
-                  <li>
-                      Պարօդոնտոզի դեպքում բացի բժիշկ-ստոմատոլոգի մոտ տարին 2 անգամ պարտադիր այցերը, պահանջվում է նաև
-                      հայտնաբերել պարօդոնտոզի առաջացման պատճառը. Դա հաճախ լինում է համակարգային հիվանդությունների
-                      հետևանքով (սիրտ-անոթային համակարգի հիվանդություներ, շաքարային դիաբետ, նյութափոխանակության
-                      խանգարումներ, երիկամային հիվանդություններ և այլն): Այս դեպքում պետք է բուժումն իրականացնել տվյալ
-                      ոլորտի մասնագետ-բժիշկի հետ համատեղ` բուժման լավագույն արդյունքն ստանալու համար: Պարօդոնտոզը շատ
-                      հաճախ հանդիպում է բարձիթողի դեպքերում, երբ պացիենտը երկար ժամանակ չի հետևել բերաին խոռոչի
-                      հիգիենային և խնդիրներին:
                   </li>
               </ol>
               <br />
@@ -1230,9 +1212,6 @@ const servicesInfoEnglish = [
                       Parodontitis
                   </li>
                   <li>
-                      Parodontosis
-                  </li>
-                  <li>
 
                       Gingivitis is an early stage of gums inflammation process. It is characterized by mild gingival
                       bleeding, itching, and tooth decay (dental plaque and calculus)
@@ -1240,11 +1219,6 @@ const servicesInfoEnglish = [
                   <li>
                       Parodontitis is the next, second stage of gingivitis. It is characterized by hard tooth deposits,
                       unpleasant odor, swollen and bleeding gums, gingivitis that cause tooth movement.
-                  </li>
-                  <li>
-                      Parodontosis usually appears due to systematic diseases, has chronic nature. The characteristics
-                      are: absence of teeth movement, absence of gingival pockets, especially on the first stage there
-                      are cervical and root exposure without gingival inflammation; progressive bone resorbtion occurs.
                   </li>
               </ol>
               <br />
@@ -1284,14 +1258,6 @@ const servicesInfoEnglish = [
                       Parodontitis requires a slightly more careful approach. Removal of dental calculus is mandatory
                       twice a year, if necessary also use of medication in the form of rashes, intravenous medications
                       and topical creams.
-                  </li>
-                  <li>
-                      In case of parodontosis, in addition to the mandatory visits to the dentist twice a year, it is
-                      also necessary to identify the cause of the parodontosis. It is often caused by systemic diseases
-                      (cardiovascular, diabetes mellitus, metabolic disorders, kidney diseases, etc.). In this case,
-                      treatment should be carried out with a specialist in the field of chronic disease to obtain the
-                      best treatment outcome. Parodontosis is very common in cases where the patient did not pay
-                      attention to the oral hygiene and oral problems for a long time.
                   </li>
               </ol>
               <br />
