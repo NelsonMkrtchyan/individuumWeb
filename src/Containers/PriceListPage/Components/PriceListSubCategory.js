@@ -28,14 +28,14 @@ const Item = styled.div`
 const ItemName = styled.div`
   border-right: 1px solid #ecbe21;
   padding-right: 2vw;
-  flex: 3;
+  flex: 1;
   text-align: end;
   justify-content: center;
   align-items: center;
 `;
 const ItemPrice = styled.div`
   padding-left: 2vw;
-  flex: 2;
+  flex: 1;
   text-align: start;
 `;
 
