@@ -71,7 +71,7 @@ const PriceListPage = () => {
                           );
                       })}
                   </TabPanel>
-                  <TabPanel header={t("priceList:injectionCosmetology")}>
+                  <TabPanel header={t("priceList:facialAestheticCare")}>
                       {facialAestheticCarePriceData.map((category, index) => {
                           return (
                             <PriceListCategory
