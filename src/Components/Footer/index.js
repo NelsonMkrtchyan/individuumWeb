@@ -1,100 +1,100 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { PageLink } from "../NavigationBar";
 import Title from "../Title";
 import styled from "styled-components";
+import { PageLink } from "../NavigationBar/StyleComponents";
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
 `;
 const UpperContainer = styled.div`
-  flex: 1;
-  background-color: #F0F0F0;
-  display: flex;
-  flex-direction: row;
-  padding: 10px 5vw;
+    flex: 1;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5vw;
 `;
 const LowerContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3vw;
-  background-color: #777FB0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    background-color: #777FB0;
 
-  p {
-    color: white;
-  }
+    p {
+        color: white;
+    }
 `;
 export const Column = styled.div.attrs((style) => ({
     ...style
 }))`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 `;
 export const List = styled.ul`
-  flex: 1;
-  list-style: none;
+    flex: 1;
+    list-style: none;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  li {
-    padding: ${props => (props.footer ? "10px" : "0")};
-  }
+    li {
+        padding: ${props => (props.footer ? "10px" : "0")};
+    }
 `;
 export const ContactsItem = styled("li")`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  padding: 10px;
-  font-size: 1.1rem;
-  color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: inherit;
 
-  &:hover {
-    cursor: copy;
-  }
+    &:hover {
+        cursor: copy;
+    }
 `;
 export const Socials = styled.div`
-  flex: 2;
-  padding-bottom: 1vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    flex: 2;
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-  a {
-    margin-bottom: 1vw;
-  }
+    a {
+        margin-bottom: 1vw;
+    }
 `;
 export const SocialItem = styled("a").attrs(() => ({
     target: "_blank",
     rel: "noreferrer"
 }))`
-  img {
-    width: 50px;
-    height: 50px;
-  }
+    img {
+        width: 50px;
+        height: 50px;
+    }
 `;
 
 export const Icon = styled.div`
-  display: flex;
-  cursor: pointer;
+    display: flex;
+    cursor: pointer;
 `;
 
 const LogoContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  padding: 10px;
-  font-size: 1.1rem;
-  color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: inherit;
 `;
 
 

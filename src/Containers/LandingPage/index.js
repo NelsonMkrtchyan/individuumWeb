@@ -15,7 +15,6 @@ const LandingPage = () => {
     const values = getLandingGalleryImages();
     return (
       <div>
-
           <SwiperComponent />
           <PrincipalsComponent styles={{ marginTop: "5vw" }} />
           <AboutUsComponent />

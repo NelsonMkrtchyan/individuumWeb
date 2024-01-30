@@ -3,17 +3,21 @@ import styled from "styled-components";
 import { Link, useLocation } from "react-router-dom";
 
 const PageLink = styled(Link)`
-  font-size: 1rem;
-  padding: 10px;
+    font-size: 16px;
+    padding: 10px;
 
-  border-bottom: ${(prop) => prop.selected ? "1px solid #774C91" : "unset"};
-  color: ${(prop) => prop.selected ? "#774C91" : "inherit"};
+    border-bottom: ${(prop) => prop.selected ? "1px solid #774C91" : "unset"};
+    color: ${(prop) => prop.selected ? "#774C91" : "inherit"};
 
-  &:hover {
-    color: #774C91;
-    cursor: pointer;
-    border-bottom: 1px solid #774C91;
-  }
+    &:hover {
+        color: #774C91;
+        cursor: pointer;
+        border-bottom: 1px solid #774C91;
+    }
+
+    @media screen and (max-width: 899px) {
+        font-size: 20px;
+    }
 `;
 
 const ScreenTab = ({ whereTo, title }) => {
