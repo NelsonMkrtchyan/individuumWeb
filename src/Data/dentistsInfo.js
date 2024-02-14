@@ -7,7 +7,8 @@ const dentistsInfo = [
         secondName: "Tangamyan",
         position: "Doctor - Dentist - Implantologist",
         positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/Dentists/Varazdat.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Varazdat.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ՎարազդատԹանգամյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -57,7 +58,8 @@ const dentistsInfo = [
         secondName: "Mkrtchyan",
         position: "DOS - MPH candidate - Chief Medical Officer at Individuum Dental Clinic",
         positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/Dentists/Marine.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Marine.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ՄարինեՄկրտչյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -158,7 +160,8 @@ const dentistsInfo = [
         secondName: "Melkonyan",
         position: "Doctor - Dentist",
         positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/Dentists/Anahit.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Anahit.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱնահիտՄելքոնյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -212,7 +215,8 @@ const dentistsInfo = [
         secondName: "Babayan",
         position: "Doctor - Dentist",
         positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/Dentists/Aida.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Aida.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱիդաԲաբայան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -247,7 +251,8 @@ const dentistsInfo = [
         secondName: "Zeynalyan",
         position: "Doctor - Dentist",
         positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/Dentists/Hovhannes.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Hovhannes.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ՀովհաննեսԶեյնալյան.jpg"),
         description:
           <div></div>
     },
@@ -257,12 +262,54 @@ const dentistsInfo = [
         secondName: "Srocanc",
         position: "Doctor - Dentist",
         positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱրմենակՍրոցանց.jpg"),
         description:
           <div></div>
     },
+    {
+        id: 6,
+        firstName: "Armen",
+        secondName: "Khachanyan",
+        position: "Doctor - Dentist",
+        positionBackground: "Doctor",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱրմենԽաչանյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 7,
+        firstName: "Albert",
+        secondName: "Kotanov",
+        position: "Doctor - Dentist",
+        positionBackground: "Doctor",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱլբերտԿոտանով.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 8,
+        firstName: "Liana",
+        secondName: "Gevorgyan",
+        position: "Doctor - Dentist",
+        positionBackground: "Doctor",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԼիանաԳևորգյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 9,
+        firstName: "Jora",
+        secondName: "Hodabashyan",
+        position: "Doctor - Dentist",
+        positionBackground: "Doctor",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԺորաՀոդաբաշյան.jpg"),
+        description:
+          <div></div>
+    },
+
     // {
-    //     id: 6,
+    //     id: null,
     //     firstName: "Andranik",
     //     secondName: "Melqonyan",
     //     position: "Nurse",
@@ -301,13 +348,15 @@ const dentistsInfo = [
     //           </StaffInfoBlock>
     //       </div>
     // },
+
     {
-        id: 7,
+        id: 10,
         firstName: "Christine",
         secondName: "Ghazaryan",
-        position: "Nurse",
+        position: "Doctor Assistant",
         positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/Staff/Christine_Ghazaryan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Christine_Ghazaryan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՔրիստինեՂազարյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -315,7 +364,8 @@ const dentistsInfo = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Քրիստինե Ղազարյանն եմ, Ինդիվիդում ստոմատոլոգիական կլինիկայում աշխատում եմ 2020 թվականից,
+                              Ես Քրիստինե Ղազարյանն եմ, Ինդիվիդում ստոմատոլոգիական կլինիկայում աշխատում եմ 2020
+                              թվականից,
                               որպես բուժքույր։
                           </p>
                           <br />
@@ -332,8 +382,10 @@ const dentistsInfo = [
                           </p>
                           <br />
                           <p>
-                              Նախընտրում եմ ազատ ժամանակս անցկացնել արդյունավետ։ Զբաղվում եմ սպորտվ, դիտում եմ ինֆորմատիվ
-                              հոլովակներ և ֆիլմեր, ինչպես նաև սիրում եմ ժամանակ անցկացնել բնության գրկում, որտեղ կարող եմ գտնել
+                              Նախընտրում եմ ազատ ժամանակս անցկացնել արդյունավետ։ Զբաղվում եմ սպորտվ, դիտում եմ
+                              ինֆորմատիվ
+                              հոլովակներ և ֆիլմեր, ինչպես նաև սիրում եմ ժամանակ անցկացնել բնության գրկում, որտեղ կարող
+                              եմ գտնել
                               մտքի խաղաղություն, որն էլ օգնում է բալանսավորել իմ արտաքին և ներքին ներդաշնակությունը։
                           </p>
                       </div>
@@ -342,12 +394,13 @@ const dentistsInfo = [
           </div>
     },
     {
-        id: 8,
+        id: 11,
         firstName: "Evelina",
         secondName: "Beglaryan",
-        position: "Nurse",
+        position: "Doctor Assistant",
         positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/Staff/Evelina_Beglaryan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Evelina_Beglaryan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԷվելինաԲեգլարյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -355,11 +408,17 @@ const dentistsInfo = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Էվան եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ  2022 թվականից որպես բուժքույր։ Աշխատանքս համատեղում եմ ուսման ու օտար լեզվի ուսումնասիրմանհետ։
+                              Ես Էվան եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2022 թվականից որպես
+                              բուժքույր։ Աշխատանքս համատեղում եմ ուսման ու օտար լեզվի ուսումնասիրմանհետ։
                           </p>
                           <br />
                           <p>
-                              Բուժքրոջ աշխատանքում ինձ ամենից շատ ոգևորում է այն, որ ես իմ աշխատանքովօգնում եմ բժշկին` ում շնորհիվ առողջ և գեղեցիկ ժպիտներն ավելանում են:  Ես հաճախ եմ նկատում , որ մեր թիմային դրական էներգետիկան օգնում է պացիենտների լարվածության հաղթահարմանը։ Փորձում եմ հնարավորինս սիրալիր լինել թե‘ ամենափոքր, թե‘ ամենամեծպացիենտի հետ: Կարծում եմ պրոֆեսիոնալիզմի մաս է կազմում ոչ միայն մասնագիտական կրթվածությունը, այլև բարեհամբյուր սպասարկումն ու թիմային աշխատանքը:
+                              Բուժքրոջ աշխատանքում ինձ ամենից շատ ոգևորում է այն, որ ես իմ աշխատանքովօգնում եմ բժշկին`
+                              ում շնորհիվ առողջ և գեղեցիկ ժպիտներն ավելանում են: Ես հաճախ եմ նկատում , որ մեր թիմային
+                              դրական էներգետիկան օգնում է պացիենտների լարվածության հաղթահարմանը։ Փորձում եմ հնարավորինս
+                              սիրալիր լինել թե‘ ամենափոքր, թե‘ ամենամեծպացիենտի հետ: Կարծում եմ պրոֆեսիոնալիզմի մաս է
+                              կազմում ոչ միայն մասնագիտական կրթվածությունը, այլև բարեհամբյուր սպասարկումն ու թիմային
+                              աշխատանքը:
                           </p>
                           <br />
                           <p>
@@ -367,7 +426,8 @@ const dentistsInfo = [
                           </p>
                           <br />
                           <p>
-                              Կյանքում շատ եմ կարևորում օգնություն ցուցաբերելու հատկությունը, ու այդ պատճառովպլանավորում եմ զբաղվել անտուն մարդկանց օգնելու կարևորագույն քայլով։
+                              Կյանքում շատ եմ կարևորում օգնություն ցուցաբերելու հատկությունը, ու այդ պատճառովպլանավորում
+                              եմ զբաղվել անտուն մարդկանց օգնելու կարևորագույն քայլով։
                           </p>
                       </div>
                   </StaffInfoBlockLeft>
@@ -375,12 +435,13 @@ const dentistsInfo = [
           </div>
     },
     {
-        id: 9,
+        id: 12,
         firstName: "Karine",
         secondName: "Hambardzumyan",
-        position: "Nurse",
+        position: "Doctor Assistant",
         positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/Staff/Karine_Hambardzumyan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Karine_Hambardzumyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարինեՀամբարձումյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -388,19 +449,24 @@ const dentistsInfo = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Կարինե Համբարձումյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ  2018 թվականից որպես բուժքույր։
+                              Ես Կարինե Համբարձումյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2018
+                              թվականից որպես բուժքույր։
                           </p>
                           <br />
                           <p>
-                              2014-2017թթ սովորել եմ ԵՊՀԲ քոլեջում: Այս պահին նաև մասնակցում եմ «Բուժքույրական գործը 21-րդ դարում  կազմակերպում և կառավարում»  նորարարական ծրագրին։
+                              2014-2017թթ սովորել եմ ԵՊՀԲ քոլեջում: Այս պահին նաև մասնակցում եմ «Բուժքույրական գործը
+                              21-րդ դարում կազմակերպում և կառավարում» նորարարական ծրագրին։
                           </p>
                           <br />
                           <p>
-                              Բուժքրոջ աշխատանքում ինձ  համար ամենագրավիչը թիմային աշխատանքն է,  բժշկի աշխատանքի որակի ապահովումը: Ես հաճախ զգում եմ , որ իմ սիրալիր պահվածքով նպաստում եմ պացիենտների լարվածության հաղթահարմանը, բժշկի աշխատանքի էֆեկտիվության բարձրացմանը:
+                              Բուժքրոջ աշխատանքում ինձ համար ամենագրավիչը թիմային աշխատանքն է, բժշկի աշխատանքի որակի
+                              ապահովումը: Ես հաճախ զգում եմ , որ իմ սիրալիր պահվածքով նպաստում եմ պացիենտների
+                              լարվածության հաղթահարմանը, բժշկի աշխատանքի էֆեկտիվության բարձրացմանը:
                           </p>
                           <br />
                           <p>
-                              Հետաքրքրված եմ  ֆիթնեսով և լողով, և երբ ազատ ժամանակ ունենամ, պլանավորում եմ ավտոդպրոց գնալ:
+                              Հետաքրքրված եմ ֆիթնեսով և լողով, և երբ ազատ ժամանակ ունենամ, պլանավորում եմ ավտոդպրոց
+                              գնալ:
                           </p>
                       </div>
                   </StaffInfoBlockLeft>
@@ -408,21 +474,23 @@ const dentistsInfo = [
           </div>
     },
     {
-        id: 10,
+        id: 13,
         firstName: "Yelena",
         secondName: "Alexanyan",
-        position: "Nurse",
+        position: "Doctor Assistant",
         positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/Staff/Yelena_Alexanyan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Yelena_Alexanyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԵլենաԱլեքսանյան.jpg"),
         description: <div></div>
     },
     {
-        id: 11,
+        id: 14,
         firstName: "Mariam",
         secondName: "Fahradyan",
-        position: "Nurse",
+        position: "Doctor Assistant",
         positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիամՖահրադյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -430,15 +498,23 @@ const dentistsInfo = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Մարիամ Ֆահրադյանն  եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ  2019 թվականից որպես բուժքույր: Սովորել եմ ԵՊՀԲՔ որպես մանկաբարձ, այս պահին նաևմասնակցում եմ "Բուժքույրական գործը 21 -րդ դարում  ծրագրին":Բուժքրոջաշխատանքում ինձ  համար ամենագրավիչը պացիենտի հետ աշխատելն է օգնությունցուցաբերելը ,ինչպես նաև գեղեցիկ ժպիտներ պարգևելը:Աշխատանքում կարևորու եմ  եմ ոչմիայն թիմային աշխատանքը այլ նաև պրոֆեսիոնալիզմը:
+                              Ես Մարիամ Ֆահրադյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2019 թվականից
+                              որպես բուժքույր: Սովորել եմ ԵՊՀԲՔ որպես մանկաբարձ, այս պահին նաևմասնակցում եմ
+                              "Բուժքույրական գործը 21 -րդ դարում ծրագրին":Բուժքրոջաշխատանքում ինձ համար ամենագրավիչը
+                              պացիենտի հետ աշխատելն է օգնությունցուցաբերելը ,ինչպես նաև գեղեցիկ ժպիտներ
+                              պարգևելը:Աշխատանքում կարևորու եմ եմ ոչմիայն թիմային աշխատանքը այլ նաև պրոֆեսիոնալիզմը:
                           </p>
                           <br />
                           <p>
-                              Աշխատելով պրոֆեսիոնալ թիմում, ես հասկանում եմ, որ  հայտնվել եմ ճիշտ վայրում և ունեմիմ կողմից շատ ու շատ անելիքներ, որպեսզի աջակից դառնամ այս մարդասիրականաշխատանքի որակի բարձրացմանը և պատրաստ  եմ անել իմ կողմից պահանջվող ամենքայլ այդ գործունեության ծավալման ընթացքում:
+                              Աշխատելով պրոֆեսիոնալ թիմում, ես հասկանում եմ, որ հայտնվել եմ ճիշտ վայրում և ունեմիմ
+                              կողմից շատ ու շատ անելիքներ, որպեսզի աջակից դառնամ այս մարդասիրականաշխատանքի որակի
+                              բարձրացմանը և պատրաստ եմ անել իմ կողմից պահանջվող ամենքայլ այդ գործունեության ծավալման
+                              ընթացքում:
                           </p>
                           <br />
                           <p>
-                              Ապագայում պլանավորում եմ սովորել օտար լեզուներ : Կցանկանայի մասնակցել այլբուժքույրական ծրագրի ևս որը կնպաստի գիտելիքի զարգացմանը և աշխատանքի որակիբարձրացմանը:
+                              Ապագայում պլանավորում եմ սովորել օտար լեզուներ : Կցանկանայի մասնակցել այլբուժքույրական
+                              ծրագրի ևս որը կնպաստի գիտելիքի զարգացմանը և աշխատանքի որակիբարձրացմանը:
                           </p>
                           <br />
                           <p>
@@ -449,42 +525,48 @@ const dentistsInfo = [
               </StaffInfoBlock>
           </div>
     },
+    {
+        id: 15,
+        firstName: "Galina",
+        secondName: "Eghoyan",
+        position: "Doctor Assistant",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԳալինաԵղոյան.jpg"),
+        description:
+          <div>
+              <StaffInfoBlock>
+                  <StaffInfoBlockLeft>
+                      <div>
+                          <h3></h3>
+                          <p>
+                              Ես Գալինան եմ, Ինդիվիդում ստոմատոլոգիակա կլինիկայում աշխատում եմ 2022 թվականից որպես
+                              բուժքույր/ասիստենտ։
+                          </p>
+                          <br />
+                          <p>
+                              Այս պահին նաև ԵՊԲՀ-ի ստոմատոլոգիական ֆակուլտետի չորրորդ կուրսի ուսանողուհի եմ։ Աշխատանքն
+                              ընտրելիս և առաժմ աշխատանքում գլխավոր նպատակս բժիշկ-պացիենտ փոխհարաբերությունն է, ընդհանուր
+                              կլինիկայի աշխատանքի կառուցումն ու ճիշտ կազմակերպումը,մասնագիտական ոլորտում պրակտիկորեն
+                              ծանոթանալու գործիքակազմից սկսած մինչև պացիենտներին դիմավորելու աշխատանքի կազմակերպումը։
+                          </p>
+                          <br />
+                          <p>
+                              Ապագայում պլանավորում եմ զարգանալ բուն մասնագիտությամբ, ձեռք բերել բարձր մասնագիտական
+                              գիտելիքներ և հմտություններ:
+                          </p>
+                          <br />
+                          <p>
+                              Հետաքրքրված եմ ստեղծագրությամբ, արվեստով և հոգեբանությամբ (ժեստերի լեզվով)։ Ազատ ժամանակ
+                              սիրում եմ զբավել գեղարվեստական գրականության ընթերցմամբ, ազատ ոճում ստողծագործելու և
+                              վայելել բնությունը:
+                          </p>
+                      </div>
+                  </StaffInfoBlockLeft>
+              </StaffInfoBlock>
+          </div>
+    },
     // {
-    //     id: 12,
-    //     firstName: "Galina",
-    //     secondName: "",
-    //     position: "Nurse",
-    //     positionBackground: "Nurse",
-    //     // imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
-    //     imageSrc: "",
-    //     description:
-    //       <div>
-    //           <StaffInfoBlock>
-    //               <StaffInfoBlockLeft>
-    //                   <div>
-    //                       <h3></h3>
-    //                       <p>
-    //                           Ես Գալինան եմ, Ինդիվիդում ստոմատոլոգիակա կլինիկայում աշխատում եմ 2022 թվականից որպես բուժքույր/ասիստենտ։
-    //                       </p>
-    //                       <br />
-    //                       <p>
-    //                           Այս պահին նաև ԵՊԲՀ-ի ստոմատոլոգիական ֆակուլտետի  չորրորդ կուրսի ուսանողուհի եմ։ Աշխատանքն ընտրելիս և առաժմ աշխատանքում գլխավոր նպատակս բժիշկ-պացիենտ փոխհարաբերությունն է, ընդհանուր կլինիկայի աշխատանքի կառուցումն ու ճիշտ կազմակերպումը,մասնագիտական ոլորտում պրակտիկորեն ծանոթանալու գործիքակազմից սկսած մինչև  պացիենտներին դիմավորելու աշխատանքի կազմակերպումը։
-    //                       </p>
-    //                       <br />
-    //                       <p>
-    //                           Ապագայում պլանավորում եմ զարգանալ բուն մասնագիտությամբ, ձեռք բերել բարձր մասնագիտական գիտելիքներ և հմտություններ:
-    //                       </p>
-    //                       <br />
-    //                       <p>
-    //                           Հետաքրքրված եմ ստեղծագրությամբ, արվեստով և հոգեբանությամբ (ժեստերի լեզվով)։ Ազատ ժամանակ սիրում եմ զբավել  գեղարվեստական գրականության ընթերցմամբ, ազատ ոճում ստողծագործելու և վայելել բնությունը:
-    //                       </p>
-    //                   </div>
-    //               </StaffInfoBlockLeft>
-    //           </StaffInfoBlock>
-    //       </div>
-    // },
-    // {
-    //     id: 13,
+    //     id: null,
     //     firstName: "Mane",
     //     secondName: "",
     //     position: "Nurse",
@@ -518,22 +600,89 @@ const dentistsInfo = [
     //       </div>
     // },
     {
-        id: 14,
+        id: 16,
+        firstName: "Andranik",
+        secondName: "Melqonyan",
+        position: "Doctor Assistant",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԱնդրանիկՄելքոնյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 17,
+        firstName: "Marieta",
+        secondName: "Stepanyan",
+        position: "Doctor Assistant",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիետաՍտեփանյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 18,
+        firstName: "Tigran",
+        secondName: "Vardazaryan",
+        position: "Doctor Assistant",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՏիգրանՎարդազարյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 19,
+        firstName: "Gayane",
+        secondName: "Khachaturova",
+        position: "Doctor Assistant",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԽաչատուրովաԳայանե.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 20,
+        firstName: "Karen",
+        secondName: "Israelyan",
+        position: "Doctor Assistant",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարենԻսրաելյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 21,
         firstName: "Anush",
         secondName: "Karapetyan",
         position: "Cosmetologist",
         positionBackground: "Cosmetologist",
-        imageSrc: require("../Assets/Images/Staff/Anush.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Anush.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԱնուշԿարապետյան.jpg"),
         description:
           <div></div>
     },
     {
-        id: 15,
+        id: 22,
         firstName: "Shushan",
         secondName: "Abrahamyan",
         position: "Administrator",
         positionBackground: "Administrator",
-        imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՇուշանԱբրահամյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 23,
+        firstName: "Nvard",
+        secondName: "Minasyan",
+        position: "Administrator",
+        positionBackground: "Administrator",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՆվարդՄինասյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 24,
+        firstName: "Lida",
+        secondName: "Khachatryan",
+        position: "Administrator",
+        positionBackground: "Administrator",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԼիդաԽաչատրյան.jpg"),
         description:
           <div></div>
     }
@@ -546,7 +695,8 @@ const dentistsInfoArmenian = [
         secondName: "Թանգամյան",
         position: "Բժիշկ - Ատամնաբուժ - Իմպլանտոլոգ",
         positionBackground: "Բժիշկ",
-        imageSrc: require("../Assets/Images/Dentists/Varazdat.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Varazdat.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ՎարազդատԹանգամյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -596,7 +746,8 @@ const dentistsInfoArmenian = [
         secondName: "Մկրտչյան",
         position: "Բժիշկ - Ատամնաբուժ",
         positionBackground: "Բժիշկ",
-        imageSrc: require("../Assets/Images/Dentists/Marine.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Marine.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ՄարինեՄկրտչյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -697,7 +848,8 @@ const dentistsInfoArmenian = [
         secondName: "Մելքոնյան",
         position: "Բժիշկ - Ատամնաբուժ",
         positionBackground: "Բժիշկ",
-        imageSrc: require("../Assets/Images/Dentists/Anahit.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Anahit.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱնահիտՄելքոնյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -751,7 +903,8 @@ const dentistsInfoArmenian = [
         secondName: "Բաբայան",
         position: "Բժիշկ - Ատամնաբուժ",
         positionBackground: "Բժիշկ",
-        imageSrc: require("../Assets/Images/Dentists/Aida.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Aida.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱիդաԲաբայան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -786,7 +939,8 @@ const dentistsInfoArmenian = [
         secondName: "Զեյնալյան",
         position: "Բժիշկ - Ատամնաբուժ",
         positionBackground: "Բժիշկ",
-        imageSrc: require("../Assets/Images/Dentists/Hovhannes.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Hovhannes.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ՀովհաննեսԶեյնալյան.jpg"),
         description:
           <div></div>
     },
@@ -796,12 +950,54 @@ const dentistsInfoArmenian = [
         secondName: "Սրոցանց",
         position: "Բժիշկ - Ատամնաբուժ",
         positionBackground: "Բժիշկ",
-        imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
+        // imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱրմենակՍրոցանց.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 6,
+        firstName: "Արմեն",
+        secondName: "Խաչանյան",
+        position: "Բժիշկ - Ատամնաբուժ",
+        positionBackground: "Բժիշկ",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱրմենԽաչանյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 7,
+        firstName: "Ալբերտ",
+        secondName: "Կոտանով",
+        position: "Բժիշկ - Ատամնաբուժ",
+        positionBackground: "Բժիշկ",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԱլբերտԿոտանով.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 8,
+        firstName: "Լիանա",
+        secondName: "Գևորգյան",
+        position: "Բժիշկ - Ատամնաբուժ",
+        positionBackground: "Բժիշկ",
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԼիանաԳևորգյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 9,
+        firstName: "Ժորա",
+        secondName: "Հոդաբաշյան",
+        position: "Բժիշկ - Ատամնաբուժ",
+        positionBackground: "Բժիշկ",
+        // imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԺորաՀոդաբաշյան.jpg"),
         description:
           <div></div>
     },
     // {
-    //     id: 6,
+    //     id: null,
     //     firstName: "Անդրանիկ",
     //     secondName: "Մելքոնյան",
     //     position: "Բուժեղբայր",
@@ -840,13 +1036,15 @@ const dentistsInfoArmenian = [
     //           </StaffInfoBlock>
     //       </div>
     // },
+
     {
-        id: 7,
+        id: 10,
         firstName: "Քրիստինե",
         secondName: "Ղազարյան",
-        position: "Բուժքույր",
+        position: "Բժշկի Օգնական",
         positionBackground: "Բուժքույր",
-        imageSrc: require("../Assets/Images/Staff/Christine_Ghazaryan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Christine_Ghazaryan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՔրիստինեՂազարյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -854,7 +1052,8 @@ const dentistsInfoArmenian = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Քրիստինե Ղազարյանն եմ, Ինդիվիդում ստոմատոլոգիական կլինիկայում աշխատում եմ 2020 թվականից,
+                              Ես Քրիստինե Ղազարյանն եմ, Ինդիվիդում ստոմատոլոգիական կլինիկայում աշխատում եմ 2020
+                              թվականից,
                               որպես բուժքույր։
                           </p>
                           <br />
@@ -871,8 +1070,10 @@ const dentistsInfoArmenian = [
                           </p>
                           <br />
                           <p>
-                              Նախընտրում եմ ազատ ժամանակս անցկացնել արդյունավետ։ Զբաղվում եմ սպորտվ, դիտում եմ ինֆորմատիվ
-                              հոլովակներ և ֆիլմեր, ինչպես նաև սիրում եմ ժամանակ անցկացնել բնության գրկում, որտեղ կարող եմ գտնել
+                              Նախընտրում եմ ազատ ժամանակս անցկացնել արդյունավետ։ Զբաղվում եմ սպորտվ, դիտում եմ
+                              ինֆորմատիվ
+                              հոլովակներ և ֆիլմեր, ինչպես նաև սիրում եմ ժամանակ անցկացնել բնության գրկում, որտեղ կարող
+                              եմ գտնել
                               մտքի խաղաղություն, որն էլ օգնում է բալանսավորել իմ արտաքին և ներքին ներդաշնակությունը։
                           </p>
                       </div>
@@ -881,12 +1082,13 @@ const dentistsInfoArmenian = [
           </div>
     },
     {
-        id: 8,
+        id: 11,
         firstName: "Էվելինա",
         secondName: "Բեգլարյան",
-        position: "Բուժքույր",
+        position: "Բժշկի Օգնական",
         positionBackground: "Բուժքույր",
-        imageSrc: require("../Assets/Images/Staff/Evelina_Beglaryan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Evelina_Beglaryan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԷվելինաԲեգլարյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -894,11 +1096,17 @@ const dentistsInfoArmenian = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Էվան եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ  2022 թվականից որպես բուժքույր։ Աշխատանքս համատեղում եմ ուսման ու օտար լեզվի ուսումնասիրմանհետ։
+                              Ես Էվան եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2022 թվականից որպես
+                              բուժքույր։ Աշխատանքս համատեղում եմ ուսման ու օտար լեզվի ուսումնասիրմանհետ։
                           </p>
                           <br />
                           <p>
-                              Բուժքրոջ աշխատանքում ինձ ամենից շատ ոգևորում է այն, որ ես իմ աշխատանքովօգնում եմ բժշկին` ում շնորհիվ առողջ և գեղեցիկ ժպիտներն ավելանում են:  Ես հաճախ եմ նկատում , որ մեր թիմային դրական էներգետիկան օգնում է պացիենտների լարվածության հաղթահարմանը։ Փորձում եմ հնարավորինս սիրալիր լինել թե‘ ամենափոքր, թե‘ ամենամեծպացիենտի հետ: Կարծում եմ պրոֆեսիոնալիզմի մաս է կազմում ոչ միայն մասնագիտական կրթվածությունը, այլև բարեհամբյուր սպասարկումն ու թիմային աշխատանքը:
+                              Բուժքրոջ աշխատանքում ինձ ամենից շատ ոգևորում է այն, որ ես իմ աշխատանքովօգնում եմ բժշկին`
+                              ում շնորհիվ առողջ և գեղեցիկ ժպիտներն ավելանում են: Ես հաճախ եմ նկատում , որ մեր թիմային
+                              դրական էներգետիկան օգնում է պացիենտների լարվածության հաղթահարմանը։ Փորձում եմ հնարավորինս
+                              սիրալիր լինել թե‘ ամենափոքր, թե‘ ամենամեծպացիենտի հետ: Կարծում եմ պրոֆեսիոնալիզմի մաս է
+                              կազմում ոչ միայն մասնագիտական կրթվածությունը, այլև բարեհամբյուր սպասարկումն ու թիմային
+                              աշխատանքը:
                           </p>
                           <br />
                           <p>
@@ -906,7 +1114,8 @@ const dentistsInfoArmenian = [
                           </p>
                           <br />
                           <p>
-                              Կյանքում շատ եմ կարևորում օգնություն ցուցաբերելու հատկությունը, ու այդ պատճառովպլանավորում եմ զբաղվել անտուն մարդկանց օգնելու կարևորագույն քայլով։
+                              Կյանքում շատ եմ կարևորում օգնություն ցուցաբերելու հատկությունը, ու այդ պատճառովպլանավորում
+                              եմ զբաղվել անտուն մարդկանց օգնելու կարևորագույն քայլով։
                           </p>
                       </div>
                   </StaffInfoBlockLeft>
@@ -914,12 +1123,13 @@ const dentistsInfoArmenian = [
           </div>
     },
     {
-        id: 9,
+        id: 12,
         firstName: "Կարինե",
         secondName: "Համբարձումյան",
-        position: "Բուժքույր",
+        position: "Բժշկի Օգնական",
         positionBackground: "Բուժքույր",
-        imageSrc: require("../Assets/Images/Staff/Karine_Hambardzumyan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Karine_Hambardzumyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարինեՀամբարձումյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -927,19 +1137,24 @@ const dentistsInfoArmenian = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Կարինե Համբարձումյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ  2018 թվականից որպես բուժքույր։
+                              Ես Կարինե Համբարձումյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2018
+                              թվականից որպես բուժքույր։
                           </p>
                           <br />
                           <p>
-                              2014-2017թթ սովորել եմ ԵՊՀԲ քոլեջում: Այս պահին նաև մասնակցում եմ «Բուժքույրական գործը 21-րդ դարում  կազմակերպում և կառավարում»  նորարարական ծրագրին։
+                              2014-2017թթ սովորել եմ ԵՊՀԲ քոլեջում: Այս պահին նաև մասնակցում եմ «Բուժքույրական գործը
+                              21-րդ դարում կազմակերպում և կառավարում» նորարարական ծրագրին։
                           </p>
                           <br />
                           <p>
-                              Բուժքրոջ աշխատանքում ինձ  համար ամենագրավիչը թիմային աշխատանքն է,  բժշկի աշխատանքի որակի ապահովումը: Ես հաճախ զգում եմ , որ իմ սիրալիր պահվածքով նպաստում եմ պացիենտների լարվածության հաղթահարմանը, բժշկի աշխատանքի էֆեկտիվության բարձրացմանը:
+                              Բուժքրոջ աշխատանքում ինձ համար ամենագրավիչը թիմային աշխատանքն է, բժշկի աշխատանքի որակի
+                              ապահովումը: Ես հաճախ զգում եմ , որ իմ սիրալիր պահվածքով նպաստում եմ պացիենտների
+                              լարվածության հաղթահարմանը, բժշկի աշխատանքի էֆեկտիվության բարձրացմանը:
                           </p>
                           <br />
                           <p>
-                              Հետաքրքրված եմ  ֆիթնեսով և լողով, և երբ ազատ ժամանակ ունենամ, պլանավորում եմ ավտոդպրոց գնալ:
+                              Հետաքրքրված եմ ֆիթնեսով և լողով, և երբ ազատ ժամանակ ունենամ, պլանավորում եմ ավտոդպրոց
+                              գնալ:
                           </p>
                       </div>
                   </StaffInfoBlockLeft>
@@ -947,31 +1162,44 @@ const dentistsInfoArmenian = [
           </div>
     },
     {
-        id: 10,
+        id: 13,
         firstName: "Ելենա",
         secondName: "Ալեքսանյան",
-        position: "Բուժքույր",
-        positionBackground: "Բուժքույր",
-        imageSrc: require("../Assets/Images/Staff/Yelena_Alexanyan.jpeg"),
-        description:   <div>
+        position: "Բժշկի Օգնական",
+        positionBackground: "Բժշկի Օգնական",
+        // imageSrc: require("../Assets/Images/Staff/Yelena_Alexanyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԵլենաԱլեքսանյան.jpg"),
+        description: <div>
             <StaffInfoBlock>
                 <StaffInfoBlockLeft>
                     <div>
                         <h3></h3>
                         <p>
-                            Ես Ելենա Ալեքսանյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2021 թվականից` որպես բուժքույր/ասիստենտ։ Այս պահին նաև սովորում եմ հայ-ամերիկյան «Էրեբունի» ՊԲՔ-ի «քույրական գործի կազմակերպում» մասնագիտությամբ 5-րդ կուրսոմ։
+                            Ես Ելենա Ալեքսանյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2021 թվականից`
+                            որպես բուժքույր/ասիստենտ։ Այս պահին նաև սովորում եմ հայ-ամերիկյան «Էրեբունի» ՊԲՔ-ի
+                            «քույրական գործի կազմակերպում» մասնագիտությամբ 5-րդ կուրսոմ։
                         </p>
                         <br />
                         <p>
-                            Բուժքրոջ աշխատանքում ինձ համար կարևոր է ստեղծել աշխատանքային բարենպաստ և հաճելի միջավայր, ապահովել պացենտի հարմարավետությունը և օգնել բժշկին՝ ստեղծելով իդեալական գործիքակազմ և աջակցելով ասիստենտական միջամտություններով։
+                            Բուժքրոջ աշխատանքում ինձ համար կարևոր է ստեղծել աշխատանքային բարենպաստ և հաճելի միջավայր,
+                            ապահովել պացենտի հարմարավետությունը և օգնել բժշկին՝ ստեղծելով իդեալական գործիքակազմ և
+                            աջակցելով ասիստենտական միջամտություններով։
                         </p>
                         <br />
                         <p>
-                            Պետք է ասեմ, որ Ինդիվիդում-ի թիմում աշխատելով՝ ես լիարժեք գնահատեցի թիմային աշխատանքի կարևորությունը և դրա կատարելագործումը։ Սա միջավայր է, որտեղ ես շրջապատված եմ ինձանից խելացի մարդկանցով և ամեն ակնթարթում ունեմ անվերջ սովորելու և ձգտելու հնարավորություն։ Սիրում եմ իմ աշխատանքը և շատ եմ ուրախանում այն ջերմ ժպիտներից, որոնք նվիրում է իմ սիրելի Ինդիվիդում-ը։ Ապագայիս մասին կողմնորոշումներս բազմազան են, սակայն հստակ է մի բան՝ ԲԺԻՇԿ եմ դառնալու։ Ես ուրախ եմ, որ սա կլինի իմ առաջին իրեղեն ապացույցը, որին ամեն անգամ կնայեմ, կմոտիվացվեմ և կմոտենամ այն մարդուն, որի մասին ամեն ինչ պլանավորվել է մտքումս և կիարգործվի գիտակցությանս կողմից։
+                            Պետք է ասեմ, որ Ինդիվիդում-ի թիմում աշխատելով՝ ես լիարժեք գնահատեցի թիմային աշխատանքի
+                            կարևորությունը և դրա կատարելագործումը։ Սա միջավայր է, որտեղ ես շրջապատված եմ ինձանից խելացի
+                            մարդկանցով և ամեն ակնթարթում ունեմ անվերջ սովորելու և ձգտելու հնարավորություն։ Սիրում եմ իմ
+                            աշխատանքը և շատ եմ ուրախանում այն ջերմ ժպիտներից, որոնք նվիրում է իմ սիրելի Ինդիվիդում-ը։
+                            Ապագայիս մասին կողմնորոշումներս բազմազան են, սակայն հստակ է մի բան՝ ԲԺԻՇԿ եմ դառնալու։ Ես
+                            ուրախ եմ, որ սա կլինի իմ առաջին իրեղեն ապացույցը, որին ամեն անգամ կնայեմ, կմոտիվացվեմ և
+                            կմոտենամ այն մարդուն, որի մասին ամեն ինչ պլանավորվել է մտքումս և կիարգործվի գիտակցությանս
+                            կողմից։
                         </p>
                         <br />
                         <p>
-                            Ես ազատ ժամանակ սիրում եմ խաղալ բասկետբոլ և լսել երաժշտություն։ Իսկ հեռավոր ապագայում ուզում եմ զբաղվել ալպինիզմով և շրջագայել։
+                            Ես ազատ ժամանակ սիրում եմ խաղալ բասկետբոլ և լսել երաժշտություն։ Իսկ հեռավոր ապագայում ուզում
+                            եմ զբաղվել ալպինիզմով և շրջագայել։
                         </p>
                     </div>
                 </StaffInfoBlockLeft>
@@ -979,12 +1207,13 @@ const dentistsInfoArmenian = [
         </div>
     },
     {
-        id: 11,
+        id: 14,
         firstName: "Մարիամ",
         secondName: "Ֆահրադյան",
-        position: "Բուժքույր",
-        positionBackground: "Բուժքույր",
-        imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
+        position: "Բժշկի Օգնական",
+        positionBackground: "Բժշկի Օգնական",
+        // imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիամՖահրադյան.jpg"),
         description:
           <div>
               <StaffInfoBlock>
@@ -992,15 +1221,23 @@ const dentistsInfoArmenian = [
                       <div>
                           <h3></h3>
                           <p>
-                              Ես Մարիամ Ֆահրադյանն  եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ  2019 թվականից որպես բուժքույր: Սովորել եմ ԵՊՀԲՔ որպես մանկաբարձ, այս պահին նաևմասնակցում եմ "Բուժքույրական գործը 21 -րդ դարում  ծրագրին":Բուժքրոջաշխատանքում ինձ  համար ամենագրավիչը պացիենտի հետ աշխատելն է օգնությունցուցաբերելը ,ինչպես նաև գեղեցիկ ժպիտներ պարգևելը:Աշխատանքում կարևորու եմ  եմ ոչմիայն թիմային աշխատանքը այլ նաև պրոֆեսիոնալիզմը:
+                              Ես Մարիամ Ֆահրադյանն եմ, Ինդիվիդում Ստոմատոլոգիական Կլինիկայում աշխատում եմ 2019 թվականից
+                              որպես բուժքույր: Սովորել եմ ԵՊՀԲՔ որպես մանկաբարձ, այս պահին նաևմասնակցում եմ
+                              "Բուժքույրական գործը 21 -րդ դարում ծրագրին":Բուժքրոջաշխատանքում ինձ համար ամենագրավիչը
+                              պացիենտի հետ աշխատելն է օգնությունցուցաբերելը ,ինչպես նաև գեղեցիկ ժպիտներ
+                              պարգևելը:Աշխատանքում կարևորու եմ եմ ոչմիայն թիմային աշխատանքը այլ նաև պրոֆեսիոնալիզմը:
                           </p>
                           <br />
                           <p>
-                              Աշխատելով պրոֆեսիոնալ թիմում, ես հասկանում եմ, որ  հայտնվել եմ ճիշտ վայրում և ունեմիմ կողմից շատ ու շատ անելիքներ, որպեսզի աջակից դառնամ այս մարդասիրականաշխատանքի որակի բարձրացմանը և պատրաստ  եմ անել իմ կողմից պահանջվող ամենքայլ այդ գործունեության ծավալման ընթացքում:
+                              Աշխատելով պրոֆեսիոնալ թիմում, ես հասկանում եմ, որ հայտնվել եմ ճիշտ վայրում և ունեմիմ
+                              կողմից շատ ու շատ անելիքներ, որպեսզի աջակից դառնամ այս մարդասիրականաշխատանքի որակի
+                              բարձրացմանը և պատրաստ եմ անել իմ կողմից պահանջվող ամենքայլ այդ գործունեության ծավալման
+                              ընթացքում:
                           </p>
                           <br />
                           <p>
-                              Ապագայում պլանավորում եմ սովորել օտար լեզուներ : Կցանկանայի մասնակցել այլբուժքույրական ծրագրի ևս որը կնպաստի գիտելիքի զարգացմանը և աշխատանքի որակիբարձրացմանը:
+                              Ապագայում պլանավորում եմ սովորել օտար լեզուներ : Կցանկանայի մասնակցել այլբուժքույրական
+                              ծրագրի ևս որը կնպաստի գիտելիքի զարգացմանը և աշխատանքի որակիբարձրացմանը:
                           </p>
                           <br />
                           <p>
@@ -1011,42 +1248,49 @@ const dentistsInfoArmenian = [
               </StaffInfoBlock>
           </div>
     },
+    {
+        id: 15,
+        firstName: "Գալինա",
+        secondName: "Եղոյան",
+        position: "Բժշկի Օգնական",
+        positionBackground: "Բժշկի Օգնական",
+        // imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԳալինաԵղոյան.jpg"),
+        description:
+          <div>
+              <StaffInfoBlock>
+                  <StaffInfoBlockLeft>
+                      <div>
+                          <h3></h3>
+                          <p>
+                              Ես Գալինան եմ, Ինդիվիդում ստոմատոլոգիակա կլինիկայում աշխատում եմ 2022 թվականից որպես
+                              բուժքույր/ասիստենտ։
+                          </p>
+                          <br />
+                          <p>
+                              Այս պահին նաև ԵՊԲՀ-ի ստոմատոլոգիական ֆակուլտետի չորրորդ կուրսի ուսանողուհի եմ։ Աշխատանքն
+                              ընտրելիս և առաժմ աշխատանքում գլխավոր նպատակս բժիշկ-պացիենտ փոխհարաբերությունն է, ընդհանուր
+                              կլինիկայի աշխատանքի կառուցումն ու ճիշտ կազմակերպումը,մասնագիտական ոլորտում պրակտիկորեն
+                              ծանոթանալու գործիքակազմից սկսած մինչև պացիենտներին դիմավորելու աշխատանքի կազմակերպումը։
+                          </p>
+                          <br />
+                          <p>
+                              Ապագայում պլանավորում եմ զարգանալ բուն մասնագիտությամբ, ձեռք բերել բարձր մասնագիտական
+                              գիտելիքներ և հմտություններ:
+                          </p>
+                          <br />
+                          <p>
+                              Հետաքրքրված եմ ստեղծագրությամբ, արվեստով և հոգեբանությամբ (ժեստերի լեզվով)։ Ազատ ժամանակ
+                              սիրում եմ զբավել գեղարվեստական գրականության ընթերցմամբ, ազատ ոճում ստողծագործելու և
+                              վայելել բնությունը:
+                          </p>
+                      </div>
+                  </StaffInfoBlockLeft>
+              </StaffInfoBlock>
+          </div>
+    },
     // {
-    //     id: 12,
-    //     firstName: "Գալինա",
-    //     secondName: "",
-    //     position: "Բուժքույր",
-    //     positionBackground: "Բուժքույր",
-    //     // imageSrc: require("../Assets/Images/Staff/Mariam_Fahradyan.jpeg"),
-    //     imageSrc: "",
-    //     description:
-    //       <div>
-    //           <StaffInfoBlock>
-    //               <StaffInfoBlockLeft>
-    //                   <div>
-    //                       <h3></h3>
-    //                       <p>
-    //                           Ես Գալինան եմ, Ինդիվիդում ստոմատոլոգիակա կլինիկայում աշխատում եմ 2022 թվականից որպես բուժքույր/ասիստենտ։
-    //                       </p>
-    //                       <br />
-    //                       <p>
-    //                           Այս պահին նաև ԵՊԲՀ-ի ստոմատոլոգիական ֆակուլտետի  չորրորդ կուրսի ուսանողուհի եմ։ Աշխատանքն ընտրելիս և առաժմ աշխատանքում գլխավոր նպատակս բժիշկ-պացիենտ փոխհարաբերությունն է, ընդհանուր կլինիկայի աշխատանքի կառուցումն ու ճիշտ կազմակերպումը,մասնագիտական ոլորտում պրակտիկորեն ծանոթանալու գործիքակազմից սկսած մինչև  պացիենտներին դիմավորելու աշխատանքի կազմակերպումը։
-    //                       </p>
-    //                       <br />
-    //                       <p>
-    //                           Ապագայում պլանավորում եմ զարգանալ բուն մասնագիտությամբ, ձեռք բերել բարձր մասնագիտական գիտելիքներ և հմտություններ:
-    //                       </p>
-    //                       <br />
-    //                       <p>
-    //                           Հետաքրքրված եմ ստեղծագրությամբ, արվեստով և հոգեբանությամբ (ժեստերի լեզվով)։ Ազատ ժամանակ սիրում եմ զբավել  գեղարվեստական գրականության ընթերցմամբ, ազատ ոճում ստողծագործելու և վայելել բնությունը:
-    //                       </p>
-    //                   </div>
-    //               </StaffInfoBlockLeft>
-    //           </StaffInfoBlock>
-    //       </div>
-    // },
-    // {
-    //     id: 13,
+    //     id: null,
     //     firstName: "Մանե",
     //     secondName: "",
     //     position: "Բուժքույր",
@@ -1080,22 +1324,89 @@ const dentistsInfoArmenian = [
     //       </div>
     // },
     {
-        id: 14,
+        id: 16,
+        firstName: "Անդրանիկ",
+        secondName: "Մելքոնյան",
+        position: "Բժշկի Օգնական",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԱնդրանիկՄելքոնյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 17,
+        firstName: "Մարիետա",
+        secondName: "Ստեփանյան",
+        position: "Բժշկի Օգնական",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիետաՍտեփանյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 18,
+        firstName: "Տիգրան",
+        secondName: "Վարդազարյան",
+        position: "Բժշկի Օգնական",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՏիգրանՎարդազարյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 19,
+        firstName: "Գայանե",
+        secondName: "Խաչատուրովա",
+        position: "Բժշկի Օգնական",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԽաչատուրովաԳայանե.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 20,
+        firstName: "Կարեն",
+        secondName: "Իսրաելյան",
+        position: "Բժշկի Օգնական",
+        positionBackground: "Nurse",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարենԻսրաելյան.jpg"),
+        description: <div></div>
+    },
+    {
+        id: 21,
         firstName: "Անուշ",
         secondName: "Կարապետյան",
         position: "Կոսմետոլոգ",
         positionBackground: "Cosmetologist",
-        imageSrc: require("../Assets/Images/Staff/Anush.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Anush.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԱնուշԿարապետյան.jpg"),
         description:
           <div></div>
     },
     {
-        id: 15,
+        id: 22,
         firstName: "Շուշան",
         secondName: "Աբրահամյան",
         position: "Ադմինիստրատոր",
         positionBackground: "Administrator",
-        imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
+        // imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՇուշանԱբրահամյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 23,
+        firstName: "Նվարդ",
+        secondName: "Մինասյան",
+        position: "Ադմինիստրատոր",
+        positionBackground: "Administrator",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ՆվարդՄինասյան.jpg"),
+        description:
+          <div></div>
+    },
+    {
+        id: 24,
+        firstName: "Լիդա",
+        secondName: "Խաչատրյան",
+        position: "Ադմինիստրատոր",
+        positionBackground: "Administrator",
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԼիդաԽաչատրյան.jpg"),
         description:
           <div></div>
     }

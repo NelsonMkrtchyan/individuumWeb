@@ -36,20 +36,35 @@ export const landingGalleryImagesAlt = [
     }
 ];
 export const landingGalleryImagesMain = [
+    // {
+    //     src: require("../Assets/Images/LandingSwiper/team_1.jpeg"),
+    //     width: 3,
+    //     height: 2
+    // },
     {
-        src: require("../Assets/Images/LandingSwiper/team_1.jpeg"),
+        src: require("../Assets/Images/LandingSwiper/Բժիշկներ.jpg"),
+        width: 3,
+        height: 2
+    },
+    {
+        src: require("../Assets/Images/LandingSwiper/Բժշկի օգնականներ.jpg"),
         width: 3,
         height: 2
     },
     {
         src: require("../Assets/Images/LandingSwiper/team_3.jpeg"),
-        width: 3,
-        height: 2
+        width: 4,
+        height: 3
     },
+    // {
+    //     src: require("../Assets/Images/Gallery/team_5.jpeg"),
+    //     width: 3,
+    //     height: 2
+    // },
     {
-        src: require("../Assets/Images/Gallery/team_5.jpeg"),
+        src: require("../Assets/Images/LandingSwiper/Ադմինիստրատորներ.jpg"),
         width: 3,
-        height: 2
+        height: 4
     },
     {
         src: require("../Assets/Images/LandingSwiper/team_2.jpeg"),
@@ -60,7 +75,7 @@ export const landingGalleryImagesMain = [
         src: require("../Assets/Images/Gallery/team_4.jpeg"),
         width: 3,
         height: 2
-    },
+    }
 ];
 export const aboutUsImages = [
     {
