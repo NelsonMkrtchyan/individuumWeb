@@ -43,13 +43,13 @@ const AboutUsPageAboutUs = () => {
                   <Content>
                       {aboutUsData}
                   </Content>
-                  <Schedule>
-                      <Title title={t("common:workingHours")} />
-                      <WorkingHours>
-                          <p>{t("common:weekdays.monday")} - {t("common:weekdays.saturday")}</p>
-                          <p>10:00 - 19:00</p>
-                      </WorkingHours>
-                  </Schedule>
+                  {/*<Schedule>*/}
+                  {/*    <Title title={t("common:workingHours")} />*/}
+                  {/*    <WorkingHours>*/}
+                  {/*        <p>{t("common:weekdays.monday")} - {t("common:weekdays.saturday")}</p>*/}
+                  {/*        <p>10:00 - 19:00</p>*/}
+                  {/*    </WorkingHours>*/}
+                  {/*</Schedule>*/}
               </Right>
           </Container>
       </>
