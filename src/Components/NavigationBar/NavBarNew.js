@@ -130,7 +130,8 @@ export default function Header() {
     const individuumLogo = (
       <LogoWrapper>
           <Logo href="/">
-              <img src={require("../../Assets/Images/IndividuumLogo.png")} alt="individuum logo" />
+              {/*<img src={require("../../Assets/Images/IndividuumLogo.png")} alt="individuum logo" />*/}
+              <img src={require("../../Assets/Images/Individuum-logo-new.png")} alt="individuum logo" />
           </Logo>
       </LogoWrapper>
     );

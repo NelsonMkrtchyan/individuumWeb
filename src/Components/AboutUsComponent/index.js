@@ -76,7 +76,8 @@ const AboutUsComponent = () => {
                   <Button
                     text={t("common:seeAll")}
                     whereTo="aboutUs"
-                    style={{ position: "absolute", bottom: 0 }}
+                    // style={{ position: "absolute", bottom: 0 }}
+                    style={{ margin: '10px 0 0 0' }}
                   />
               </LeftContainer>
           </Left>

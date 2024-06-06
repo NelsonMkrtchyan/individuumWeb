@@ -15,9 +15,9 @@ const StatisticsComponent = () => {
     const { t } = useTranslation(["common"]);
     return (
       <Container>
-          <StatisticsItem number={12} title={t("common:statistics.year")} />
-          <StatisticsItem number={3214} title={t("common:statistics.patients")} />
-          <StatisticsItem number={76} title={t("common:statistics.certificates")} />
+          <StatisticsItem number={15} title={t("common:statistics.year")} />
+          <StatisticsItem number={`6000+`} title={t("common:statistics.patients")} />
+          <StatisticsItem number={`500+`} title={t("common:statistics.certificates")} />
           <StatisticsItem number={12} title={t("common:statistics.dentists")} />
       </Container>
     );

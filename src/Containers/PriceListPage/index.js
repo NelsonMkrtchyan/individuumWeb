@@ -16,14 +16,19 @@ const Wrapper = styled.div`
   flex-direction: column;
   .p-tabview-nav-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+      padding-left: 20vw;
+      font-size: 2vw;
     width: 100%;
   }
   .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
     box-shadow: none;
   }
+    
   .p-tabview-title {
-    font-size: 1vw;
+    font-size: 2vw;
+      cursor: pointer;
+      line-height: normal;
   }
 `;
 
@@ -41,7 +46,7 @@ const PriceListPage = () => {
           <Wrapper>
               <TabView
                 activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
-                  <TabPanel header={t("priceList:dentistry")} >
+                  <TabPanel header={`1. ${t("priceList:dentistry")}`} >
                       {dentistryPriceData.map((category, index) => {
                           return (
                             <PriceListCategory
@@ -56,7 +61,7 @@ const PriceListPage = () => {
                           );
                       })}
                   </TabPanel>
-                  <TabPanel header={t("priceList:injectionCosmetology")}>
+                  <TabPanel header={`2. ${t("priceList:injectionCosmetology")}`}>
                       {injectionCosmetologyPriceData.map((category, index) => {
                           return (
                             <PriceListCategory
@@ -71,7 +76,7 @@ const PriceListPage = () => {
                           );
                       })}
                   </TabPanel>
-                  <TabPanel header={t("priceList:facialAestheticCare")}>
+                  <TabPanel header={`2.1. ${t("priceList:facialAestheticCare")}`}>
                       {facialAestheticCarePriceData.map((category, index) => {
                           return (
                             <PriceListCategory
@@ -86,7 +91,7 @@ const PriceListPage = () => {
                           );
                       })}
                   </TabPanel>
-                  <TabPanel header={t("priceList:massage")}>
+                  <TabPanel header={`2.2. ${t("priceList:massage")}`}>
                       {massagePriceData.map((category, index) => {
                           return (
                             <PriceListCategory

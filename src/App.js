@@ -141,7 +141,8 @@ export const ComingSoon = () => {
               <h1>Individuum Clinic</h1>
               <LogoWrapper>
                   <Logo href="/">
-                      <img src={require("./Assets/Images/IndividuumLogo.png")} alt="DevBabu.com" />
+                      {/*<img src={require("./Assets/Images/IndividuumLogo.png")} alt="DevBabu.com" />*/}
+                      {/*<img src={require("./Assets/Images/Individuum-logo-new.png")} alt="DevBabu.com" />*/}
                   </Logo>
               </LogoWrapper>
           </Title>

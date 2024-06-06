@@ -26,10 +26,10 @@
   "back": "Back",
   "statistics": {
     "year": "Year",
-    "patients": "Patients",
+    "patients": "Smile",
     "certificates": "Certificates",
     "dentists": "Dentists"
   },
-  "address1": "Armenia, Yerevan, 0026 Vardanants 2",
-  "address2": "Armenia, Yerevan, 0026 Garegin Njdeh 44"
+  "address1": "Armenia, Yerevan, Vardanants 2",
+  "address2": "Armenia, Yerevan, Garegin Njdeh 44"
 }

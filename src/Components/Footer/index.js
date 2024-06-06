@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Title from "../Title";
 import styled from "styled-components";
 import { PageLink } from "../NavigationBar/StyleComponents";
+import {WorkingHours} from "../../Containers/ContactsPage";
 
 const Wrapper = styled.div`
     display: flex;
@@ -33,6 +34,7 @@ export const Column = styled.div.attrs((style) => ({
     flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: start;
 `;
 export const List = styled.ul`
     flex: 1;
@@ -40,7 +42,7 @@ export const List = styled.ul`
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 
     li {
@@ -77,8 +79,8 @@ export const SocialItem = styled("a").attrs(() => ({
     rel: "noreferrer"
 }))`
     img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 `;
 
@@ -107,40 +109,108 @@ const Footer = () => {
                   <PageLink to="/">
                       <img style={{
                           width: "auto",
-                          height: "200px"
-                      }} src={require("../../Assets/Images/IndividuumLogo.png")} alt="icon" />
+                          height: "50px"
+                      }}
+                           // src={require("../../Assets/Images/IndividuumLogo.png")}
+                           src={require("../../Assets/Images/Individuum-logo-new.png")}
+                           alt="icon"
+                      />
                   </PageLink>
               </LogoContainer>
-              <Column style={{ flex: 1 }}>
-                  <Title title={t("common:address")} style={{ textAlign: "center" }} />
+              <Column style={{flex: 2}}>
+                  <Title title={"Վարդանանց մասնաճուղ"} style={{textAlign: "center", fontSize: "1.5vw"}}/>
                   <List>
                       <ContactsItem>
-                          <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
-                          <p>{t("common:address1")}</p>
-                      </ContactsItem>
-                      <ContactsItem>
-                          <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />
-                          <p>{t("common:address2")}</p>
+                          <img src={require("../../Assets/Icons/location.svg").default} alt="icon"/>
+                          {/*<p>{t("common:address1")}</p>*/}
+                          <p>Հայաստան, Երևան, <br /> Վարդանանց 2</p>
+
                       </ContactsItem>
                   </List>
-              </Column>
-              <Column style={{ flex: 1 }}>
-                  <Title title={t("common:contacts")} style={{ textAlign: "center" }} />
                   <List>
                       <ContactsItem>
-                          <img src={require("../../Assets/Icons/phone.svg").default} alt="icon" />
+                          <img src={require("../../Assets/Icons/phone.svg").default} alt="icon"/>
+                          <p>+374 10 58 05 49</p>
+                      </ContactsItem>
+                      <ContactsItem>
+                          <img src={require("../../Assets/Icons/phone.svg").default} alt="icon"/>
+                          <p>+374 41 44 84 21</p>
+                      </ContactsItem>
+                  </List>
+                  {/*<List>*/}
+
+                  {/*    <WorkingHours>*/}
+                  {/*        <p>{t("common:weekdays.monday")} - {t("common:weekdays.saturday")}</p>*/}
+                  {/*        <p>11:00 - 20:00</p>*/}
+                  {/*    </WorkingHours>*/}
+                  {/*</List>*/}
+
+              </Column>
+
+              <Column style={{flex: 2}}>
+                  <Title title={"Գարեգին Նժդեհ մասնաճուղ"} style={{textAlign: "center", fontSize: "1.5vw"}}/>
+                  <List>
+
+                      <ContactsItem>
+                          <img src={require("../../Assets/Icons/location.svg").default} alt="icon"/>
+                          {/*<p>{t("common:address2")}</p>*/}
+                          <p>Հայաստան, Երևան, <br/> Գարեգին Նժդեհ 44</p>
+                      </ContactsItem>
+                  </List>
+                  <List>
+                      <ContactsItem>
+                          <img src={require("../../Assets/Icons/phone.svg").default} alt="icon"/>
                           <p>+374 10 44 84 21</p>
                       </ContactsItem>
                       <ContactsItem>
-                          <img src={require("../../Assets/Icons/phone.svg").default} alt="icon" />
+                          <img src={require("../../Assets/Icons/phone.svg").default} alt="icon"/>
                           <p>+374 96 44 84 21</p>
                       </ContactsItem>
-                      <ContactsItem>
-                          <img src={require("../../Assets/Icons/email.svg").default} alt="icon" />
-                          <p>individuumclinic@gmail.com</p>
-                      </ContactsItem>
                   </List>
+                  {/*<List>*/}
+                  {/*    <WorkingHours>*/}
+                  {/*        <p>{t("common:weekdays.monday")} - {t("common:weekdays.saturday")}</p>*/}
+                  {/*        <p>10:00 - 19:00</p>*/}
+                  {/*    </WorkingHours>*/}
+                  {/*</List>*/}
               </Column>
+
+              {/*<Column style={{ flex: 1 }}>*/}
+              {/*    <Title title={t("common:address")} style={{ textAlign: "center" }} />*/}
+              {/*    <List>*/}
+              {/*        <ContactsItem>*/}
+              {/*            <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />*/}
+              {/*            <p>{t("common:address1")}</p>*/}
+              {/*        </ContactsItem>*/}
+              {/*        <ContactsItem>*/}
+              {/*            <img src={require("../../Assets/Icons/location.svg").default} alt="icon" />*/}
+              {/*            <p>{t("common:address2")}</p>*/}
+              {/*        </ContactsItem>*/}
+              {/*    </List>*/}
+              {/*</Column>*/}
+              {/*<Column style={{ flex: 1 }}>*/}
+              {/*    <Title title={t("common:contacts")} style={{ textAlign: "center" }} />*/}
+              {/*    <List>*/}
+              {/*        <ContactsItem>*/}
+              {/*            <img src={require("../../Assets/Icons/phone.svg").default} alt="icon"/>*/}
+              {/*            <div style={{display: "flex", flexDirection: 'column', justifyContent: "space-between", marginLeft: '5px'}}>*/}
+              {/*                <div  style={{margin: '5px 0'}}><p>+374 10 58 05 49</p></div>*/}
+              {/*                <div  style={{margin: '5px 0'}}><p>+374 41 44 84 21</p></div>*/}
+              {/*            </div>*/}
+              {/*        </ContactsItem>*/}
+              {/*        <ContactsItem>*/}
+              {/*            <img src={require("../../Assets/Icons/phone.svg").default} alt="icon"/>*/}
+              {/*            <div style={{display: "flex", flexDirection: 'column', justifyContent: "space-between", marginLeft: '5px'}}>*/}
+              {/*                <div style={{margin: '5px 0'}}><p>+374 10 44 84 21</p></div>*/}
+              {/*                <div  style={{margin: '5px 0'}}><p>+374 96 44 84 21</p></div>*/}
+              {/*            </div>*/}
+              {/*        </ContactsItem>*/}
+              {/*        <ContactsItem>*/}
+              {/*        <img src={require("../../Assets/Icons/email.svg").default} alt="icon" />*/}
+              {/*            <p>individuumclinic@gmail.com</p>*/}
+              {/*        </ContactsItem>*/}
+              {/*    </List>*/}
+              {/*</Column>*/}
               {/*<Column style={{ flex: 1, alignItems: "center" }}>*/}
               {/*    <Title title={t("common:navigation")} />*/}
               {/*    <PagesList footer={true}>*/}

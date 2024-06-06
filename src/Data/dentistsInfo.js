@@ -56,7 +56,7 @@ const dentistsInfo = [
         id: 1,
         firstName: "Marine",
         secondName: "Mkrtchyan",
-        position: "DOS - MPH candidate - Chief Medical Officer at Individuum Dental Clinic",
+        position: "DOS - MPH - Chief Medical Officer at Individuum Dental Clinic",
         positionBackground: "Doctor",
         // imageSrc: require("../Assets/Images/Dentists/Marine.jpeg"),
         imageSrc: require("../Assets/Images/updatedResizedDoctors/ՄարինեՄկրտչյան.jpg"),
@@ -297,16 +297,16 @@ const dentistsInfo = [
         description:
           <div></div>
     },
-    {
-        id: 9,
-        firstName: "Jora",
-        secondName: "Hodabashyan",
-        position: "Doctor - Dentist",
-        positionBackground: "Doctor",
-        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԺորաՀոդաբաշյան.jpg"),
-        description:
-          <div></div>
-    },
+    // {
+    //     id: 9,
+    //     firstName: "Jora",
+    //     secondName: "Hodabashyan",
+    //     position: "Doctor - Dentist",
+    //     positionBackground: "Doctor",
+    //     imageSrc: require("../Assets/Images/updatedResizedDoctors/ԺորաՀոդաբաշյան.jpg"),
+    //     description:
+    //       <div></div>
+    // },
 
     // {
     //     id: null,
@@ -608,15 +608,15 @@ const dentistsInfo = [
         imageSrc: require("../Assets/Images/updatedResizedStaff/ԱնդրանիկՄելքոնյան.jpg"),
         description: <div></div>
     },
-    {
-        id: 17,
-        firstName: "Marieta",
-        secondName: "Stepanyan",
-        position: "Doctor Assistant",
-        positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիետաՍտեփանյան.jpg"),
-        description: <div></div>
-    },
+    // {
+    //     id: 17,
+    //     firstName: "Marieta",
+    //     secondName: "Stepanyan",
+    //     position: "Doctor Assistant",
+    //     positionBackground: "Nurse",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիետաՍտեփանյան.jpg"),
+    //     description: <div></div>
+    // },
     {
         id: 18,
         firstName: "Tigran",
@@ -626,26 +626,17 @@ const dentistsInfo = [
         imageSrc: require("../Assets/Images/updatedResizedStaff/ՏիգրանՎարդազարյան.jpg"),
         description: <div></div>
     },
-    {
-        id: 19,
-        firstName: "Gayane",
-        secondName: "Khachaturova",
-        position: "Doctor Assistant",
-        positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ԽաչատուրովաԳայանե.jpg"),
-        description: <div></div>
-    },
+    // {
+    //     id: 19,
+    //     firstName: "Karen",
+    //     secondName: "Israelyan",
+    //     position: "Doctor Assistant",
+    //     positionBackground: "Nurse",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարենԻսրաելյան.jpg"),
+    //     description: <div></div>
+    // },
     {
         id: 20,
-        firstName: "Karen",
-        secondName: "Israelyan",
-        position: "Doctor Assistant",
-        positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարենԻսրաելյան.jpg"),
-        description: <div></div>
-    },
-    {
-        id: 21,
         firstName: "Anush",
         secondName: "Karapetyan",
         position: "Cosmetologist",
@@ -656,7 +647,7 @@ const dentistsInfo = [
           <div></div>
     },
     {
-        id: 22,
+        id: 21,
         firstName: "Shushan",
         secondName: "Abrahamyan",
         position: "Administrator",
@@ -664,28 +655,37 @@ const dentistsInfo = [
         // imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
         imageSrc: require("../Assets/Images/updatedResizedStaff/ՇուշանԱբրահամյան.jpg"),
         description:
-          <div></div>
+            <div></div>
     },
     {
-        id: 23,
-        firstName: "Nvard",
-        secondName: "Minasyan",
+        id: 22,
+        firstName: "Gayane",
+        secondName: "Khachaturova",
         position: "Administrator",
         positionBackground: "Administrator",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ՆվարդՄինասյան.jpg"),
-        description:
-          <div></div>
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԽաչատուրովաԳայանե.jpg"),
+        description: <div></div>
     },
-    {
-        id: 24,
-        firstName: "Lida",
-        secondName: "Khachatryan",
-        position: "Administrator",
-        positionBackground: "Administrator",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ԼիդաԽաչատրյան.jpg"),
-        description:
-          <div></div>
-    }
+    // {
+    //     id: 23,
+    //     firstName: "Nvard",
+    //     secondName: "Minasyan",
+    //     position: "Administrator",
+    //     positionBackground: "Administrator",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ՆվարդՄինասյան.jpg"),
+    //     description:
+    //       <div></div>
+    // },
+    // {
+    //     id: 24,
+    //     firstName: "Lida",
+    //     secondName: "Khachatryan",
+    //     position: "Administrator",
+    //     positionBackground: "Administrator",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ԼիդաԽաչատրյան.jpg"),
+    //     description:
+    //       <div></div>
+    // }
 ];
 
 const dentistsInfoArmenian = [
@@ -985,17 +985,17 @@ const dentistsInfoArmenian = [
         description:
           <div></div>
     },
-    {
-        id: 9,
-        firstName: "Ժորա",
-        secondName: "Հոդաբաշյան",
-        position: "Բժիշկ - Ստոմատոլոգ",
-        positionBackground: "Բժիշկ",
-        // imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
-        imageSrc: require("../Assets/Images/updatedResizedDoctors/ԺորաՀոդաբաշյան.jpg"),
-        description:
-          <div></div>
-    },
+    // {
+    //     id: 9,
+    //     firstName: "Ժորա",
+    //     secondName: "Հոդաբաշյան",
+    //     position: "Բժիշկ - Ստոմատոլոգ",
+    //     positionBackground: "Բժիշկ",
+    //     // imageSrc: require("../Assets/Images/Dentists/Armenak.jpeg"),
+    //     imageSrc: require("../Assets/Images/updatedResizedDoctors/ԺորաՀոդաբաշյան.jpg"),
+    //     description:
+    //       <div></div>
+    // },
     // {
     //     id: null,
     //     firstName: "Անդրանիկ",
@@ -1332,15 +1332,15 @@ const dentistsInfoArmenian = [
         imageSrc: require("../Assets/Images/updatedResizedStaff/ԱնդրանիկՄելքոնյան.jpg"),
         description: <div></div>
     },
-    {
-        id: 17,
-        firstName: "Մարիետա",
-        secondName: "Ստեփանյան",
-        position: "Բժշկի Օգնական",
-        positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիետաՍտեփանյան.jpg"),
-        description: <div></div>
-    },
+    // {
+    //     id: 17,
+    //     firstName: "Մարիետա",
+    //     secondName: "Ստեփանյան",
+    //     position: "Բժշկի Օգնական",
+    //     positionBackground: "Nurse",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ՄարիետաՍտեփանյան.jpg"),
+    //     description: <div></div>
+    // },
     {
         id: 18,
         firstName: "Տիգրան",
@@ -1350,26 +1350,17 @@ const dentistsInfoArmenian = [
         imageSrc: require("../Assets/Images/updatedResizedStaff/ՏիգրանՎարդազարյան.jpg"),
         description: <div></div>
     },
-    {
-        id: 19,
-        firstName: "Գայանե",
-        secondName: "Խաչատուրովա",
-        position: "Բժշկի Օգնական",
-        positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ԽաչատուրովաԳայանե.jpg"),
-        description: <div></div>
-    },
+    // {
+    //     id: 19,
+    //     firstName: "Կարեն",
+    //     secondName: "Իսրաելյան",
+    //     position: "Բժշկի Օգնական",
+    //     positionBackground: "Nurse",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարենԻսրաելյան.jpg"),
+    //     description: <div></div>
+    // },
     {
         id: 20,
-        firstName: "Կարեն",
-        secondName: "Իսրաելյան",
-        position: "Բժշկի Օգնական",
-        positionBackground: "Nurse",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ԿարենԻսրաելյան.jpg"),
-        description: <div></div>
-    },
-    {
-        id: 21,
         firstName: "Անուշ",
         secondName: "Կարապետյան",
         position: "Կոսմետոլոգ",
@@ -1380,36 +1371,45 @@ const dentistsInfoArmenian = [
           <div></div>
     },
     {
-        id: 22,
+        id: 21,
         firstName: "Շուշան",
         secondName: "Աբրահամյան",
-        position: "Ադմինիստրատոր",
+        position: "Գլխավոր Ադմինիստրատոր",
         positionBackground: "Administrator",
         // imageSrc: require("../Assets/Images/Staff/Shushan_Abrahamyan.jpeg"),
         imageSrc: require("../Assets/Images/updatedResizedStaff/ՇուշանԱբրահամյան.jpg"),
         description:
-          <div></div>
+            <div></div>
     },
     {
-        id: 23,
-        firstName: "Նվարդ",
-        secondName: "Մինասյան",
+        id: 22,
+        firstName: "Գայանե",
+        secondName: "Խաչատուրովա",
         position: "Ադմինիստրատոր",
         positionBackground: "Administrator",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ՆվարդՄինասյան.jpg"),
-        description:
-          <div></div>
+        imageSrc: require("../Assets/Images/updatedResizedStaff/ԽաչատուրովաԳայանե.jpg"),
+        description: <div></div>
     },
-    {
-        id: 24,
-        firstName: "Լիդա",
-        secondName: "Խաչատրյան",
-        position: "Ադմինիստրատոր",
-        positionBackground: "Administrator",
-        imageSrc: require("../Assets/Images/updatedResizedStaff/ԼիդաԽաչատրյան.jpg"),
-        description:
-          <div></div>
-    }
+    // {
+    //     id: 23,
+    //     firstName: "Նվարդ",
+    //     secondName: "Մինասյան",
+    //     position: "Ադմինիստրատոր",
+    //     positionBackground: "Administrator",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ՆվարդՄինասյան.jpg"),
+    //     description:
+    //       <div></div>
+    // },
+    // {
+    //     id: 24,
+    //     firstName: "Լիդա",
+    //     secondName: "Խաչատրյան",
+    //     position: "Ադմինիստրատոր",
+    //     positionBackground: "Administrator",
+    //     imageSrc: require("../Assets/Images/updatedResizedStaff/ԼիդաԽաչատրյան.jpg"),
+    //     description:
+    //       <div></div>
+    // }
 ];
 
 export function getDentistsInfo() {

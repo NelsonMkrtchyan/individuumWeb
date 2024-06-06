@@ -1018,11 +1018,11 @@ const dentistryPriceList = [
                     },
                     {
                         name: "Home whitening/Ultradent Opalescence/",
-                        price: "65000"
+                        price: "70000"
                     },
                     {
                         name: "Office whitening with light-activation /Amazing White/",
-                        price: "100000 - 124000"
+                        price: "105000 - 129000"
                     },
                 ]
             }
@@ -1051,15 +1051,15 @@ const dentistryPriceList = [
                     },
                     {
                         name: "Root canal treatment and crown restoration / one canal/",
-                        price: "27000"
+                        price: "30000"
                     },
                     {
                         name: "Root canal treatment and crown restoration / two canals/",
-                        price: "35000"
+                        price: "38000"
                     },
                     {
                         name: "Root canal treatment and crown restoration / multiple canals/",
-                        price: "40000"
+                        price: "43000"
                     }
                 ]
             }
@@ -1076,7 +1076,7 @@ const dentistryPriceList = [
                 treatments: [
                     {
                         name: "General scaling and polishing",
-                        price: "14000 - 20000"
+                        price: "18000 - 23000"
                     },
                     {
                         name: "Non-surgical periodontal treatment",
@@ -1084,7 +1084,7 @@ const dentistryPriceList = [
                     },
                     {
                         name: "Remineralization therapy, fluoridization",
-                        price: "33000"
+                        price: "38000"
                     },
                 ]
             }
@@ -1101,11 +1101,11 @@ const dentistryPriceList = [
                 treatments: [
                     {
                         name: "Tooth extraction /1 root/",
-                        price: "5000"
+                        price: "7000"
                     },
                     {
                         name: "Tooth extraction /multiple roots/",
-                        price: "7000"
+                        price: "10000"
                     },
                     {
                         name: "Wisdom tooth extraction /8th tooth/",
@@ -1175,11 +1175,11 @@ const dentistryPriceList = [
                 treatments: [
                     {
                         name: "Complete removable denture (1 jaw)",
-                        price: "75000"
+                        price: "90000"
                     },
                     {
                         name: "Partial removable resin denture /bugel/ (1 jaw)",
-                        price: "150000"
+                        price: "210000"
                     },
                     {
                         name: "Broken denture repairment",
@@ -1275,11 +1275,11 @@ const dentistryPriceListArmenian = [
                     },
                     {
                         name: "Տնային սպիտակեցում/Ultradent Opalescence/",
-                        price: "65000"
+                        price: "70000"
                     },
                     {
                         name: "Օֆիսային սպիտակեցում լուսային ակտիվացմամբ /Amazing White/",
-                        price: "100000 - 124000"
+                        price: "105000 - 129000"
                     },
                 ]
             }
@@ -1308,15 +1308,15 @@ const dentistryPriceListArmenian = [
                     },
                     {
                         name: "Արմատախողովակների բուժում և պսակի վերականգնում /մեկարմատանի/",
-                        price: "27000"
+                        price: "30000"
                     },
                     {
                         name: "Արմատախողովակների բուժում և պսակի վերականգնում /երկարմատանի/",
-                        price: "35000"
+                        price: "38000"
                     },
                     {
                         name: "Արմատախողովակների բուժում և պսակի վերականգնում /բազմարմատ/",
-                        price: "40000"
+                        price: "43000"
                     }
                 ]
             }
@@ -1333,7 +1333,7 @@ const dentistryPriceListArmenian = [
                 treatments: [
                     {
                         name: "Ատամնաքարերի հեռացում և էմալի փայլեցում",
-                        price: "14000 - 20000"
+                        price: "18000 - 23000"
                     },
                     {
                         name: "Ոչ վիրահատական պերիօդոնտալ բուժում",
@@ -1341,7 +1341,7 @@ const dentistryPriceListArmenian = [
                     },
                     {
                         name: "Ատամնաքարերի հեռացում, ռեմիներալիզացիոն թերապիա, ֆտորացում",
-                        price: "33000"
+                        price: "38000"
                     },
                 ]
             }
@@ -1358,11 +1358,11 @@ const dentistryPriceListArmenian = [
                 treatments: [
                     {
                         name: "Մեկարմատանի ատամի հեռացում",
-                        price: "5000"
+                        price: "7000"
                     },
                     {
                         name: "Բազմարմատ ատամի հեռացում",
-                        price: "7000"
+                        price: "10000"
                     },
                     {
                         name: "8-րդ ատամի հեռացում",
@@ -1432,11 +1432,11 @@ const dentistryPriceListArmenian = [
                 treatments: [
                     {
                         name: "Շարժական թիթեղյա պրոթեզ (1 ծնոտ)",
-                        price: "75000"
+                        price: "90000"
                     },
                     {
                         name: "Մասնակի կապրոնե պրոթեզ /բյուգել/ (1 ծնոտ)",
-                        price: "150000"
+                        price: "210000"
                     },
                     {
                         name: "Կոտրված պրոթեզի վերականգնում",
